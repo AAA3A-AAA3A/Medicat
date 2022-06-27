@@ -1,0 +1,313 @@
+; ===========================================================================================================
+;                                 Signature Templates Usage
+; ===========================================================================================================
+; Empty lines and lines starting with semicolon are ignored
+; Sections order and lines order in sections are not important
+; Letter case is not important (excepting RegExp fields)
+; -----------------------------------------------------------------------------------------------------------
+; Section TEMPLATES - required and contains fields numbering from one
+;     	- TEMPLATE### - points to the section where signature template is described (numbered from one)
+;
+; -----------------------------------------------------------------------------------------------------------
+; Section Template Header - required and contains fields:
+;     - BEGIN - required. Points to the section describing begin of the signature file
+;     - FOOTER - non required. Points to the section describing end of the signature file
+;     - MAX_SIZE - non required. Maximum file size to force file-end, if no file-end signature is detected. By default it is 64Kb.
+;     - GROUP - non required. If missed - template goes to User Defined templates group by default 
+;     - DESCRIPTION - non required. This is a descriptive name of user template being displayed on a screen
+;     - EXTENSION - non required. This is a file extension to be assigned and displayed
+;     - SCRIPT - non required. Refers to the section where size of the file being calculated
+; -----------------------------------------------------------------------------------------------------------
+;       Note: If field SCRIPT is present, then field FOOTER is ignored
+;
+; -----------------------------------------------------------------------------------------------------------
+; Section describing file beginning (required), contains fields of the same type:
+;
+;     <signature> = <offset_start> | <offset_end>
+;
+;     signature      - expression (regular or RegExp-compatible). Expression max length is 1024 bytes.
+;     offset_start   - acceptable minimal signature offset from the beginning of the file
+;     offset_end     - acceptable maximum signature offset from the beginning of the file
+; 
+;     If there are several fields listed in signature beginning, logical AND operation applied to confirm file start.
+;
+;------------------------------------------------------------------------------------------------------------
+; Section calculating file size (not required), contains operators of four types:
+;     <result> = <command> (<argument>, <argument>)
+;     <result> = <argument>
+;     IF (<argument> <condition> <argument>) GOTO <label>
+;     GOTO <label>
+;
+; <commands> : READ, ENDIAN, SUM, SUB, MUL, DIV, SHR, SHL, AND, OR and XOR
+;     Most of commands are the same as in assembler programming language, except:
+;     READ - first argument - data type (size) to be read, second - offset from the beginning of the file
+;     ENDIAN - first argument - data type (size), second - expression, which byte order will be swapped
+;     First argument for commands READ and ENDIAN must be one of reserved data types: BYTE, WORD, DWORD, QWORD
+; <argument> : can be either a named variable or a constant
+; <result>   : can be the only named variable
+; <condition>: can be one of : <  <=  ==  >=  >  !=   (meaning is the same as in C++)
+; <label>    : consists of label name followed by colon and it can precede any operator
+;
+; Label named EXIT has been reserved and instructs to complete the calculations
+; Named variable SIZE has been reserved and keeps the file size
+; Constants can be in Decimal form, Binary (followed by 'b'), Octal ('o'), and Hexadecimal ('h') or can be a text string
+; 
+; -----------------------------------------------------------------------------------------------------------
+; Section describing file end (not required), contains fields of the same type:
+;
+;     <signature> [= <bytes_to_append>]
+;
+;     signature       - expression (regular or RegExp-compatible). Expression max length is 1024 bytes.
+;     bytes_to_append - not required. How many bytes to append to the file after the signature is found
+;
+;     If there are several fields listed in signature, logical OR operation applied to define file end.
+
+
+; ===========================================================================================================
+;                                                Examples
+; ===========================================================================================================
+
+[TEMPLATES]
+TEMPLATE1 = PRIMITIVE_HTML
+TEMPLATE2 = PRIMITIVE_JPG
+TEMPLATE3 = QBW_HEADER
+TEMPLATE4 = CHM_HEADER
+TEMPLATE5 = SWF_HEADER
+TEMPLATE6 = PST_HEADER
+TEMPLATE7 = MRW_HEADER
+TEMPLATE8 = MID_HEADER
+TEMPLATE9 = CAB_HEADER
+TEMPLATE10 = BMP_HEADER
+TEMPLATE11 = DJV_HEADER
+
+
+[PRIMITIVE_HTML]
+DESCRIPTION = Primitive HTML Signature
+EXTENSION = html
+BEGIN=HTML_BEGIN
+FOOTER=HTML_FOOTER
+MAX_SIZE = 655360
+
+
+[HTML_BEGIN]
+<html = 0 | 512
+<head = 0 | 1024
+
+[HTML_FOOTER]
+</html> = 2
+
+[PRIMITIVE_JPG]
+BEGIN=BEGIN.TEST.JPG
+GROUP = Images and Camera RAW files
+DESCRIPTION = Primitive JPG files
+FOOTER=FOOTER-.TEST.JPG
+EXTENSION = test.jpg
+MAX_SIZE = 3221225472  
+[BEGIN.TEST.JPG]
+\xFF\xD8\xFF = 0 | 0
+
+[FOOTER-.TEST.JPG]
+\xFF\xD9
+
+[DJV_HEADER]
+DESCRIPTION=DjVu Document
+EXTENSION=djvu
+BEGIN=DJV_BEGIN
+SCRIPT=DJV_SCRIPT
+
+[DJV_BEGIN]
+AT&TFORM=0|0
+
+[DJV_SCRIPT]
+                size = read(dword, 8)
+                size = endian(dword, size)
+                size = sum(size, 12)
+
+[QBW_HEADER]
+DESCRIPTION=QuickBooks Document 
+EXTENSION=qbw
+BEGIN=QBW_BEGIN
+SCRIPT=QBW_SCRIPT
+
+[QBW_BEGIN]
+MAUI=96|96
+
+[QBW_SCRIPT]
+                data = read(dword, 36)
+                temp = read(dword, 52)
+                if (temp <= data) goto exit
+                size = sum(temp, 1)
+                size = shl(size, 10)
+
+[CHM_HEADER]
+DESCRIPTION=Microsoft CHM Help
+EXTENSION=chm
+BEGIN=CHM_BEGIN
+SCRIPT=CHM_SCRIPT
+
+[CHM_BEGIN]
+ITSF=0|0
+
+[CHM_SCRIPT]
+                version = read(dword, 4)
+                if (version == 0) goto exit
+                header = read(dword, 8)
+                if (header <= 1Ch) goto exit
+                temp = read(qword, header)
+                if (temp != 1FEh) goto exit
+                temp = sum(header, 8)
+                size = read(qword, temp)
+                temp = sum(header, 10h)
+                if (size > temp) goto exit
+                size = 0
+
+[SWF_HEADER]
+DESCRIPTION=Adobe Flash SWF
+EXTENSION=swf
+BEGIN=SWF_BEGIN
+SCRIPT=SWF_SCRIPT
+
+[SWF_BEGIN]
+FWS=0|0
+
+[SWF_SCRIPT]
+                data = read(byte, 3)
+                if (data <= 10h) goto exit
+                size = read(dword, 4)
+                if (size <= 8) goto exit
+                size = 0
+
+[PST_HEADER]
+DESCRIPTION=Outlook Archive
+EXTENSION=pst
+BEGIN=PST_BEGIN
+SCRIPT=PST_SCRIPT
+
+[PST_BEGIN]
+!BDN=0|0
+
+[PST_SCRIPT]
+                data = read(byte, 10)
+                if (data == 0Eh) goto valid
+                if (data != 17h) goto exit
+                size = read(dword, 184)
+                goto exit
+valid:
+                size = read(dword, 168)
+
+[MRW_HEADER]
+DESCRIPTION=Minolta Camera Images
+EXTENSION=mrw
+BEGIN=MRW_BEGIN
+SCRIPT=MRW_SCRIPT
+
+[MRW_BEGIN]
+\x00MRM=0|0
+
+[MRW_SCRIPT]
+                data = read(dword, 4)
+                if (data == 0) goto exit
+                width = read(word, 24)
+                if (width == 0) goto exit
+                width = endian(word, width)
+                height = read(word, 26)
+                if (height == 0) goto exit
+                height = endian(word, height)
+                pixel = read(byte, 32)
+                if (pixel == 0) goto exit
+                pixel = mul(pixel, width)
+                pixel = mul(pixel, height)
+                pixel = div(pixel, 8)
+                size = endian(dword, data)
+                size = sum(size, pixel)
+                size = sum(size, 8)
+
+[MID_HEADER]
+DESCRIPTION=MIDI Audio
+EXTENSION=mid
+BEGIN=MID_BEGIN
+SCRIPT=MID_SCRIPT
+
+[MID_BEGIN]
+MThd=0|0
+
+[MID_SCRIPT]
+next:
+                temp = read(dword, size)
+                if (temp == "MThd") goto valid
+                if (temp != "MTrk") goto exit
+valid:
+                size = sum(size, 4)
+                temp = read(dword, size)
+                size = sum(size, 4)
+                temp = endian(dword, temp)
+                size = sum(size, temp)
+                goto next
+
+[CAB_HEADER]
+DESCRIPTION=Microsoft Compressed Archive CAB
+EXTENSION=cab
+BEGIN=CAB_BEGIN
+SCRIPT=CAB_SCRIPT
+
+[CAB_BEGIN]
+MSCF=0|0
+
+[CAB_SCRIPT]
+                version = read(word, 24)
+                if (version != 103h) goto exit
+                folders = read(word, 26)
+                folders = mul(folders, 8)
+                folders = sum(folders, 36)
+                files = read(word, 28)
+                files = mul(files, 16)
+                files = sum(files, folders)
+                temp = read(dword, 16)
+                if (temp < folders) goto exit
+                temp = read(dword, 8)
+                if (temp <= files) goto exit
+                flags = read(word, 30)
+                flags = and(flags, 4)
+                if (flags == 0) goto skip
+                flags = read(dword, 36)
+                if (flags != 20) goto skip
+                flags = read(dword, 44)
+                if (flags < temp) goto skip
+                size = flags
+                temp = read(dword, 48)
+skip:
+                size = sum(temp, size)
+
+[BMP_HEADER]
+DESCRIPTION=Bitmap Images BMP
+EXTENSION=bmp
+BEGIN=BMP_BEGIN
+SCRIPT=BMP_SCRIPT
+
+[BMP_BEGIN]
+BM=0|0
+
+[BMP_SCRIPT]
+                width = read(dword, 12h)
+                if (width == 0) goto exit
+                height = read(dword, 16h)
+                if (height == 0) goto exit
+                pixel = read(word, 1ch)
+                if (pixel == 1) goto valid
+                if (pixel == 4) goto valid
+                if (pixel == 8) goto valid
+                if (pixel == 16) goto valid
+                if (pixel == 24) goto valid
+                if (pixel != 32) goto exit
+valid:
+                pixel = mul(pixel, width)
+                pixel = mul(pixel, height)
+                pixel = div(pixel, 1000b)
+                rastr_size = read(dword, 22h)
+                if (rastr_size < pixel) goto exit
+                rastr_offset = read(dword, 0Ah)
+                if (rastr_offset < 38) goto exit
+                rastr_offset = sum(rastr_offset, rastr_size)
+                size = read(dword, 2)
+                if (size >= rastr_offset) goto exit
+                size = 0

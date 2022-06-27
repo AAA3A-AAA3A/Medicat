@@ -1,0 +1,103 @@
+﻿<html>
+<head>
+<title>Convert Partition to NTFS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="header">Quick Partition</div>
+	<div class="headimgfill"></div>
+	<div class="text">
+	Quick Partition assists you to repartition a hard drive quickly. You can select one disk to find the function on the left navigation panel or right-click the disk to use it. Followings are the specific operation steps:<br/><br/>
+	
+	<ol>
+		<li>
+			In "Select Disk", you can reselect a disk to do the quick partition without going back to the home screen of AOMEI Partition Assistant.
+		</li>
+		<li>
+			Under "Select Disk", please choose the partition count you want to create. You can select partition count by mouse clicks or pressing the button"1, 2, 3, 4, 5, 6, 7, 8 or 9" manually. After selecting the corresponding partition count, they will be shown at right side of the dialog box immediately. In addition, you can amend the partition parameters at the right side of the dialog box.
+		</li>
+		<li>
+			In "Disk Type", please select MBR or GPT type for the disk. When you select MBR disk, you can rebuild MBR for the disk. When you select GPT disk, you can choose to build ESP/MSR partitions or not. For aligning partitions option, generally, the alignment is selected for solid state drive (SSD), namely 2048 sectors. But this option does not have many effects on hard disk drives, so you can just leave it.
+		</li>
+		<ul>
+			<li>
+				MBR disk: works with disks up to 2 TB in size. It will cause disk space wasted if you choose MBR for a disk with more than 2 TB of space. 
+			</li>
+			<li>
+				GPT disk: it is suggested to select GPT partition table for disks larger than 2 TB or computers that use UEFI boot mode.
+			</li>
+		</ul>
+		<li>
+			For those users who often use quick partition, you can check the option and directly enter into "Quick Partition" window next time when you need to run the program, after that it will directly enter into Quick Partition window when the program starts to run. In the meantime, click Preset button, so you can preset the partition count or size of the disk. It is quite convenient for those who want to partition multiple disks in the same way. Those workers who often partition hard drives and install Windows can save the desired partition count and size in the Preset, so they can directly use the saved settings next time to perform quick partition.
+		</li>
+
+		<p><div style="background-color:#CCDDEE; border: 1px solid #999999; padding:10px;"><strong>Note: </strong>Enabling Preset, the last partition size will be set automatically. For example: if you preset to create 3 partitions, then you can specify the size of the first and second partition, the last partition automatically uses remaining disk space as its size.</div></p>
+
+		<li>
+			When all settings are done, that is to say, after the quick partition the layout of the disk partition will be presented visually in the preview window. Then please click "Start Partitioning" button to realize one-key quick partition. If there are old partitions in the disk, a warning message box will be shown up to you (no message if no partitions on the disk). Click "Yes" to continue, or "No" to cancel.
+		</li>
+	</ol>
+	<!-- <b>1.Select Disk</b><br/><br/>
+	You can select a disk to perform quick partition where the arrow points as the picture above. Under Windows environment, AOMEI Partition Assistant doesn’t support directly repartitioning the current system disk. It suggests that create an AOMEI Partition Assistant bootable media, and then boot from it to quickly partition the system disk.<br><br>
+	Warnings: <b>After performing the operation, all the existing partitions on current disk will be deleted if there are partitions on the selected disk</b>.<br><br>
+	<b>2.Partition Count</b><br/><br/>
+	Under "Select Disk", choose the partition count you want.<br><br>
+	Operations:<br><br>
+	<ul>
+		<li>Press "1, 2, 3, 4, 5, 6, 7, 8 or 9" key to quickly select partition count.<br><br></li>
+		<li>You can also do it by mouse clicks.<br><br></li>
+	</ul>
+	After selecting, the corresponding partition count will be shown at right side of the dialog box immediately.<br><br>
+	
+	<b>3.Disk Type</b><br/><br/>
+	At this penal, select MBR disk or GPT disk, and decide whether check "Rebuild MBR for this disk" or not, and select allocation unit.<br><br>
+	<ul>
+		<li>MBR disk: works with disks up to 2 TB in size. It will cause disk space wasted if you choose MBR for a disk with more than 2 TB of space.<br><br></li>
+		<li>GPT disk: it is suggested to select GPT partition table for disks larger than 2 TB or computers that use UEFI boot mode.<br><br></li>
+	</ul>
+	Rebuild MBR for this disk: if there is boot manager based on MBR on this disk, and it needs kept, do not check this option.<br><br>
+	Align Partitions to: generally, for solid state drive (SSD) select 4k alignment, namely 8 sectors. This option does not have many effects on hard disk drive, you can just leave it.<br><br>
+	
+	
+	<b>4.Partition Parameter</b><br/><br/>
+	"Partition Parameters" shows the basic parameters of every partition including partition type, size, label, and whether primary partition or not.<br><br>
+	<ul>
+		<li>Resize partition</li>
+	</ul>
+	The program will set a default size for every partition according to the disk size. You can also manually specify a partition size for each. Click "Default size", and then it will become the default size.<br><br>
+	<ul>
+		<li>Adjust partition file system</li>
+	</ul>
+	NTFS and FAT32 are available to choose. FAT32 does not support a partition with more than 2 TB disk space, nor can it store a file more than 4 GB in size, but is has good compatibility. NTFS is more stable and secure, and it supports partitions more than 2TB and storing files more than 4 GB. It is suggested to use NTFS file system in general.<br><br>
+	
+	<ul>
+		<li>Adjust volume label.</li>
+	</ul>
+	The program sets a label for each partition by default. Users can manually choose or modify, and also clear all labels by clicking "Clear All Labels" and then set labels yourself.<br><br>
+	
+	<ul>
+		<li>Primary partition or not.</li>
+	</ul>
+	If you want it to be a primary partition, check "Primary partition"; leave it if otherwise. On MBR disk, if you want to create 4 partitions, you set them all as primary, and If you want to create more than 4 partitions, you can set at most 3 primary partitions. This option is invalid for GUID partition table, because all partitions on GPT disk are assigned as "primary".<br><br>
+	When the settings are done, the partition layout of the disk after the quick partition will be presented visually down the preview window. click "Start Partitioning" button to realize one-key quick partition. If there are old partitions in the disk, a warning message box will show up (no message if no partitions on the disk) . Click Yes to continue, or click No to cancel.<br><br>
+	
+	
+	<b>5.Prest</b><br/><br/>
+	For those users who often use quick partition, check the option Directly enter into <b>"Quick Partition" window next time when you run the program</b>, after which it will directly enter into Quick Partition window every time the program starts. In the meantime, click Preset button, so you can preset the partition count or size of the disk. It is quit convenient for those who want to partition multiple disks the same way. Those workers who often partition hard dive and install Windows can save the desired partition count and size in the Preset, so they can directly use the saved settings next time to perform quick partition.<br><br>
+	
+	"Preset" applies to changing the default settings of "Quick Partition". In the left column, you can set partition count. For example: if you enable Preset and select "6 partition", then "Quick Partition" panel will select 6 as partition count by default. In the right column, you can resize the first 5 partitions, and the size of the last partition is the remaining disk space. You can also adjust some of the partitions’ size, and the rest will keep the default size.<br><br>
+	
+	"Remove labels" function applies to clearing all the default labels of each partition, such as system, software, documents, etc. If you check "Clear All Labels", the program will not preset any labels for you. You can assign labels yourself.<br><br>
+	
+	Finishing settings, click "Save Settings". Then the system will save the preset. The profile (part.ini) of this Preset saved in the installation directory of AOMEI Partition Assistant, if the computer boots from bootable media, this file will be saved to the root directory of the bootable devices(USB flash drive).<br><br>
+	
+	Note: enabling Preset, the last partition size will be set automatically, unable specify its size. For example: if you preset to create 3 partitions, the you can specify the size of the first and second partition, the last partition automatically uses remaining disk space as it size. <br><br>
+	
+	<b>6.Others</b><br/><br/>
+	There is an icon right behind the Preset button. If you click it, the program will enter the lite mode of quick partition. It looks leaner and fresher. Under the lite mode, you can select the disk to be partitioned, partition count, partition size, file system and partition label, and the rest settings keep as default. In the meantime, you can click the icon to preset. If you want to go back to full mode, click the same icon again.<br><br>
+	<br>
+	<br> -->
+	</div>
+</body>
+</html>

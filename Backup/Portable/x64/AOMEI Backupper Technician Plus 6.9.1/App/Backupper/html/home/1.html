@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var url = location.search; //获取url中"?"符后的字串  
+        var theRequest = new Object();
+        if (url.indexOf("?") != -1) {
+            var str = url.substr(1);
+            strs = str.split("&");
+            for (var i = 0; i < strs.length; i++) {
+                theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+            }
+        }
+        console.log(url, theRequest)
+        console.log(theRequest.source == 'asdsadas')
+
+        return theRequest;
+
+
+
+        var con_name = getQueryString("con_name"); //接收con_name
+        function getQueryString(value) {
+            var reg = new RegExp("(^|&)" + value + "=([^&]*)(&|$)", "i");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return unescape(r[2]);
+            return null;
+        }
+        console.log(con_name);
+        getQueryString()
+    </script>
+    if (theRequest.source !== 'restore'&& 
+    theRequest.source !== "real-time-sync"||  
+    theRequest.source !== "basic-sync"|| 
+    theRequest.source !== "system-backup"|| 
+    theRequest.source !== "disk-backup"||
+    theRequest.source !== "partition-backup"|| 
+    theRequest.source !== "file-backup"|| 
+    theRequest.source !== "explore-image"|| 
+    theRequest.source !== "merge-images"|| 
+    theRequest.source !=="mirror-sync"|| 
+    theRequest.source !== "mirror-sync"|| 
+    theRequest.source !== "two-way-sync")
+</body>
+
+</html>

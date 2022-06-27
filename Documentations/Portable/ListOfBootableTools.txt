@@ -1,0 +1,97 @@
+﻿ =========================
+ List of Tools v21.12:
+ =========================
+ 
+ ============================================================
+ I – Antivirus:
+ - [UEFI] Malwarebytes Antimalware
+ ============================================================
+ 
+ ============================================================
+ II – Backup and Recovery:
+ - [UEFI] Acronis Cyber Backup v12.5 Build 16428
+ - [UEFI] Acronis True Image v2021 Build 39216
+ - [UEFI] AOMEI Backupper v6.8.0
+ - [UEFI] EaseUS Data Recovery Wizard v14.2.1
+ - [UEFI] EaseUS Todo Backup v13.5.0, Build 20211123
+ - [UEFI] Elcomsoft System Recovery v7.2.628
+ - [UEFI] Macrium Reflect v8.0.6353
+ - [UEFI] MiniTool Power Data Recovery v10.2
+ - [UEFI] MiniTool ShadowMaker v3.6
+ - [UEFI] Rescuezilla v2.2
+ - [UEFI] Symantec Ghost v12.0.0.11379
+ ============================================================
+ 
+ ============================================================
+ III – Boot and Operating System:
+ - [UEFI] Active@ Data Studio v18.0.0
+ - [UEFI] Mini Windows 10
+ - [UEFI] SystemRescue v8.07
+ ============================================================
+ 
+ ============================================================
+ IV – Boot Repair:
+ - [BIOS] Boot-Repair-Disk v2021.12.16
+ - [BIOS] BootIt Bare Metal v1.70
+ - [UEFI] EasyUEFI v4.8
+ - [UEFI] Rescatux v0.74
+ - [UEFI] Super Grub2 Disk v2.04 S2 Beta 2 (EFI Version)
+ - [UEFI] Super Grub2 Disk v2.04 S2 Beta 2 (ISO Version)
+ ============================================================
+ 
+ ============================================================
+ V – Diagnostic Tools:
+ - [BIOS] HDAT2 v7.4
+ - [BIOS] MemTest86+ v5.31 Beta
+ - [BIOS] Spinrite v6.0
+ - [BIOS] Ultimate Boot CD v5.3.9
+ - [UEFI] PassMark MemTest86 v9.3.1000 (Intel/AMD)
+ - [UEFI] PassMark MemTest86 v9.3.1000 (ARM64/AARCH64)
+ ============================================================
+ 
+ ============================================================
+ VI – Install windows:
+ - ISO of your choice to be filed in the OS file
+ ============================================================
+ 
+ ============================================================
+ VII – Partitions Tools:
+ - [UEFI] Acronis Disk Director v12.5
+ - [UEFI] AOMEI Partition Assistant v9.5.0
+ - [UEFI] DiskGenius v5.4.2.2278
+ - [UEFI] EaseUS Partition Master 16.5
+ - [UEFI] MiniTool Partition Wizard v12.3
+ - [UEFI] Paragon Hard Disk Manager v17.13.1
+ - [UEFI] Parted Magic v2021.11.17
+ - [UEFI] ShredOS v2020.05.016, Build 0.32_20211029
+ ============================================================
+ 
+ ============================================================
+ VIII – Password Removal:
+ Jayro’s Lockpick :
+ - Reset Hibernation (Hybrid Sleep)
+ - Windows Login Unlocker v1.6
+ - Bypass Windows Password v2019.4.1.3
+ - PCUnlocker v5.6
+ - Windows Password Reset v5.1
+ - Reset Windows Password v9.3.0.937
+ - Active@ Password Changer v11.0
+ - O&O BlueCon UserManager v1.0.1.5491
+ - NTPWEdit v0.7
+ - PEPassPass v1.1.0
+ - LazeSoft Windows Password Recovery v4.0.0.1
+ - WBG Password Recovery v2.0.0.1
+ - SQL Server Password Changer v9.1
+ ============================================================
+ 
+ ============================================================
+ IX – Windows Recovery:
+ - [UEFI] Windows 8 Recovery +MS DaRT
+ - [UEFI] Windows 10 Recovery +MS DaRT
+ - [UEFI] Windows 11 Recovery
+ ============================================================
+ 
+ ============================================================
+ X – PortableApps
+ - The list of PortableApps software can be found in a text file: USB\PortableApps\List of softwares.txt
+ ============================================================

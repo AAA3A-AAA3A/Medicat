@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Partition normal="/DriveTypes/drivetype_ico_disk.png" hover="">
+    <item type="0" normal="/DriveTypes/drivetype_ico_system.png" hover=""/>
+    <item type="1" normal="/DriveTypes/drivetype_ico_system.png" hover=""/>
+    <item type="2" normal="/DriveTypes/drivetype_ico_system_lock.png" hover=""/>
+    <item type="3" normal="/DriveTypes/drivetype_ico_system_unlock.png" hover=""/>
+    <item type="4" normal="/DriveTypes/drivetype_ico_system_lock.png" hover=""/>
+    <item type="5" normal="/DriveTypes/drivetype_ico_system_unlock.png" hover=""/>
+    <item type="6" normal="/DriveTypes/drivetype_ico_usb_existing.png" hover=""/>
+    <item type="7" normal="/DriveTypes/drivetype_ico_usb_lost.png" hover=""/>
+    <item type="8" normal="/DriveTypes/drivetype_ico_usb_existing.png" hover=""/>
+    <item type="9" normal="/DriveTypes/drivetype_ico_usb_existing_lock.png" hover=""/>
+    <item type="10" normal="/DriveTypes/drivetype_ico_usb_existing_unlock.png" hover=""/>
+    <item type="11" normal="/DriveTypes/drivetype_ico_usb_lost.png" hover=""/>
+    <item type="12" normal="/DriveTypes/drivetype_ico_usb_existing_lock.png" hover=""/>
+    <item type="13" normal="/DriveTypes/drivetype_ico_usb_existing_unlock.png" hover=""/>
+    <item type="14" normal="/DriveTypes/drivetype_ico_parti_existing.png" hover=""/>
+    <item type="15" normal="/DriveTypes/drivetype_ico_parti_lost.png" hover=""/>
+    <item type="16" normal="/DriveTypes/drivetype_ico_parti_existing.png" hover=""/>
+    <item type="17" normal="/DriveTypes/drivetype_ico_parti_existing_lock.png" hover=""/>
+    <item type="18" normal="/DriveTypes/drivetype_ico_parti_existing_unlock.png" hover=""/>
+    <item type="19" normal="/DriveTypes/drivetype_ico_parti_lost.png" hover=""/>
+    <item type="20" normal="/DriveTypes/drivetype_ico_parti_existing_lock.png" hover=""/>
+    <item type="21" normal="/DriveTypes/drivetype_ico_parti_existing_unlock.png" hover=""/>
+    <item type="22" normal="/DriveTypes/drivetype_ico_disk.png" hover=""/>
+    <item type="23" normal="/DriveTypes/drivetype_ico_disk.png" hover=""/>
+    <item type="24" normal="/DriveTypes/drivetype_ico_disk.png" hover=""/>
+    <item type="25" normal="/DriveTypes/drivetype_ico_disk.png" hover=""/>
+    <item type="26" normal="/DriveTypes/drivetype_ico_camera_gopro.png" hover=""/>
+    <item type="27" normal="/DriveTypes/drivetype_ico_camera_canon.png" hover=""/>
+    <item type="28" normal="/DriveTypes/drivetype_ico_camera_sony.png" hover=""/>
+    <item type="29" normal="/DriveTypes/drivetype_ico_camera_nikon.png" hover=""/>
+    <item type="30" normal="/DriveTypes/drivetype_ico_camera_dji.png" hover=""/>
+    <item type="31" normal="/DriveTypes/drivetype_ico_sdcard.png" hover=""/>
+    <item type="32" normal="/DriveTypes/drivetype_ico_desktop.png" hover=""/>
+    <item type="33" normal="/DriveTypes/drivetype_ico_recyclebin.png" hover=""/>
+    <item type="34" normal="/DriveTypes/drivetype_ico_folder.png" hover=""/>
+    <item type="35" normal="/DriveTypes/drivetype_ico_USB.png" hover=""/>
+    <item type="36" normal="/DriveTypes/drivetype_ico_HD.png" hover=""/>
+  </Partition>
+  
+  <Tree>
+    <item type="0" normal="/LeftTree/leftree_ico_root_disk.png" expand="" path="/Path/path_ico_disk.png"/>
+    <item type="1" normal="/LeftTree/leftree_ico_root_parti_existing.png" expand="" path="/Path/path_ico_parti_existing.png"/>
+    <item type="2" normal="/LeftTree/leftree_ico_root_parti_existing_lock.png" expand="" path="/Path/path_ico_parti_existing_lock.png" />
+    <item type="3" normal="/LeftTree/leftree_ico_root_parti_existing_unlock.png" expand="" path="/Path/path_ico_parti_existing_unlock.png"/>
+    <item type="4" normal="/LeftTree/leftree_ico_root_parti_lost.png" expand="" path="/Path/path_ico_parti_lost.png"/>
+    <item type="5" normal="/LeftTree/leftree_ico_root_parti_lost_lock.png" expand="" path="/Path/path_ico_parti_lost_lock.png"/>
+    <item type="6" normal="/LeftTree/leftree_ico_root_parti_lost_unlock.png" expand="" path="/Path/path_ico_parti_lost_unlock.png"/>
+    <item type="7" normal="/LeftTree/leftree_ico_root_system.png" expand="" path="/Path/path_ico_system.png"/>
+    <item type="8" normal="/LeftTree/leftree_ico_root_system_lock.png" expand="" path="/Path/path_ico_system_lock.png" />
+    <item type="9" normal="/LeftTree/leftree_ico_root_system_unlock.png" expand="" path="/Path/path_ico_system_unlock.png"/>
+    <item type="10" normal="/LeftTree/leftree_ico_root_usb_existing.png" expand="" path="/Path/path_ico_usb_existing.png"/>
+    <item type="11" normal="/LeftTree/leftree_ico_root_usb_lost.png" expand="" path="/Path/path_ico_usb_lost.png"/>
+    <item type="12" normal="/LeftTree/leftree_ico_root_usb_existing_lock.png" expand="" path="/Path/path_ico_usb_existing_lock.png"/>
+    <item type="13" normal="/LeftTree/leftree_ico_root_usb_existing_unlock.png" expand="" path="/Path/path_ico_usb_existing_unlock.png"/>
+    <item type="14" normal="/LeftTree/leftree_ico_root_usb_lost_lock.png" expand=""  path="/Path/path_ico_usb_lost_lock.png"/>
+    <item type="15" normal="/LeftTree/leftree_ico_root_usb_lost_unlock.png" expand="" path="/Path/path_ico_usb_lost_unlock.png"/>
+    <item type="16" normal="/LeftTree/leftree_ico_root_camera_gopro.png" expand="" path="/Path/path_ico_camera_gopro.png"/>
+    <item type="17" normal="/LeftTree/leftree_ico_root_camera_nikon.png" expand="" path="/Path/path_ico_camera_nikon.png"/>
+    <item type="18" normal="/LeftTree/leftree_ico_root_camera_sony.png" expand="" path="/Path/path_ico_camera_sony.png"/>
+    <item type="19" normal="/LeftTree/leftree_ico_root_camera_canon.png" expand="" path="/Path/path_ico_camera_canon.png"/>
+    <item type="20" normal="/LeftTree/leftree_ico_root_camera_dji.png" expand="" path="/Path/path_ico_camera_dji.png"/>
+    <item type="21" normal="/LeftTree/leftree_ico_root_sdcard.png" expand="" path="/Path/path_ico_sdcard.png"/>
+    <item type="22" normal="/LeftTree/leftree_ico_root_camera_others.png" expand="" path="/Path/path_ico_camera_others.png"/>
+    <item type="23" normal="/LeftTree/leftree_ico_root_desktop.png" expand="" path="/Path/path_ico_desktop.png"/>
+    <item type="24" normal="/LeftTree/leftree_ico_root_recyclebin.png" expand=""/>
+    <item type="25" normal="/LeftTree/leftree_ico_recyclebin.png" expand=""/>
+    <item type="26" normal="/LeftTree/leftree_ico_root_folder.png" 
+          expand="/LeftTree/leftree_ico_folder_unfold.png"/>
+    <item type="27" normal="/LeftTree/leftree_ico_folder_unfold.png" expand=""/>
+    <item type="28" normal="/LeftTree/leftree_ico_deletedfiles_fold.png"
+          expand="/LeftTree/leftree_ico_deletedfiles_unfold.png"/>
+    <item type="29" normal="/LeftTree/leftree_ico_deletedfiles_unfold.png" expand=""/>
+    <item type="30" normal="/LeftTree/leftree_ico_lostfiles_fold.png" 
+          expand="/LeftTree/leftree_ico_lostfiles_unfold.png"/>
+    <item type="31" normal="/LeftTree/leftree_ico_lostfiles_unfold.png" expand=""/>
+    <item type="32" normal="/LeftTree/leftree_ico_folder_fold.png" expand=""/>
+    <item type="33" normal="/LeftTree/leftree_ico_parti_existing.png" expand=""/>
+    <item type="34" normal="/LeftTree/leftree_ico_root_parti_lost_lock.png" expand=""/>
+    <item type="35" normal="/LeftTree/leftree_ico_tag_fold.png"
+          expand="/LeftTree/leftree_ico_tag_unfold.png"/>
+    <item type="36" normal="/LeftTree/leftree_ico_tag_unfold.png" expand=""/>
+    <item type="37" normal="/LeftTree/leftree_ico_raw_fold.png" 
+          expand="/LeftTree/leftree_ico_raw_fold.png"/>
+    <item type="38" normal="/LeftTree/leftree_ico_raw_fold.png" expand=""/>
+    <item type="39" normal="/LeftTree/leftree_ico_parti_unknonw.png" expand=""/>
+    <item type="40" normal="/LeftTree/leftree_ico_img_24.png" expand="" path="/Path/path_ico_img_24.png"/>
+    <item type="41" normal="/LeftTree/leftree_ico_video_24.png" expand="" path="/Path/path_ico_video_24.png"/>
+    <item type="42" normal="/LeftTree/leftree_ico_doc_24.png" expand="" path="/Path/path_ico_doc_24.png"/>
+    <item type="43" normal="/LeftTree/leftree_ico_audio_24.png" expand="" path="/Path/path_ico_audio_24.png"/>
+    <item type="44" normal="/LeftTree/leftree_ico_others_24.png" expand="" path="/Path/path_ico_others_24.png"/>
+
+
+    <!--item -------------------- disable ---------------------------->
+	<item type="100" normal="/LeftTree/leftree_ico_root_disk0.png" expand="" path="/Path/path_ico_disk.png"/>
+    <item type="101" normal="/LeftTree/leftree_ico_root_parti_existing0.png" expand="" path="/Path/path_ico_parti_existing.png"/>
+    <item type="102" normal="/LeftTree/leftree_ico_root_parti_existing_lock0.png" expand="" path="/Path/path_ico_parti_existing_lock.png" />
+    <item type="103" normal="/LeftTree/leftree_ico_root_parti_existing_unlock0.png" expand="" path="/Path/path_ico_parti_existing_unlock.png"/>
+    <item type="104" normal="/LeftTree/leftree_ico_root_parti_lost0.png" expand="" path="/Path/path_ico_parti_lost.png"/>
+    <item type="105" normal="/LeftTree/leftree_ico_root_parti_lost_lock0.png" expand="" path="/Path/path_ico_parti_lost_lock.png"/>
+    <item type="106" normal="/LeftTree/leftree_ico_root_parti_lost_unlock0.png" expand="" path="/Path/path_ico_parti_lost_unlock.png"/>
+    <item type="107" normal="/LeftTree/leftree_ico_root_system0.png" expand="" path="/Path/path_ico_system.png"/>
+    <item type="108" normal="/LeftTree/leftree_ico_root_system_lock0.png" expand="" path="/Path/path_ico_system_lock.png" />
+    <item type="109" normal="/LeftTree/leftree_ico_root_system_unlock0.png" expand="" path="/Path/path_ico_system_unlock.png"/>
+    <item type="110" normal="/LeftTree/leftree_ico_root_usb_existing0.png" expand="" path="/Path/path_ico_usb_existing.png"/>
+    <item type="111" normal="/LeftTree/leftree_ico_root_usb_lost0.png" expand="" path="/Path/path_ico_usb_lost.png"/>
+    <item type="112" normal="/LeftTree/leftree_ico_root_usb_existing_lock0.png" expand="" path="/Path/path_ico_usb_existing_lock.png"/>
+    <item type="113" normal="/LeftTree/leftree_ico_root_usb_existing_unlock0.png" expand="" path="/Path/path_ico_usb_existing_unlock.png"/>
+    <item type="114" normal="/LeftTree/leftree_ico_root_usb_lost_lock0.png" expand=""  path="/Path/path_ico_usb_lost_lock.png"/>
+    <item type="115" normal="/LeftTree/leftree_ico_root_usb_lost_unlock0.png" expand="" path="/Path/path_ico_usb_lost_unlock.png"/>
+    <item type="116" normal="/LeftTree/leftree_ico_root_camera_gopro0.png" expand="" path="/Path/path_ico_camera_gopro.png"/>
+    <item type="117" normal="/LeftTree/leftree_ico_root_camera_nikon0.png" expand="" path="/Path/path_ico_camera_nikon.png"/>
+    <item type="118" normal="/LeftTree/leftree_ico_root_camera_sony0.png" expand="" path="/Path/path_ico_camera_sony.png"/>
+    <item type="119" normal="/LeftTree/leftree_ico_root_camera_canon0.png" expand="" path="/Path/path_ico_camera_canon.png"/>
+    <item type="120" normal="/LeftTree/leftree_ico_root_camera_dji0.png" expand="" path="/Path/path_ico_camera_dji.png"/>
+    <item type="121" normal="/LeftTree/leftree_ico_root_sdcard0.png" expand="" path="/Path/path_ico_sdcard.png"/>
+    <item type="122" normal="/LeftTree/leftree_ico_root_camera_others0.png" expand="" path="/Path/path_ico_camera_others.png"/>
+    <item type="123" normal="/LeftTree/leftree_ico_root_desktop0.png" expand="" path="/Path/path_ico_desktop.png"/>
+    <item type="124" normal="/LeftTree/leftree_ico_root_recyclebin0.png" expand=""/>
+    <item type="125" normal="/LeftTree/leftree_ico_recyclebin0.png" expand=""/>
+    <item type="126" normal="/LeftTree/leftree_ico_root_folder0.png" 
+          expand="/LeftTree/leftree_ico_folder_unfold.png"/>
+
+    <item type="128" normal="/LeftTree/leftree_ico_deletedfiles_fold0.png"
+          expand="/LeftTree/leftree_ico_deletedfiles_unfold.png"/>
+
+    <item type="130" normal="/LeftTree/leftree_ico_lostfiles_fold0.png" 
+          expand="/LeftTree/leftree_ico_lostfiles_unfold.png"/>
+
+    <item type="132" normal="/LeftTree/leftree_ico_folder_fold0.png" expand=""/>
+
+    <item type="134" normal="/LeftTree/leftree_ico_root_parti_lost_lock0.png" expand=""/>
+    <item type="135" normal="/LeftTree/leftree_ico_tag_fold0.png"
+          expand="/LeftTree/leftree_ico_tag_unfold.png"/>
+
+    <item type="137" normal="/LeftTree/leftree_ico_raw_fold0.png" 
+          expand="/LeftTree/leftree_ico_raw_fold.png"/>
+
+    <item type="139" normal="/LeftTree/leftree_ico_parti_unknonw0.png" expand=""/>
+    <item type="140" normal="/LeftTree/leftree_ico_img_24dis.png" expand="" path="/Path/path_ico_img_24.png"/>
+    <item type="141" normal="/LeftTree/leftree_ico_video_24dis.png" expand="" path="/Path/path_ico_video_24.png"/>
+    <item type="142" normal="/LeftTree/leftree_ico_doc_24dis.png" expand="" path="/Path/path_ico_doc_24.png"/>
+    <item type="143" normal="/LeftTree/leftree_ico_audio_24dis.png" expand="" path="/Path/path_ico_audio_24.png"/>
+    <item type="144" normal="/LeftTree/leftree_ico_others_24dis.png" expand="" path="/Path/path_ico_others_24.png"/>
+
+    <item type="-1" normal="/Path/path_ico_search.png" expand="" path="/Path/path_ico_search.png"/>
+  </Tree>
+    
+  <List>  
+    <FolderNode         report="/FileTypes/filetype_ico_folder_fold_24.png"
+                        icon="/FileTypes/filetype_ico_folder_fold_72.png"
+                        detail="/FileTypes/filetype_ico_folder_fold_72.png" 
+						preview="/FileTypes/filetype_ico_folder_fold_40.png"
+						>
+      <SystemNodeType>
+        <item type="0"  report="/FileTypes/filetype_ico_deletedfiles_fold_24.png"
+                        icon="/FileTypes/filetype_ico_deletedfiles_fold_72.png"
+                        detail="/FileTypes/filetype_ico_deletedfiles_fold_72.png"
+						preview="/FileTypes/filetype_ico_deletedfiles_fold_40.png"
+						/>
+        <item type="1"  report="/FileTypes/filetype_ico_partiexisiting_24.png"
+                        icon="/FileTypes/filetype_ico_partiexisiting_72.png"
+                        detail="/FileTypes/filetype_ico_partiexisiting_72.png"
+						preview="/FileTypes/filetype_ico_partiexisiting_40.png"/>
+        <item type="2"  report="/FileTypes/filetype_ico_lostfiles_fold_24.png"
+                        icon="/FileTypes/filetype_ico_lostfiles_fold_72.png"
+                        detail="/FileTypes/filetype_ico_lostfiles_fold_72.png"
+						preview="/FileTypes/filetype_ico_lostfiles_fold_40.png"/>
+        <item type="4"  report="/FileTypes/filetype_ico_lostfiles_fold_24.png"
+                        icon="/FileTypes/filetype_ico_lostfiles_fold_72.png"
+                        detail="/FileTypes/filetype_ico_lostfiles_fold_72.png"
+						preview="/FileTypes/filetype_ico_lostfiles_fold_40.png"/>
+        <item type="5"  report="/FileTypes/filetype_ico_tag_fold_24.png"
+                        icon="/FileTypes/filetype_ico_tag_fold_72.png"
+                        detail="/FileTypes/filetype_ico_tag_fold_72.png"
+						preview="/FileTypes/filetype_ico_tag_fold_40.png"/>
+        <item type="6"  report="/FileTypes/filetype_ico_raw_fold_24.png"
+                        icon="/FileTypes/filetype_ico_raw_fold_72.png"
+                        detail="/FileTypes/filetype_ico_raw_fold_72.png"
+						preview="/FileTypes/filetype_ico_raw_fold_40.png"/>
+        <item type="21"  report="/FileTypes/filetype_ico_partiunknown_24.png"
+                        icon="/FileTypes/filetype_ico_partiunknown_72.png"
+                        detail="/FileTypes/filetype_ico_partiunknown_72.png"
+						preview="/FileTypes/filetype_ico_partiunknown_40.png"/>
+      </SystemNodeType>
+      <SystemNodeId>
+        <item id="20190619"   report="/FileTypes/filetype_ico_lostfiles_fold_24.png"
+                              icon="/FileTypes/filetype_ico_lostfiles_fold_72.png"
+                              detail="/FileTypes/filetype_ico_lostfiles_fold_72.png"
+							  preview="/FileTypes/filetype_ico_lostfiles_fold_40.png"/>
+        <item id="20190710"   report="/FileTypes/filetype_ico_lostfiles_fold_24.png"
+                             icon="/FileTypes/filetype_ico_lostfiles_fold_72.png"
+                             detail="/FileTypes/filetype_ico_lostfiles_fold_72.png"
+							 preview="/FileTypes/filetype_ico_lostfiles_fold_40.png"/>
+        <item id="20210705"   report="/FileTypes/filetype_ico_recyclebin_24.png"
+                             icon="/FileTypes/filetype_ico_recyclebin_72.png"
+                             detail="/FileTypes/filetype_ico_recyclebin_72.png"
+							 preview="/FileTypes/filetype_ico_recyclebin_40.png"/>
+      </SystemNodeId>
+    </FolderNode>
+
+    <FileNode>
+      <item desc ="excel" type="8" report="/FileTypes/filetype_ico_doc_excel_24.png"
+                      icon="/FileTypes/filetype_ico_doc_excel_72.png"
+                      detail="/FileTypes/filetype_ico_doc_excel_72.png" 
+					  preview="/FileTypes/filetype_ico_doc_excel_40.png"/>
+      <item desc ="word" type="2" report="/FileTypes/filetype_ico_doc_word_24.png"
+                      icon="/FileTypes/filetype_ico_doc_word_72.png"
+                      detail="/FileTypes/filetype_ico_doc_word_72.png"
+					  preview="/FileTypes/filetype_ico_doc_word_40.png"/>
+      <item desc ="pdf" type="16" report="/FileTypes/filetype_ico_doc_pdf_24.png"
+                      icon="/FileTypes/filetype_ico_doc_pdf_72.png"
+                      detail="/FileTypes/filetype_ico_doc_pdf_72.png"
+					  preview="/FileTypes/filetype_ico_doc_pdf_40.png"/>
+      <item desc ="ppt" type="4" report="/FileTypes/filetype_ico_doc_ppt_24.png"
+                      icon="/FileTypes/filetype_ico_doc_ppt_72.png"
+                      detail="/FileTypes/filetype_ico_doc_ppt_72.png"
+					  preview="/FileTypes/filetype_ico_doc_ppt_40.png"/>
+      <item desc ="mail" type="128" report="/FileTypes/filetype_ico_mail_24.png"
+                      icon="/FileTypes/filetype_ico_mail_72.png"
+                      detail="/FileTypes/filetype_ico_mail_72.png"
+					  preview="/FileTypes/filetype_ico_mail_40.png"/>
+      <item desc ="audio" type="64" report="/FileTypes/filetype_ico_audio_others_24.png"
+                      icon="/FileTypes/filetype_ico_audio_others_72.png"
+                      detail="/FileTypes/filetype_ico_audio_others_72.png"
+					  preview="/FileTypes/filetype_ico_audio_others_40.png"/>
+      <item desc ="image" type="1" report="/FileTypes/filetype_ico_img_others_24.png"
+                    icon="/FileTypes/filetype_ico_img_others_72.png"
+                    detail="/FileTypes/filetype_ico_img_others_72.png"
+					preview="/FileTypes/filetype_ico_img_others_40.png"/>
+      <item desc ="video" type="32" report="/FileTypes/filetype_ico_video_others_24.png"
+                   icon="/FileTypes/filetype_ico_video_others_72.png"
+                   detail="/FileTypes/filetype_ico_video_others_72.png" 
+				   preview="/FileTypes/filetype_ico_video_others_40.png"/>
+      
+      
+      <item ext="aif"  report="/FileTypes/filetype_ico_audio_aif_24.png"
+                      icon="/FileTypes/filetype_ico_audio_aif_72.png"
+                      detail="/FileTypes/filetype_ico_audio_aif_72.png"
+					  preview="/FileTypes/filetype_ico_audio_aif_40.png"/>
+      <item ext="ape"  report="/FileTypes/filetype_ico_audio_ape_24.png"
+                         icon="/FileTypes/filetype_ico_audio_ape_72.png"
+                         detail="/FileTypes/filetype_ico_audio_ape_72.png"
+						 preview="/FileTypes/filetype_ico_audio_ape_40.png"/>
+      <item ext="m4a"  report="/FileTypes/filetype_ico_audio_m4a_24.png"
+                         icon="/FileTypes/filetype_ico_audio_m4a_72.png"
+                         detail="/FileTypes/filetype_ico_audio_m4a_72.png"
+						 preview="/FileTypes/filetype_ico_audio_m4a_40.png"/>
+      <item ext="mid"  report="/FileTypes/filetype_ico_audio_mid_24.png"
+                         icon="/FileTypes/filetype_ico_audio_mid_72.png"
+                         detail="/FileTypes/filetype_ico_audio_mid_72.png"
+						 preview="/FileTypes/filetype_ico_audio_mid_40.png"/>
+      <item ext="mp3"  report="/FileTypes/filetype_ico_audio_mp3_24.png"
+                         icon="/FileTypes/filetype_ico_audio_mp3_72.png"
+                         detail="/FileTypes/filetype_ico_audio_mp3_72.png"
+						 preview="/FileTypes/filetype_ico_audio_mp3_40.png"/>
+      <item ext="ae"  report="/FileTypes/filetype_ico_img_ae_24.png"
+                        icon="/FileTypes/filetype_ico_img_ae_72.png"
+                        detail="/FileTypes/filetype_ico_img_ae_72.png"
+						preview="/FileTypes/filetype_ico_img_ae_40.png"/>
+      <item ext="ai"  report="/FileTypes/filetype_ico_img_ai_24.png"
+                        icon="/FileTypes/filetype_ico_img_ai_72.png"
+                        detail="/FileTypes/filetype_ico_img_ai_72.png"
+						preview="/FileTypes/filetype_ico_img_ai_40.png"/>
+      <item ext="bmp"  report="/FileTypes/filetype_ico_img_bmp_24.png"
+                        icon="/FileTypes/filetype_ico_img_bmp_72.png"
+                        detail="/FileTypes/filetype_ico_img_bmp_72.png"
+						preview="/FileTypes/filetype_ico_img_bmp_40.png"/>
+      <item ext="gif"  report="/FileTypes/filetype_ico_img_gif_24.png"
+                        icon="/FileTypes/filetype_ico_img_gif_72.png"
+                        detail="/FileTypes/filetype_ico_img_gif_72.png"
+						preview="/FileTypes/filetype_ico_img_gif_40.png"/>
+      <item ext="jpg,jpeg"  report="/FileTypes/filetype_ico_img_jpg_24.png"
+                        icon="/FileTypes/filetype_ico_img_jpg_72.png"
+                        detail="/FileTypes/filetype_ico_img_jpg_72.png"
+						preview="/FileTypes/filetype_ico_img_jpg_40.png"/>
+      <item ext="png"  report="/FileTypes/filetype_ico_img_png_24.png"
+                        icon="/FileTypes/filetype_ico_img_png_72.png"
+                        detail="/FileTypes/filetype_ico_img_png_72.png"
+						preview="/FileTypes/filetype_ico_img_png_40.png"/>
+      <item ext="pr"  report="/FileTypes/filetype_ico_img_pr_24.png"
+                        icon="/FileTypes/filetype_ico_img_pr_72.png"
+                        detail="/FileTypes/filetype_ico_img_pr_72.png"
+						preview="/FileTypes/filetype_ico_img_pr_40.png"/>
+      <item ext="ps"  report="/FileTypes/filetype_ico_img_ps_24.png"
+                        icon="/FileTypes/filetype_ico_img_ps_72.png"
+                        detail="/FileTypes/filetype_ico_img_ps_72.png"
+						preview="/FileTypes/filetype_ico_img_ps_40.png"/>
+      <item ext="svg"  report="/FileTypes/filetype_ico_img_svg_24.png"
+                       icon="/FileTypes/filetype_ico_img_svg_72.png"
+                       detail="/FileTypes/filetype_ico_img_svg_72.png"
+					   preview="/FileTypes/filetype_ico_img_svg_40.png"/>
+      <item ext="tif,tiff"  report="/FileTypes/filetype_ico_img_tif_24.png"
+                      icon="/FileTypes/filetype_ico_img_tif_72.png"
+                      detail="/FileTypes/filetype_ico_img_tif_72.png"
+					  preview="/FileTypes/filetype_ico_img_tif_40.png"/>
+      <item ext="avi"  report="/FileTypes/filetype_ico_video_avi_24.png"
+                        icon="/FileTypes/filetype_ico_video_avi_72.png"
+                        detail="/FileTypes/filetype_ico_video_avi_72.png"
+						preview="/FileTypes/filetype_ico_video_avi_40.png"/>
+      <item ext="flv"  report="/FileTypes/filetype_ico_video_flv_24.png"
+                        icon="/FileTypes/filetype_ico_video_flv_72.png"
+                        detail="/FileTypes/filetype_ico_video_flv_72.png"
+						preview="/FileTypes/filetype_ico_video_flv_40.png"/>
+      <item ext="mov"  report="/FileTypes/filetype_ico_video_mov_24.png"
+                        icon="/FileTypes/filetype_ico_video_mov_72.png"
+                        detail="/FileTypes/filetype_ico_video_mov_72.png"
+						preview="/FileTypes/filetype_ico_video_mov_40.png"/>
+      <item ext="mp4"  report="/FileTypes/filetype_ico_video_mp4_24.png"
+                        icon="/FileTypes/filetype_ico_video_mp4_72.png"
+                        detail="/FileTypes/filetype_ico_video_mp4_72.png"
+						preview="/FileTypes/filetype_ico_video_mp4_40.png"/>
+      <item ext="mpg,mpeg"  report="/FileTypes/filetype_ico_video_mpg_24.png"
+                        icon="/FileTypes/filetype_ico_video_mpg_72.png"
+                        detail="/FileTypes/filetype_ico_video_mpg_72.png"
+						preview="/FileTypes/filetype_ico_video_mpg_40.png"/>
+      <item ext="csv"  report="/FileTypes/filetype_ico_doc_csv_24.png"
+                        icon="/FileTypes/filetype_ico_doc_csv_72.png"
+                        detail="/FileTypes/filetype_ico_doc_csv_72.png"
+						preview="/FileTypes/filetype_ico_doc_csv_40.png"/>
+      <item ext="dll"  report="/FileTypes/filetype_ico_doc_dll_24.png"
+                        icon="/FileTypes/filetype_ico_doc_dll_72.png"
+                        detail="/FileTypes/filetype_ico_doc_dll_72.png"
+						preview="/FileTypes/filetype_ico_doc_dll_40.png"/>
+      <item ext="exe"  report="/FileTypes/filetype_ico_doc_exe_24.png"
+                        icon="/FileTypes/filetype_ico_doc_exe_72.png"
+                        detail="/FileTypes/filetype_ico_doc_exe_72.png"
+						preview="/FileTypes/filetype_ico_doc_exe_40.png"/>
+      <item ext="rar"  report="/FileTypes/filetype_ico_doc_rar_24.png"
+                        icon="/FileTypes/filetype_ico_doc_rar_72.png"
+                        detail="/FileTypes/filetype_ico_doc_rar_72.png"
+						preview="/FileTypes/filetype_ico_doc_rar_40.png"/>
+      <item ext="sys"  report="/FileTypes/filetype_ico_doc_sys_24.png"
+                        icon="/FileTypes/filetype_ico_doc_sys_72.png"
+                        detail="/FileTypes/filetype_ico_doc_sys_72.png"
+						preview="/FileTypes/filetype_ico_doc_sys_40.png"/>
+      <item ext="txt"  report="/FileTypes/filetype_ico_doc_txt_24.png"
+                        icon="/FileTypes/filetype_ico_doc_txt_72.png"
+                        detail="/FileTypes/filetype_ico_doc_txt_72.png"
+						preview="/FileTypes/filetype_ico_doc_txt_40.png"/>
+      <item ext="xml"  report="/FileTypes/filetype_ico_doc_xml_24.png"
+                        icon="/FileTypes/filetype_ico_doc_xml_72.png"
+                        detail="/FileTypes/filetype_ico_doc_xml_72.png"
+						preview="/FileTypes/filetype_ico_doc_xml_40.png"/>
+      <item ext="zip"  report="/FileTypes/filetype_ico_doc_zip_24.png"
+                      icon="/FileTypes/filetype_ico_doc_zip_72.png"
+                       detail="/FileTypes/filetype_ico_doc_zip_72.png"
+					   preview="/FileTypes/filetype_ico_doc_zip_40.png"/>
+    </FileNode>
+  </List>
+  <Html>
+    <item desc="edge"  report="/FileTypes/filetype_ico_browser_edge_24.png"
+               icon="/FileTypes/filetype_ico_browser_edge_72.png"
+               detail="/FileTypes/filetype_ico_browser_edge_72.png"
+			   preview="/FileTypes/filetype_ico_browser_edge_40.png"/>
+    <item desc="Firefox"  report="/FileTypes/filetype_ico_browser_firefox_24.png"
+               icon="/FileTypes/filetype_ico_browser_firefox_72.png"
+               detail="/FileTypes/filetype_ico_browser_firefox_72.png"
+			   preview="/FileTypes/filetype_ico_browser_firefox_40.png"/>
+    <item desc="Chrome"  report="/FileTypes/filetype_ico_browser_google_24.png"
+                      icon="/FileTypes/filetype_ico_browser_google_72.png"
+                      detail="/FileTypes/filetype_ico_browser_google_72.png"
+					  preview="/FileTypes/filetype_ico_browser_google_40.png"/>
+    <item desc="Safari"  report="/FileTypes/filetype_ico_browser_safari_24.png"
+                      icon="/FileTypes/filetype_ico_browser_safari_72.png"
+                      detail="/FileTypes/filetype_ico_browser_safari_72.png"
+					  preview="/FileTypes/filetype_ico_browser_safari_40.png"/>
+    <item desc="360"  report="/FileTypes/filetype_ico_browser_360_24.png"
+                      icon="/FileTypes/filetype_ico_browser_360_72.png"
+                      detail="/FileTypes/filetype_ico_browser_360_72.png"
+					  preview="/FileTypes/filetype_ico_browser_360_40.png"/>
+    <item desc="Liebao"  report="/FileTypes/filetype_ico_browser_liebao_24.png"
+                      icon="/FileTypes/filetype_ico_browser_liebao_72.png"
+                      detail="/FileTypes/filetype_ico_browser_liebao_72.png"
+					  preview="/FileTypes/filetype_ico_browser_liebao_40.png"/>
+    <item desc="Sougou"  report="/FileTypes/filetype_ico_browser_sougou_24.png"
+                      icon="/FileTypes/filetype_ico_browser_sougou_72.png"
+                      detail="/FileTypes/filetype_ico_browser_sougou_72.png"
+					  preview="/FileTypes/filetype_ico_browser_sougou_40.png"/>
+    <item desc="UC"  report="/FileTypes/filetype_ico_browser_uc_24.png"
+                      icon="/FileTypes/filetype_ico_browser_uc_72.png"
+                      detail="/FileTypes/filetype_ico_browser_uc_72.png"
+					  preview="/FileTypes/filetype_ico_browser_uc_40.png"/>
+  </Html>
+</Root>

@@ -1,0 +1,5 @@
+Medicat VHD is a VHD file containing a system created from Windows 11. It is 30GB in size with 13GB of free space.
+To run it, USB 3.0 is STRONGLY recommended as a bare minimum, with USB 3.2 Gen 2 being highly advisable!
+MediCat VHD is NOT a Win10PE like Mini Windows 10. It is a full Windows 10 installation for PC repair, which uses the real hardware of your computer. It is much less limiting in terms of functionality.
+To start it from Medicat USB, place the .vhd file in the "USB\VHD\" folder and check that the file "ventoy_vhdboot.img" is present in the "USB\ventoy\" folder. Medicat VHD will then appear in the menu and you can start it.
+Once started, customize it as much as you want like a real windows. All changes will be saved... You can now do your actions in a much less limited way.

@@ -1,0 +1,156 @@
+11:11:00:649 DRWUI [14.5.0.0_Trial] build at[Nov 16 2021 16:59:37] [8fb698a9637f973d28987d6808f704975c956175],be x64[yes]
+11:11:01:559 CVersionCtrl::downloadRSSourcePro 772 https://update.easeus.com/update/drw_eng/InnerBuyRSS_Trial.zip
+11:11:02:995 OnlineConfigDownloader::downloadPrwOnlineConfigThread_Pro:576 got 0
+11:11:03:021 P[1088]:T[5464] run to CVersionCtrl::downloadRSSourcePro:801
+11:11:04:418 CVersionCtrl::doCheckUpdate:381 got 0
+11:11:10:597 P[1088]:T[6124] run to EnumCollectPartition::EnumDevice:72
+11:11:10:597 P[1088]:T[6124] run to EnumCollectPartition::EnumDevice:75
+11:11:10:628 P[1088]:T[6124] run to EnumCollectPartition::EnumDevice:83
+11:11:10:628 P[1088]:T[6124] run to EnumCollectPartition::EnumDevice:138
+11:11:10:675 P[1088]:T[6124] run to EnumCollectPartition::EnumDevice:72
+11:11:10:675 P[1088]:T[6124] run to EnumCollectPartition::EnumDevice:75
+11:11:10:675 P[1088]:T[6124] run to EnumCollectPartition::EnumDevice:83
+11:11:10:691 P[1088]:T[6124] run to EnumCollectPartition::EnumDevice:138
+11:11:12:534 ENS_TRACE:ProductCode:RE-DRW-TRIL-WIN 
+11:11:14:409 UOSS::CUOSSClient::getUOSSMsgInfo;strResponse:;errCode:56
+11:11:14:409 UOSS::CUOSSClient::getUOSSMsgInfo;ImgURL:;ImgHref:;MsgID:0
+11:12:15:041 P[1088]:T[5404] run to CScanMgr::doExit:748
+11:12:15:160 P[1088]:T[4668] run to ThumbnailFactory::ClearCache:71
+11:12:15:160 P[1088]:T[4668] run to ThumbnailFactory::ClearCache:85
+11:12:15:160 P[1088]:T[4668] run to ThumbnailFactory::ClearCache:95
+11:12:15:193 P[1088]:T[4668] run to EnumCollectPartition::~EnumCollectPartition:43
+11:12:16:613 DRWUI [14.5.0.0_Trial] build at[Nov 16 2021 16:59:37] [8fb698a9637f973d28987d6808f704975c956175],be x64[yes]
+11:12:16:847 CVersionCtrl::downloadRSSourcePro 772 https://update.easeus.com/update/drw_eng/InnerBuyRSS_Trial.zip
+11:12:16:972 P[5280]:T[5536] run to COnlineActivation::writeActivateData:735
+11:12:16:987 OnlineConfigDownloader::downloadPrwOnlineConfigThread_Pro:576 got a
+11:12:20:778 P[5280]:T[5528] run to EnumCollectPartition::EnumDevice:72
+11:12:20:778 P[5280]:T[5528] run to EnumCollectPartition::EnumDevice:75
+11:12:20:778 P[5280]:T[5528] run to EnumCollectPartition::EnumDevice:83
+11:12:20:778 P[5280]:T[5528] run to EnumCollectPartition::EnumDevice:138
+11:12:20:825 P[5280]:T[5528] run to EnumCollectPartition::EnumDevice:72
+11:12:20:825 P[5280]:T[5528] run to EnumCollectPartition::EnumDevice:75
+11:12:20:825 P[5280]:T[5528] run to EnumCollectPartition::EnumDevice:83
+11:12:20:825 P[5280]:T[5528] run to EnumCollectPartition::EnumDevice:138
+11:12:22:684 ENS_TRACE:ProductCode:RE-DRW-TRIL-WIN 
+11:12:22:731 UOSS::CUOSSClient::getUOSSMsgInfo;strResponse:;errCode:6
+11:12:22:731 UOSS::CUOSSClient::getUOSSMsgInfo;ImgURL:;ImgHref:;MsgID:0
+11:12:41:157 P[5280]:T[5456] run to CScanMgr::doExit:748
+11:12:41:270 P[5280]:T[5340] run to ThumbnailFactory::ClearCache:71
+11:12:41:270 P[5280]:T[5340] run to ThumbnailFactory::ClearCache:85
+11:12:41:270 P[5280]:T[5340] run to ThumbnailFactory::ClearCache:95
+11:12:41:335 P[5280]:T[5340] run to EnumCollectPartition::~EnumCollectPartition:43
+11:13:00:958 DRWUI [14.5.0.0_Trial] build at[Nov 16 2021 16:59:37] [8fb698a9637f973d28987d6808f704975c956175],be x64[yes]
+11:13:01:172 CVersionCtrl::downloadRSSourcePro 772 https://update.easeus.com/update/drw_eng/InnerBuyRSS_Trial.zip
+11:13:01:269 P[4308]:T[0712] run to COnlineActivation::writeActivateData:735
+11:13:01:298 OnlineConfigDownloader::downloadPrwOnlineConfigThread_Pro:576 got a
+11:13:05:260 P[4308]:T[4492] run to EnumCollectPartition::EnumDevice:72
+11:13:05:260 P[4308]:T[4492] run to EnumCollectPartition::EnumDevice:75
+11:13:05:260 P[4308]:T[4492] run to EnumCollectPartition::EnumDevice:83
+11:13:05:260 P[4308]:T[4492] run to EnumCollectPartition::EnumDevice:138
+11:13:05:323 P[4308]:T[4492] run to EnumCollectPartition::EnumDevice:72
+11:13:05:323 P[4308]:T[4492] run to EnumCollectPartition::EnumDevice:75
+11:13:05:323 P[4308]:T[4492] run to EnumCollectPartition::EnumDevice:83
+11:13:05:323 P[4308]:T[4492] run to EnumCollectPartition::EnumDevice:138
+11:13:07:135 ENS_TRACE:ProductCode:RE-DRW-TRIL-WIN 
+11:13:07:166 UOSS::CUOSSClient::getUOSSMsgInfo;strResponse:;errCode:6
+11:13:07:166 UOSS::CUOSSClient::getUOSSMsgInfo;ImgURL:;ImgHref:;MsgID:0
+11:13:16:277 P[4308]:T[5480] run to CScanMgr::doExit:748
+11:13:16:386 P[4308]:T[4772] run to ThumbnailFactory::ClearCache:71
+11:13:16:386 P[4308]:T[4772] run to ThumbnailFactory::ClearCache:85
+11:13:16:386 P[4308]:T[4772] run to ThumbnailFactory::ClearCache:95
+11:13:16:435 P[4308]:T[4772] run to EnumCollectPartition::~EnumCollectPartition:43
+11:24:59:206 DRWUI [14.5.0.0_Trial] build at[Nov 16 2021 16:59:37] [8fb698a9637f973d28987d6808f704975c956175],be x64[yes]
+11:24:59:362 OnlineConfigDownloader::downloadPrwOnlineConfigThread_Pro:576 got a
+11:24:59:439 P[1036]:T[5720] run to COnlineActivation::writeActivateData:735
+11:25:03:052 P[1036]:T[5480] run to EnumCollectPartition::EnumDevice:72
+11:25:03:052 P[1036]:T[5480] run to EnumCollectPartition::EnumDevice:75
+11:25:03:068 P[1036]:T[5480] run to EnumCollectPartition::EnumDevice:83
+11:25:03:068 P[1036]:T[5480] run to EnumCollectPartition::EnumDevice:138
+11:25:03:099 P[1036]:T[5480] run to EnumCollectPartition::EnumDevice:72
+11:25:03:099 P[1036]:T[5480] run to EnumCollectPartition::EnumDevice:75
+11:25:03:114 P[1036]:T[5480] run to EnumCollectPartition::EnumDevice:83
+11:25:03:114 P[1036]:T[5480] run to EnumCollectPartition::EnumDevice:138
+11:25:05:083 ENS_TRACE:ProductCode:RE-DRW-TRIL-WIN 
+11:25:05:130 UOSS::CUOSSClient::getUOSSMsgInfo;strResponse:;errCode:6
+11:25:05:130 UOSS::CUOSSClient::getUOSSMsgInfo;ImgURL:;ImgHref:;MsgID:0
+11:25:20:343 P[1036]:T[6100] run to CScanMgr::doExit:748
+11:25:20:452 P[1036]:T[4396] run to ThumbnailFactory::ClearCache:71
+11:25:20:452 P[1036]:T[4396] run to ThumbnailFactory::ClearCache:85
+11:25:20:452 P[1036]:T[4396] run to ThumbnailFactory::ClearCache:95
+11:25:20:484 P[1036]:T[4396] run to EnumCollectPartition::~EnumCollectPartition:43
+12:19:30:690 DRWUI [14.5.0.0_Trial] build at[Nov 16 2021 16:59:37] [8fb698a9637f973d28987d6808f704975c956175],be x64[yes]
+12:19:32:897 CVersionCtrl::doCheckUpdate:381 got 0
+12:19:32:961 OnlineConfigDownloader::downloadPrwOnlineConfigThread_Pro:576 got 0
+12:19:35:865 P[8252]:T[4048] run to COnlineActivation::writeActivateData:735
+12:19:56:017 P[8252]:T[10112] run to EnumCollectPartition::EnumDevice:72
+12:19:57:049 P[8252]:T[10112] run to EnumCollectPartition::EnumDevice:75
+12:19:57:658 P[8252]:T[10112] run to EnumCollectPartition::EnumDevice:83
+12:19:57:658 P[8252]:T[10112] run to EnumCollectPartition::EnumDevice:138
+12:19:57:674 P[8252]:T[10112] run to EnumCollectPartition::EnumDevice:72
+12:19:57:690 P[8252]:T[10112] run to EnumCollectPartition::EnumDevice:75
+12:19:57:721 P[8252]:T[10112] run to EnumCollectPartition::EnumDevice:83
+12:19:57:721 P[8252]:T[10112] run to EnumCollectPartition::EnumDevice:138
+12:19:59:275 ENS_TRACE:ProductCode:RE-DRW-TRIL-WIN 
+12:19:59:400 UOSS::CUOSSClient::getUOSSMsgInfo;strResponse:;errCode:6
+12:19:59:400 UOSS::CUOSSClient::getUOSSMsgInfo;ImgURL:;ImgHref:;MsgID:0
+12:20:22:270 P[8252]:T[6872] run to CScanMgr::doExit:748
+12:20:22:510 P[8252]:T[6440] run to ThumbnailFactory::ClearCache:71
+12:20:22:510 P[8252]:T[6440] run to ThumbnailFactory::ClearCache:85
+12:20:22:510 P[8252]:T[6440] run to ThumbnailFactory::ClearCache:95
+12:20:22:541 P[8252]:T[6440] run to EnumCollectPartition::~EnumCollectPartition:43
+12:20:34:845 DRWUI [14.5.0.0_Trial] build at[Nov 16 2021 16:59:37] [8fb698a9637f973d28987d6808f704975c956175],be x64[yes]
+12:20:35:829 OnlineConfigDownloader::downloadPrwOnlineConfigThread_Pro:576 got 0
+12:20:37:223 P[4800]:T[7396] run to COnlineActivation::writeActivateData:735
+12:20:39:936 P[4800]:T[9900] run to EnumCollectPartition::EnumDevice:72
+12:20:40:974 P[4800]:T[9900] run to EnumCollectPartition::EnumDevice:75
+12:20:41:271 P[4800]:T[9900] run to EnumCollectPartition::EnumDevice:83
+12:20:41:286 P[4800]:T[9900] run to EnumCollectPartition::EnumDevice:138
+12:20:41:286 P[4800]:T[9900] run to EnumCollectPartition::EnumDevice:72
+12:20:41:302 P[4800]:T[9900] run to EnumCollectPartition::EnumDevice:75
+12:20:41:318 P[4800]:T[9900] run to EnumCollectPartition::EnumDevice:83
+12:20:41:318 P[4800]:T[9900] run to EnumCollectPartition::EnumDevice:138
+12:20:43:278 ENS_TRACE:ProductCode:RE-DRW-TRIL-WIN 
+12:20:43:379 UOSS::CUOSSClient::getUOSSMsgInfo;strResponse:;errCode:6
+12:20:43:379 UOSS::CUOSSClient::getUOSSMsgInfo;ImgURL:;ImgHref:;MsgID:0
+12:21:00:525 P[4800]:T[7612] run to CScanMgr::doExit:748
+12:21:00:744 P[4800]:T[1904] run to ThumbnailFactory::ClearCache:71
+12:21:00:744 P[4800]:T[1904] run to ThumbnailFactory::ClearCache:85
+12:21:00:744 P[4800]:T[1904] run to ThumbnailFactory::ClearCache:95
+12:21:00:775 P[4800]:T[1904] run to EnumCollectPartition::~EnumCollectPartition:43
+12:29:31:445 DRWUI [14.5.0.0_Trial] build at[Nov 16 2021 16:59:37] [8fb698a9637f973d28987d6808f704975c956175],be x64[yes]
+12:29:34:024 OnlineConfigDownloader::downloadPrwOnlineConfigThread_Pro:576 got 0
+12:29:34:754 P[3944]:T[8500] run to COnlineActivation::writeActivateData:735
+12:29:37:442 P[3944]:T[7724] run to EnumCollectPartition::EnumDevice:72
+12:29:38:472 P[3944]:T[7724] run to EnumCollectPartition::EnumDevice:75
+12:29:38:785 P[3944]:T[7724] run to EnumCollectPartition::EnumDevice:83
+12:29:38:785 P[3944]:T[7724] run to EnumCollectPartition::EnumDevice:138
+12:29:38:801 P[3944]:T[7724] run to EnumCollectPartition::EnumDevice:72
+12:29:38:801 P[3944]:T[7724] run to EnumCollectPartition::EnumDevice:75
+12:29:38:816 P[3944]:T[7724] run to EnumCollectPartition::EnumDevice:83
+12:29:38:832 P[3944]:T[7724] run to EnumCollectPartition::EnumDevice:138
+12:29:40:710 ENS_TRACE:ProductCode:RE-DRW-TRIL-WIN 
+12:29:40:803 UOSS::CUOSSClient::getUOSSMsgInfo;strResponse:;errCode:6
+12:29:40:804 UOSS::CUOSSClient::getUOSSMsgInfo;ImgURL:;ImgHref:;MsgID:0
+12:29:50:751 P[3944]:T[11168] run to CScanMgr::doExit:748
+12:29:50:970 P[3944]:T[7872] run to ThumbnailFactory::ClearCache:71
+12:29:50:970 P[3944]:T[7872] run to ThumbnailFactory::ClearCache:85
+12:29:50:970 P[3944]:T[7872] run to ThumbnailFactory::ClearCache:95
+12:29:51:017 P[3944]:T[7872] run to EnumCollectPartition::~EnumCollectPartition:43
+12:37:07:461 DRWUI [14.5.0.0_Trial] build at[Nov 16 2021 16:59:37] [8fb698a9637f973d28987d6808f704975c956175],be x64[yes]
+12:37:08:024 OnlineConfigDownloader::downloadPrwOnlineConfigThread_Pro:576 got a
+12:37:40:330 P[1276]:T[1816] run to EnumCollectPartition::EnumDevice:72
+12:37:40:356 P[1276]:T[1816] run to EnumCollectPartition::EnumDevice:75
+12:37:40:906 P[1276]:T[1816] run to EnumCollectPartition::EnumDevice:83
+12:37:40:913 P[1276]:T[1816] run to EnumCollectPartition::EnumDevice:138
+12:37:40:926 P[1276]:T[1816] run to EnumCollectPartition::EnumDevice:72
+12:37:40:939 P[1276]:T[1816] run to EnumCollectPartition::EnumDevice:75
+12:37:41:020 P[1276]:T[1816] run to EnumCollectPartition::EnumDevice:83
+12:37:41:023 P[1276]:T[1816] run to EnumCollectPartition::EnumDevice:138
+12:37:43:392 ENS_TRACE:ProductCode:RE-DRW-TRIL-WIN 
+12:37:43:486 UOSS::CUOSSClient::getUOSSMsgInfo;strResponse:;errCode:6
+12:37:43:486 UOSS::CUOSSClient::getUOSSMsgInfo;ImgURL:;ImgHref:;MsgID:0
+12:38:33:632 P[1276]:T[3684] run to CScanMgr::doExit:748
+12:38:33:866 P[1276]:T[1288] run to ThumbnailFactory::ClearCache:71
+12:38:33:866 P[1276]:T[1288] run to ThumbnailFactory::ClearCache:85
+12:38:33:866 P[1276]:T[1288] run to ThumbnailFactory::ClearCache:95
+12:38:33:897 P[1276]:T[1288] run to EnumCollectPartition::~EnumCollectPartition:43

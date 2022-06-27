@@ -1,0 +1,148 @@
+3DPinballPortable
+7-ZipPortable
+AbiWordPortableTest
+AIDA64Portable
+AnyDesk
+ASUS WinFlash v3.2.10
+Auslogics.Disk.Defrag.Pro.9.5.0.2.Portable
+Auslogics.Driver.Updater.1.24.0.1.Portable
+AutorunsPortable
+Bad Disk
+batexpert
+belanaEtcher
+BIOS Beep Codes Verifier 1.0.3.1036
+BleachBitPortable
+BlueScreen View
+BurnAware
+CCleanerPortable
+CDInfo
+ClassicShutdown
+CommandPromptPortable
+CommonFiles
+Convert
+CPU-ZPortable
+CrystalDiskInfoPortable
+CrystalDiskMarkPortable
+DDU v18.0.3.3
+Dead Pixel Tester
+DeepL Pro v2.4.0
+Defraggler
+Dell 64BIT BIOS Flash Utility 3.3.1, A03
+DiscordPortable
+Disk Drill
+disk2vhd32
+dotNETInspectorPortable
+Dr.Web CureIt!
+Driver Booster
+Driver Talent Pro 6.5.60.172
+DTaskManagerPortable
+DUMoPortable
+EaseUS Todo PCTrans Professional 11.5 (Build 20200603)
+Easy Translator
+Error Lookup
+Explorer++Portable
+FAT32 Formatter
+FreeTube 0.13.2
+GPU-ZPortable
+HDDExpert
+HDHackerPortable
+HijackThisPortable
+HWiNFOPortable
+HxD Hex Editor
+IObitUnlockerPortable
+IrfanViewPortable
+IsoBurner
+JkDefragPortable
+KasperskyTDSSKillerPortable
+KiTTYPortable
+KoboDeluxePortable
+LightscreenPortable
+Macrorit NTFS to FAT
+Macrorit Partition Expert 5.6.1 Technician Edition (x64)
+Malware.Hunter.Pro.1.111.0.703.Portable
+McAfeeStingerPortable
+MD5 Hasher
+MediaCreationTool Win10
+MediaCreationTool Win11
+MediaCreationTool Win8.1
+MediaCreationTool [AIO]
+Mines-PerfectPortable
+Notepad++Portable
+NTFS Permission Tool
+On-ScreenKeyboardPortable
+openvpn-portable
+Other
+PaintDotNetPortable
+PandaCloudCleaner
+PCI-ZPortable
+PngOptimizerPortable
+PNotesPortable
+PortableApps.com
+PowerISO 7.9
+Prime95
+ProcessExplorerPortable
+ProcessHackerPortable
+PuTTYPortable
+Q-DirPortable
+qBittorrentPortable
+QuickSolitairePortable
+R-Drive
+RAMExpert
+RAMMapPortable
+Ransomware Decryption Tools
+RapidCRCUnicodePortable
+RecoverKeysPortable
+RecuvaPortable
+RegAlyzerPortable
+RegistryLoaderPE
+RegistryManager
+RegistryWorkshop
+RegOwnershipEx
+RegShot2
+RegshotPortable
+ResourceHackerPortable
+RS RAID Retrieve
+RufusPortable
+SDFormatter
+SnappyDriverInstaller
+SpeccyPro
+SSD Fresh Plus 2021 v10.02.28
+SSD Life
+SSD-ZPortable
+SudokuPortable
+SumatraPDFPortable
+SUMoPortable
+SUPERAntiSpywarePortable
+SystemExplorerPortable
+Telegram Desktop 2.8.1
+TileWorldPortable
+TorBrowser
+UEFI BIOS Updater 1.69.17.2
+UEFITool v0.28.0
+UltraDefragPortable
+UltraISOPortable
+Unstoppablecopier
+UUID-GUIDGeneratorPortable
+VeraCryptPortable
+VHD2Disk
+VHD_manager_v1.4
+VHD_Tool++(v0.6.0.5)-01
+Victoria536
+VMMapPortable
+WabbitemuPortable
+WhatChangedPortable
+WinDirStatPortable
+Windows 11 Fixer
+Windows ISO Downloader
+WindowsErrorLookupToolPortable
+WinNc
+WinSCPPortable
+WinToHDD
+WinToUSB
+WinUSB
+Wireless Key View
+WiresharkPortable
+WiseDiskCleanerPortable
+WiseRegistryCleanerPortable
+XNResourceEditorPortable
+XnViewPortable

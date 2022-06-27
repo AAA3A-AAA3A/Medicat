@@ -1,0 +1,266 @@
+﻿<html>
+<head>
+<title>Convert Partition to NTFS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="header">AOMEI Partition Assistant Command Lines</div>
+	<div class="headimgfill"></div>
+	<div class="text">
+	<b>Export Execution Results to File</b><br/>
+	
+	Because this command execution cannot use the ">" symbol to export execution results to file, so we specially add /out parameter for exporting execution results to file, which supports to export execution results of all command lines to file. The examples are as follow:<br><br>
+	
+
+	<ul style="list-style:none;">
+		<li>partassist.exe /list /out:text.txt<br/><br/></li>
+		<li>partassist.exe /resize:F /extend:right /out:c:\test.ini<br/><br/></li>
+		<li>partassist.exe /hd:0 /cre /pri /size:200GB /out:..\..\test.txt<br/><br/></li>
+	</ul>
+
+	<b>List Disks and Partitions</b><br/>
+	<ul style="list-style:none;">
+		<li>List all the disks in current system.<br/><br/></li>
+		<li>partassist.exe /list<br/><br/></li>
+	</ul>
+	<ul style="list-style:none;">
+		<li>Only list all the USB flash drives and other USB disks in current system.<br/><br/></li>
+		<li>partassist.exe /list /usb<br/><br/></li>
+	</ul>
+	<ul style="list-style:none;">
+		<li>List all the partitions on a specified disk.<br/><br/></li>
+		<li>partassist.exe /list:0<br/><br/></li>
+	</ul>
+
+	<b>Resize Partition without Data Loss</b><br/>
+	
+		<ul style="list-style:none;">
+			<li>Automatically extend a specified partition using the unallocated space on its both sides and align partition to optimize reading/writing speed.<br><br></li>
+			<li>partassist.exe /hd:0 /resize:0 /extend:auto /align<br/><br/></li>
+			<li>partassist.exe /resize:F /extend:auto /align<br/><br/></li>
+		</ul>
+
+		<ul style="list-style:none;">
+			<li>Automatically extend a specified partition using the unallocated space on its right side.<br><br></li>
+			<li>partassist.exe /hd:0 /resize:0 /extend:right<br/><br/></li>
+			<li>partassist.exe /resize:F /extend:right<br/><br/></li>
+		</ul>
+
+		<ul style="list-style:none;"><li>Automatically extend a specified partition using the unallocated space on its left side and align the partition to optimize reading/writing speed.<br><br></li>
+			<li>partassist.exe /hd:0 /resize:0 /extend:left /align<br/><br/></li>
+			<li>partassist.exe /resize:F /extend:left /align<br/><br/></li>
+		</ul>
+
+		
+		<ul style="list-style:none;"><li>Extend a specified partition using 1000MB or 10GB unallocated space on its right side.<br><br></li>
+			<li>partassist.exe /hd:0 /resize:0 /extend:1000<br/><br/></li>
+			<li>partassist.exe /hd:0 /resize:0 /extend:10GB<br/><br/></li>
+		</ul>
+
+		
+		<ul style="list-style:none;"><li>Shrink a specified partition to create 1000MB or 10GB unallocated space on its right side.<br><br></li>
+			<li>partassist.exe /hd:0 /resize:0 /reduce-right:1000<br/><br/></li>
+			<li>partassist.exe /resize:F /reduce-right:10GB<br/><br/></li>
+		</ul>
+
+		
+		<ul style="list-style:none;"><li>Shrink a specified partition to create 1000MB or 10GB unallocated space on its left side and align the partition to optimize reading/writing speed.<br><br></li>
+			<li>partassist.exe /hd:0 /resize:0 /reduce-left:1000 /align<br/><br/></li>
+			<li>partassist.exe /resize:F /reduce-left:10GB /align<br/><br/></li>
+		</ul>
+	Notes:<br/><br/>
+	<ul>
+		<li>/hd followed by disk number, which starts with 0.<br/><br/></li>
+		<li>/resize followed by partition number or drive letter, and the partition number starts with 0. If the specified value is drive letter, disk number can be ignored.<br/><br/></li>
+		<li>The value of /extend can be left, right, auto or specified size.<br/><br/></li>
+		<li>/align means align a partition to optimize reading/writing speed. If the beginning of a partition is changed when resizing it (in other words, move the beginning of a partition to a new location, forward or backward), then the /align works. But if the beginning of a partition is not changed when resizing it, then the /align doesn’t works.<br/><br/></li>
+		<li>By default, the specified size is in MB, and GB is also available.<br/><br/></li>
+	</ul>
+
+
+	<b>Move a Partition without Data Loss</b><br/>
+	
+		<ul style="list-style:none;">
+			<li>Change the location of a partition by moving 1000MB or 10GB to the left side and align the partition to optimize reading/writing speed.<br><br></li>
+			<li>partassist.exe /hd:0 /move:0 /left:1000 /align<br/><br/></li>
+			<li>partassist.exe /move:F /left:10GB /align<br/><br/></li>
+		</ul>
+
+		
+		<ul style="list-style:none;"><li>Move a partition to occupy all unallocated space on its left side and align the partition to optimize reading/writing speed. <br><br></li>
+			<li>partassist.exe /hd:0 /move:0 /left:auto /align<br/><br/></li>
+			<li>partassist.exe /move:F /left:auto /align<br/><br/></li>
+		</ul>
+
+		
+		<ul style="list-style:none;"><li>Change the location of a partition by moving 1000MB or 10GB to the right side and align the partition to optimize reading/writing speed.<br><br></li>
+			<li>partassist.exe /hd:0 /move:0 /right:1000 /align<br/><br/></li>
+			<li>partassist.exe /move:F /right:10GB /align<br/><br/></li>
+		</ul>
+
+		
+		<ul style="list-style:none;"><li>Move a partition to occupy all unallocated space on its right side and align the partition to optimize reading/writing speed.<br><br></li>
+			<li>partassist.exe /hd:0 /move:0 /right:auto /align<br/><br/></li>
+			<li>partassist.exe /move:F /right:auto /align<br/><br/></li>
+		</ul>
+	Notes:<br/><br/>
+	<ul>
+		<li>/hd followed by disk number, which starts with 0.<br/><br/></li>
+		<li>/move followed by partition number or drive letter, and the partition number starts with 0. If the specified value is drive letter, disk numberan be ignored.<br/><br/></li>
+		<li>The value of /left can be auto or specified size.<br/><br/></li>
+		<li>The value of /right can be auto or specified size.<br/><br/></li>
+		<li>/align means creating aligned partition to optimize reading/writing speed.<br/><br/></li>
+		<li>By default, the specified size is in MB, and GB is also available.<br/><br/></li>
+	</ul>
+	
+	<b>Create a New Partition</b><br/>
+	
+		<ul style="list-style:none;">
+			<li>Create a 200MB, 10GB or auto size partition at the end of a disk.<br/><br/></li>
+			<li>partassist.exe /hd:1 /cre /pri /size:200 /end /fs:fat16 /act /hide /align /label:EFI<br/><br/></li>
+			<li>partassist.exe /hd:1 /cre /pri /size:10GB /end /fs:fat32 /act /hide /align /label:EFI<br/><br/></li>
+			<li>partassist.exe /hd:1 /cre /pri /size:auto /end /fs:ntfs /act /hide /align /label:EFI<br/><br/></li>
+			<li>Create an auto size or 500MB partition using the first block of unallocated space on a disk.<br><br></li>
+			<li>partassist.exe /hd:0 /cre /pri /size:auto /fs:ntfs /align /label:DATA /letter:E<br/><br/></li>
+			<li>partassist.exe /hd:0 /cre /pri /size:500 /fs:ntfs /align /label:DATA /letter:E<br/><br/></li>
+		</ul>
+
+		
+		<ul style="list-style:none;"><li>Create a partition using offset. Here is creating a partition at the location of 100MB offset and 100GB offset.<br><br></li>
+			<li>partassist.exe /hd:0 /cre /pri /size:auto /offset:100 /fs:fat32 /act /align /label:DATA /letter:F<br/><br/></li>
+			<li>partassist.exe /hd:0 /cre /pri /size:10GB /offset:100GB /fs:fat32 /act /align /label:DATA /letter:F<br/><br/></li>
+		</ul>
+	Notes:<br/><br/>
+	<ul>
+		<li>/hd followed by disk number, which starts with 0.<br/><br/></li>
+		<li>The value of /size can be auto or specified size in MB by default, and GB is also available.<br/><br/></li>
+		<li>/fs means file system, whose value can be fat16, fat32 or ntfs.<br/><br/></li>
+		<li>/pri means creating a primary partition.<br/><br/></li>
+		<li>/act means creating an active partition.<br/><br/></li>
+		<li>/hide means creating a hidden partition.<br/><br/></li>
+		<li>/letter means assigning a drive letter to the partition, in addition, /letter:auto can automatically assign the drive letter.<br/><br/></li>
+		<li>/offset means creating a partition from the location of specified offset, starting with the beginning of the disk.<br/><br/></li>
+		<li>/label means setting a label for the partition.<br/><br/></li>
+		<li>/end means creating a specified size back end partition using the unallocated space at the end of a disk.<br/><br/></li>
+	</ul>
+
+	<b>Format a Partition</b><br/>
+	
+		<ul style="list-style:none;">
+			<li>Format a specified partition<br/><br/></li>
+			<li>partassist.exe /hd:0 /fmt:0 /fs:fat16 /label: test<br/><br/></li>
+			<li>partassist.exe /fmt:F /fs:fat32 /label:test<br/><br/></li>
+			<li>partassist.exe /fmt:F /fs:ntfs /label:test<br/><br/></li>
+		</ul>
+	Notes:<br/><br/>
+	<ul>
+		<li>/hd followed by disk number, which starts with 0.<br/><br/></li>
+		<li>/fmt followed by partition number or drive letter, and the partition number starts with 0. If the specified value is drive letter, disk number can be ignored. <br/><br/></li>
+		<li>/fs means file system, whose value can be fat16, fat32 or ntfs.<br/><br/></li>
+	</ul>
+	
+	<b>Delete a Partition</b><br/>
+	
+		<ul style="list-style:none;"><li>Delete a specified partition<br/><br/></li>
+			<li>partassist.exe /hd:0 /del:0<br/><br/></li>
+			<li>partassist.exe /del:F<br/><br/></li>
+		</ul>
+		
+		<ul style="list-style:none;"><li>Delete all the partitions on a disk<br/><br/></li>
+			<li>partassist.exe /hd:0 /del:all<br/><br/></li>
+		</ul>
+
+	<b>Hide a Partition</b><br/>
+	
+		
+	<ul style="list-style:none;"><li>Hide a specified partition<br/><br/></li>
+		<li>partassist.exe /hd:0 /hide:0<br/><br/></li>
+		<li>partassist.exe /hide:F<br/><br/></li>
+	</ul>
+
+	<ul style="list-style:none;"><li>Unhide a specified partition<br/><br/></li>
+		<li>partassist.exe /hd:0 /unhide:0<br/><br/></li>
+	</ul>
+
+	<b>Mark Partition as Active</b><br/>
+	
+	<ul style="list-style:none;">
+		<li>partassist.exe /setact:1 /hd:0<br/><br/></li>
+		<li>partassist.exe /setact:F<br/><br/></li>
+	</ul>
+
+	<b>Initialize a Disk</b><br/>
+	
+
+	<ul style="list-style:none;">
+	<li>Initialize a disk as MBR</li>
+		<li>partassist.exe /init:1<br/><br/></li>
+	</ul>
+
+	<ul style="list-style:none;"><li>Initialize a disk as GPT</li>
+		<li>partassist.exe /init:1 /gpt<br/><br/></li>
+	</ul>
+
+	<b>Rebuild MBR</b><br/>
+	
+		
+	<ul style="list-style:none;">
+		<li>Rebuild Master Boot Record (MBR) for Hard Disk, Removable Disk, USB Flash Drive, etc.<br/><br/></li>
+		<li>partassist.exe /rebuildmbr:0<br/><br/></li>
+		<li>partassist.exe /rebuildmbr:0 /mbrtype:0<br/><br/></li>
+		<li>partassist.exe /rebuildmbr:0 /mbrtype:1<br/><br/></li>
+		<li>partassist.exe /rebuildmbr:0 /mbrtype:2<br/><br/></li>
+	</ul>
+
+	Notes:<br/><br/>
+	<ul>
+		<li>/rebuildmbr followed by disk number, which starts with 0.<br/><br/></li>
+		<li>/mbrtype supports specified MBR type and its values are 0, 1, 2. The 0 means creating a Windows XP/2000/20003 MBR type. The 1 means creating a Windows Vista/2008 MBR type. The 2 means creating a Windows 7/8/8.1/10/2008(R2)/2011/2012/2012(R2)/2016 MBR type.<br/><br/></li>
+		<li>If the value of /mbrtype is not specified, the default type is the one of current system. For example, if current system is Windows XP, then the value of /mbrtype is set as 0 by default; if current system is Windows 8.1, then the value of /mbrtype is set as 2 by default.<br/><br/></li>
+	</ul>
+	
+	<b>Change Drive Letter</b><br/>
+	
+		
+	<ul style="list-style:none;"><li>Remove drive letter<br/><br/></li>
+		<li>partassist.exe /hd:0 /setletter:0 /letter:*<br/><br/></li>
+	</ul>
+
+	<ul style="list-style:none;"><li>Change drive letter to F<br/><br/></li>
+		<li>partassist.exe /hd:0 /setletter:0 /letter:F<br/><br/></li>
+	</ul>
+
+	Notes:<br/><br/>
+	<ul>
+		<li>/hd followed by disk number, /setletter followed by partition number, and the disk number and partition number always start with 0.<br/><br/></li>
+		<li>If a drive letter needs to be removed, you need to set /letter value as *<br/><br/></li>
+		<li>You had better not to remove and change the drive letter of system partition, which may cause Windows to fail to boot.<br/><br/></li>
+		<li>
+			If you use "/letter auto" to replace "/letter:F", the drive letter will be assigned automatically.
+		</li>
+	</ul>
+
+	<b>Write Files to a Hidden Partition</b><br/>
+	
+		
+	<ul style="list-style:none;"><li>Write files and folders to the root directory of a hidden partition<br/><br/></li>
+		<li>partassist.exe /hd:0 /whide:0 /src:C:\file.txt<br/><br/></li>
+		<li>partassist.exe /hd:0 /whide:0 /src:C:\folder<br/><br/></li>
+	</ul>
+	<ul style="list-style:none;"><li>Write files and folders to the subdirectory of a hidden partition<br/><br/></li>
+		<li>partassist.exe /hd:0 /whide:0 /src:C:\file.txt /dest:subfolder<br/><br/></li>
+		<li>partassist.exe /hd:0 /whide:0 /src:C:\folder /dest:subfolder\test<br/><br/></li>
+	</ul>
+
+
+	<br/><br/>
+	<p>
+	<div style="background-color:#CCDDEE; border: 1px solid #999999; padding:10px;">
+		<b>Notes:</b><br/>
+		Before using the /resize and /move of AOMEI Partition Assistant Command Line, we suggest you use Windows built-in chkdsk utility to check the partition you want to resize and automatically fix file system error so that the data safety can be ensured effectively. Example: chkdsk.exe /f C:
+	</div>
+	</p>
+	</div>
+</body>
+</html>

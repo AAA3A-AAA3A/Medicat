@@ -1,0 +1,8 @@
+2021-56-25 06:56:33  :Start Task...
+2021-56-25 06:56:33  :Server:.\SQLEXPRESS,userName:zhuang,password:0
+2021-56-25 06:56:33  :Satrt Backup Task.
+2021-56-25 06:56:34  :Search Database successful.
+2021-56-25 06:56:34  :BACKUP DATABASE [log] TO  DISK = N'F:\c2744288c7a5441fbdf24eb8b8e7caef\0e0c5b08b0ca49228f063477e038b317.bak' WITH NOFORMAT, NOINIT, SKIP, NOREWIND, NOUNLOAD,  STATS = 1, CONTINUE_AFTER_ERROR
+2021-56-25 06:56:34  :Server start Task
+2021-56-25 06:56:35  :Server Backup successful Start
+2021-56-25 06:56:35  :Task End...

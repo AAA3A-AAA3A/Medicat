@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>FAQ</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="header">FAQ</div>
+	<div class="headimgfill"></div>
+<div class="text">
+
+
+  <p><h3>Common  Error and Solution of Extend Partition Wizard</h3></p>
+<div style="background-color:#DDDDDD">
+  <p><strong>Error Code 1004</strong>: The partition cannot be locked in the wizard; please reboot and  retry, or you could try to resize the partition in Partition Assistant Main  Console.<strong></strong></p>
+  <p><strong>Q:</strong> Why the partition need be locked first? Why the partition could not  be locked?<br>
+      <strong>A:</strong> In order to protect the data, and keep the data integrate, lock  partition could keep from other applications visit the target partition during  the operation. In some situations the partition could not be locked, the main reason  is some system services, antivirus, firewall or other applications which were  ruing on the target partition and this prevent Partition Assistant to lock the  partition.</p>
+  <p><strong>Solution</strong>: <br>
+    You'd better check out the application and shut down. (Note: you'd  better shut down all the Antivirus Program or other protection software before  launch Partition Assistant). Or let Partition Assistant resize the partition under  the Main Console. If the software detected that the partition could not be  locked the software would ask for rebooting, and the operation will be  completed under the PreOS Mode. (<a name="OLE_LINK1">Learn more about </a><a href="https://www.diskpart.com/lib/PreOS-mode.html" target="_blank">PreOS Mode </a>).</p>
+ </div>
+ 
+ <div style="background-color:#DDDDDD">
+  <p><strong>Error Code 1029: </strong>There is an issue during extend the partition with the wizard; you  could try to extend the partition in Partition Assistant Main Console.<strong></strong></p>
+  <p><strong>Q:</strong> What cause error Code 1029? How to solve this problem?<br>
+      <strong>A:</strong> This error code is caused by the "Extend Wizard" could not resize  the partition directly. </p>
+  <p><strong>Solution:</strong><br>
+    To solve this problem, you could only resize the partition under  Partition Assistant main console. After resizing  the partition, and<strong> </strong>when you click "Apply" to commit the operation,  you need also hold down the "Shift" button and let the operation completed  under the PreOS Mode. (Learn more about <a href="https://www.diskpart.com/lib/PreOS-mode.html" target="_blank">PreOS Mode</a>).</p>
+</div>
+
+<div style="background-color:#DDDDDD">
+  <p><strong>Error Code 1030: </strong>The program detected the Paging File (pagefile.sys) is on your  target partition. To commit the operation please remove the paging file first.<strong></strong></p>
+  <p><strong>Q:</strong> What cause error code 1030? How to change page file?<strong></strong><br>
+      <strong>A:</strong> This error code is caused by the page file. Extend Partition Wizard  could not handle any partition which contain the page file.</p>
+  <p><strong>Solution:</strong><br>
+    You need to first remove the page file to the partition that you  want to resize. (You could Right click &quot;Computer&quot;-&gt;&quot;Properties&quot;-&gt;&quot;Advanced  system settings"-&gt;"Performance Settings&quot; -&gt; &quot;Advanced&quot;  -&gt; &quot;Virtual Memory Change&quot;.) You could read more details about "<a href="https://www.diskpart.com/lib/remove-pageing-file.html" target="_blank">How to  remove Page file?</a>"</p>
+ </div>
+ 
+ <div style="background-color:#DDDDDD">
+  <p><strong>Q:</strong> I receive the Error Description: "The wizards only extend a NTFS  partition, but detected that your partition isn't a NTFS" by using "Extend  Wizard"? How to deal with it?<br>
+    <br>
+  <strong>A: </strong>"Extend Partition Wizard" does not support any FAT or FAT 32 partitions  resizing directly.<strong> </strong>To solve this  problem you need to convert your partition from FAT or FAT 32 to NTFS first by using  the command line (convert drive letter: /fs:NTFS) or you could resize the FAT  or FAT 32 partition on the main console of Partition Assistant directly.</p>
+  </div>
+  
+  <div style="background-color:#DDDDDD">
+  <p><strong>Q: </strong>I get the Error Description:<strong> "</strong>Sorry,  the program doesn't extend this partition yet because of the free disk space  insufficient. We recommend you try to extend the partition in Partition  Assistant Main Console". How could I solve it?<strong></strong></p>
+  <p><strong>A:</strong> This error always appears when the partition you want to extend was  at the end of the hard disk, to solve this problem; you could only extend the  partition on <a href="https://www.diskpart.com/lib/pa-main-console.html" target="_blank">main console of  Partition Assistant</a>.</p>
+  </div>
+  
+  <div style="background-color:#DDDDDD">
+  <p><strong>Q:</strong> What is the Error Description: If in your system there is a  bitlocker volume, you need to turn off the bitlocker, and then you can extend  the partition again. Besides, we recommend you try to extend the partition in  Partition Assistant Main Console. </p>
+  <p><strong>A: </strong>Extend Partition Wizard does not support resizing any bitlocker volume;  therefore, you could only turn off the bitlocker first. <a href="https://www.diskpart.com/lib/decrypt-bitlocker-partition.html" target="_blank">Learn  how to deal with a bitlocker partition?</a><strong></strong></p>
+  </div>
+  
+  <div style="background-color:#DDDDDD">
+  <p><strong>Q: </strong>I get the<strong> </strong>Error  Description:<strong> </strong>The wizard does not  support to extend partition on a GPT disk; you can extend the GPT partition by  using Partition Assistant Main Console. How could I solve it?<strong></strong></p>
+  <p><strong>A: </strong>Extend Partition Wizard does not support any GPT hard disk, if you  want to resize partition on GPT hard disk; you need to resize it on <a href="https://www.diskpart.com/lib/pa-main-console.html" target="_blank">main interface  of Partition Assistant</a>.</p>
+  </div></br/></br/>
+  
+  <p><h3>Common  Error and Solution of Partition Assistant</h3></p>
+<div style="background-color:#DDDDDD">
+	<p>
+	  <strong>Q:</strong> In the case of double system (XP and Win9X) environment, you  move/resize the partition of Win9X under the XP environment. At last, you can't  start Windows9X. Why?<br>
+      <strong>A: </strong>It is directly related to the characteristics of Win9X because the Win9X  partition can't be resized or moved. That's why we strongly advise you don't  resize/move the old Windows9X. Otherwise, it will cause a lot of problems.</p>
+  </div>
+  
+  <div style="background-color:#DDDDDD">
+  <p><strong>Q:</strong> The program is not response when locking volume, how do I?<br>
+      <strong>A:</strong> You can forcibly terminate the program by using Task Manager, and  re-run the Partition Assistant, redo the operation before. When press the Shift  key, and click the Apply button on toolbar to solve the lock issue volume.</p>
+  </div>
+  
+  <div style="background-color:#DDDDDD">
+  <p><strong>Q:</strong> I get the error code 215 during merging partitions, how to solve  it?<br>
+      <strong>A:</strong> This problem is caused by the fragment data or the low free space  on the target partition. If there are too large numbers of fragment data on the  target partition, or the free space on the partition is smaller than 512mb then  you will get this error code. To solve this problem, you need to do a complete defragment  (you could refer to <a href="https://www.diskpart.com/lib/how-to-defragment.html" target="_blank">how to do a defragment?</a>).  Or you need reserve the enough free space during shrink partition.</p>
+  </div>
+  
+  <div style="background-color:#DDDDDD">
+  <p><strong>Q:</strong> I get the error code 43 during merging partitions?<br>
+      <strong>A:</strong> This error code is caused by some file which could not be accessed,  to solve this kind of problem, you could open the "Log file" of Partition  Assistant and to find out which file was not able to access and then you could  copy them to another partition. </p>
+  <p><strong>Note:</strong> If you get this error code under "<a href="https://www.diskpart.com/lib/PreOS-mode.html" target="_blank">PreOS mode</a>"  you should go to "C:\Windows\amlog" and find the file "ampa.log". If you get this  error code under "Windows mode" you could find the the log file under the installation  file of Partition Assistant.</p>
+  </div>
+  
+  <div style="background-color:#DDDDDD">
+  <p><strong>Q:</strong> After the operation complete, I can't find my drive in "My computer",  how to solve it?<br>
+      <strong>A: </strong>If you can not find the drive in "My Computer", this problem may  caused by the loosing drive letter. To solve this problem, you could launch  Partition Assistant, on the main interface, right-click the partition which has  no drive letter (if a partition has no drive letter it will show as "*") use the  feature "Change drive letter" to assign a drive letter.</p>
+  </div>
+  
+  <div style="background-color:#DDDDDD">
+  <p><strong>Q: </strong>When I right-click partition C, the option "Split Partition" and "Create  Partition" are grayed out, how to active them?<br>
+    A:This situation always cause by the numbers of the primary partition.  If you have four primary partitions already, to solve this problem, you need to  change one of your primary into logical partition (refer to the section: Convert  primary/logical partition). After that the option will be reactive.</p>
+	</div>
+
+  <div style="background-color:#DDDDDD">
+  <p><strong>Q: </strong>The program supports to convert a GPT disk that has more than 4 partitions to MBR disk, but sometimes why does it prompt that current disk cannot meet the requirement of conversion? Then, what’s the requirement?<br>
+    A:It is related to conversion principle and MBR limits. To convert a GPT disk that has multiple partitions to MBR disk, the program will convert the primary partitions except the first three to logical partitions. However, such conversion has to strictly follow the structure of MBR disks, so there will be some restrictions.</p>
+    <p>
+    GPT disks can be converted to MBR disks except the following conditions:
+    <ul>
+      <li>
+        If the distance between start address of a GPT partition and end address before it is less than 63 sectors (namely no extra space between two partitions) and the file system of the former partition is neither FAT32 nor NTFS, then this disk cannot be converted to MBR disk, because it is unable to adjust the size of the former partition to free up required space for the conversion. Under such circumstance, we suggest you temporarily remove the partition which is neither FAT32 nor NTFS to solve the problem.
+      </li>
+      <li>
+        The current system is on a GPT disk and there are 3 or more other partitions before or after the EFI partition, then the disk cannot be converted to MBR disks. We suggest you temporarily delete one or two partitions before or after EFI partition and then try again.
+      </li>
+      <li>
+        The current system is on a GPT disk, meanwhile the EFI partition is on the end of this GPT disk (at the right end of the disk). At this time, while converting, it needs to convert the 3 partitions at the end of the disk including EFI partition into primary partitions, and the other partitions into logical partitions in the front. If there is no at least 7.8MB unallocated space before the first partition on the disk, it cannot be converted. Such cases, it is suggested to shrink first partition on the disk from the left side to create at least 7.8MB unallocated space before the first partition, or temporarily remove the first partition on this disk.
+      </li>
+    </ul>
+  </p>
+  </div>
+
+  <div style="background-color:#DDDDDD">
+  <p><strong>Q: </strong> After converting GPT disk to MBR disk, what about the MSR partition?<br>
+    A:The program will delete the MSR partition while converting GPT disk to MBR disk, because an MSR partition disk is unformatted and have no effect on an MBR disk.</p>
+  </div>
+
+  <div style="background-color:#DDDDDD">
+  <p><strong>Q: </strong>After converting GPT disk where the current system locates to MBR disk, why is it prompts to install the Windows AIK or ADK when creating a bootable media?<br>
+    A:After converting GPT disk where the current system locates to MBR disk, the recovery partition (WRE partition) will fail, which means the failure of the recovery environment, and AOMEI Partition Assistant creates a Windows PE relying on the WinRE.wim file from the recovery partition, so you will be prompted to install the AIK or ADK. You can copy the "Recovery" folder of the recovery partition to the root directory of C: drive, and then try again.</p>
+  </div>
+	
+  <div style="background-color:#DDDDDD">
+  <p><strong>Q: </strong>AOMEI Partition Assistant can't reboot into Windows PE to perform operations.<br>
+    A:Windows XP/Vista/Server 2003/Server 2008 can only reboot into PreOS mode to perform operations.If you want to use Windows PE, you need to install Windows AIK first,and then create Windows PE bootable media with "Make Bootable Media" feature.After that, please boot computers from Windows PE bootable media to perform operations.
+      Windows 7/8/8.1/10/Server 2008(R2)/2012/2012(R2)/2016 can't reboot into Windows PE. It may be there is no recovery environment to create Windows PE or the environment is broken.You can try to install Windows AIK/ADK first and then perform operations again.
+  </p>
+  </div>
+	<p><h3>View more errors, error codes and solutions, please visit at:</h3></p>
+	
+  <div style="background-color:#DDDDDD">
+  <p>
+	<a href="https://www.diskpart.com/help/errorcode.html" target="_blank">https://www.diskpart.com/help/errorcode.html </a><br/>
+	<a href="https://www.diskpart.com/help/commonerror.html" target="_blank"">https://www.diskpart.com/help/commonerror.html</a>
+  </p>
+  </div>
+	<br/><br/>
+</div>
+</body>
+</html>

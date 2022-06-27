@@ -1,0 +1,65 @@
+body 
+{
+	font-size: 13;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right bottom;
+	overflow-y: auto;
+	font-family: Verdana, arial, helvetica, sans-serif;
+	line-height:18px;
+}
+
+div.header
+{
+	font-size:24px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align: left;
+	height: 50px;
+	background-color:#214FAB;
+	padding: 10 20 10 20
+}
+
+div.headimgfill
+{
+	height: 15px;
+	background-repeat: repeat-x;
+	background-image: url(images\headfill.png);
+}
+
+div.text
+{
+	margin-left: 10;
+	margin-right: 10;
+	line-height: 26px
+}
+
+ul
+{
+	margin-top: 5px;
+}
+ul li{
+	list-style-type: disc;
+	padding-bottom: 5px
+}
+ol
+{
+	margin-left: 10px;
+}
+
+div.note
+{
+	padding: 10;
+	font-size: 12;
+	border: solid 1 #DDDDDD;
+	color: #555555;
+}
+
+a
+{
+	text-decoration:none;
+}

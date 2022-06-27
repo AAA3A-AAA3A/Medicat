@@ -1,0 +1,262 @@
+=====================================================================================
+2021-11-23 07:16:23:813 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2021-11-23 07:16:23:813 => [                                                    main.cpp, 00148] => System is server:No
+2021-11-23 07:16:23:813 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2021-11-23 07:16:23:813 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-23 07:16:23:843 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-23 07:16:23:856 => [                                                 idriver.cpp, 00378] => OpenService failed!  Error = 1060 
+
+2021-11-23 07:16:23:856 => [                                                 idriver.cpp, 00700] => Failed to call ManageDriver(DRIVER_FUNC_START)
+2021-11-23 07:16:23:856 => [                                                 idriver.cpp, 00455] => OpenService failed!  Error = 1060 
+
+2021-11-23 07:16:23:856 => [                                                 idriver.cpp, 00311] => OpenService failed!  Error = 1060 
+
+2021-11-23 07:16:23:874 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:2560 SCREEN-HEIGHT:1294
+2021-11-23 07:16:23:874 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:2560 SCREEN-HEIGHT:1231
+2021-11-23 07:16:24:357 => [                                                    main.cpp, 00904] => rcScreen.width=2560, rcScreen.height=1294
+2021-11-23 07:16:24:373 => [                                          kvolumemanager.cpp, 00227] => Disk0, VBOX HARDDISK SATA, CHS:13054,255,63, total sectors: 209715200, bytes per sector = 512
+2021-11-23 07:16:24:418 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2021-11-23 07:16:24:418 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+=====================================================================================
+2021-11-24 18:02:50:667 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2021-11-24 18:02:50:667 => [                                                    main.cpp, 00148] => System is server:No
+2021-11-24 18:02:50:667 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2021-11-24 18:02:50:667 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-24 18:02:50:850 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-24 18:02:50:876 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:768
+2021-11-24 18:02:50:876 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:705
+2021-11-24 18:02:53:371 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2021-11-24 18:02:53:443 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2021-11-24 18:02:54:206 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2021-11-24 18:02:54:303 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2021-11-24 18:03:56:856 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2021-11-24 18:03:56:902 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2021-11-24 18:03:57:650 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2021-11-24 18:03:57:751 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+=====================================================================================
+2021-11-24 18:04:26:490 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2021-11-24 18:04:26:490 => [                                                    main.cpp, 00148] => System is server:No
+2021-11-24 18:04:26:490 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2021-11-24 18:04:26:490 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-24 18:04:26:581 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-24 18:04:26:604 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:768
+2021-11-24 18:04:26:604 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:705
+2021-11-24 18:04:28:065 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2021-11-24 18:04:28:132 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2021-11-24 18:04:29:069 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2021-11-24 18:04:29:136 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+=====================================================================================
+2021-11-25 02:11:46:955 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2021-11-25 02:11:46:955 => [                                                    main.cpp, 00148] => System is server:No
+2021-11-25 02:11:46:955 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2021-11-25 02:11:46:955 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-25 02:11:46:986 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-25 02:11:46:986 => [                                                 idriver.cpp, 00378] => OpenService failed!  Error = 1060 
+
+2021-11-25 02:11:46:986 => [                                                 idriver.cpp, 00700] => Failed to call ManageDriver(DRIVER_FUNC_START)
+2021-11-25 02:11:46:986 => [                                                 idriver.cpp, 00455] => OpenService failed!  Error = 1060 
+
+2021-11-25 02:11:46:986 => [                                                 idriver.cpp, 00311] => OpenService failed!  Error = 1060 
+
+2021-11-25 02:11:47:377 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:768
+2021-11-25 02:11:47:377 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:715
+2021-11-25 02:11:48:283 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2021-11-25 02:11:48:377 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2021-11-25 02:11:49:845 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2021-11-25 02:11:49:845 => [                                          kvolumemanager.cpp, 00227] => Disk1, USB DISK 2.0 USB, CHS:250,255,63, total sectors: 4029440, bytes per sector = 512
+2021-11-25 02:11:50:939 => [                                          kvolumemanager.cpp, 00248] => Disk1 set alignmentFactor =AlignToMB
+2021-11-25 02:11:50:955 => [                                          kvolumemanager.cpp, 00227] => Disk2, SanDisk Ultra USB 3.0 USB, CHS:7480,255,63, total sectors: 120176640, bytes per sector = 512
+2021-11-25 02:11:51:423 => [                                          kvolumemanager.cpp, 00248] => Disk2 set alignmentFactor =AlignToMB
+2021-11-25 02:11:51:502 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2021-11-25 02:11:51:502 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.
+2021-11-25 02:11:51:502 => [                                             dynamicdisk.cpp, 00215] => Disk2 is not a dynamic disk.
+=====================================================================================
+2021-11-24 23:15:44:964 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2021-11-24 23:15:44:964 => [                                                    main.cpp, 00148] => System is server:No
+2021-11-24 23:15:44:964 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2021-11-24 23:15:44:964 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-24 23:15:44:995 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-24 23:15:44:995 => [                                                 idriver.cpp, 00636] => Failed to copy file :.
+2021-11-24 23:15:45:011 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:768
+2021-11-24 23:15:45:011 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:715
+2021-11-24 23:15:45:152 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2021-11-24 23:15:45:183 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2021-11-24 23:15:46:683 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2021-11-24 23:15:46:683 => [                                          kvolumemanager.cpp, 00227] => Disk1, USB DISK 2.0 USB, CHS:250,255,63, total sectors: 4029440, bytes per sector = 512
+2021-11-24 23:15:47:558 => [                                          kvolumemanager.cpp, 00248] => Disk1 set alignmentFactor =AlignToMB
+2021-11-24 23:15:47:558 => [                                          kvolumemanager.cpp, 00227] => Disk2, SanDisk Ultra USB 3.0 USB, CHS:7480,255,63, total sectors: 120176640, bytes per sector = 512
+2021-11-24 23:15:48:011 => [                                          kvolumemanager.cpp, 00248] => Disk2 set alignmentFactor =AlignToMB
+2021-11-24 23:15:48:058 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2021-11-24 23:15:48:058 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.
+2021-11-24 23:15:48:058 => [                                             dynamicdisk.cpp, 00215] => Disk2 is not a dynamic disk.
+=====================================================================================
+2021-11-24 19:28:50:199 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2021-11-24 19:28:50:199 => [                                                    main.cpp, 00148] => System is server:No
+2021-11-24 19:28:50:199 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2021-11-24 19:28:50:199 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-24 19:28:50:324 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-24 19:28:50:709 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:768
+2021-11-24 19:28:50:709 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:705
+2021-11-24 19:28:53:259 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2021-11-24 19:28:53:319 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2021-11-24 19:28:54:071 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2021-11-24 19:28:54:075 => [                                          kvolumemanager.cpp, 00227] => Disk1, USB DISK 2.0 USB, CHS:250,255,63, total sectors: 4029440, bytes per sector = 512
+2021-11-24 19:28:54:597 => [                                          kvolumemanager.cpp, 00248] => Disk1 set alignmentFactor =AlignToMB
+2021-11-24 19:28:54:767 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2021-11-24 19:28:54:767 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.
+=====================================================================================
+2021-11-24 19:49:42:766 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2021-11-24 19:49:42:766 => [                                                    main.cpp, 00148] => System is server:No
+2021-11-24 19:49:42:766 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2021-11-24 19:49:42:766 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-24 19:49:42:797 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-24 19:49:42:813 => [                                                 idriver.cpp, 00378] => OpenService failed!  Error = 1060 
+
+2021-11-24 19:49:42:813 => [                                                 idriver.cpp, 00700] => Failed to call ManageDriver(DRIVER_FUNC_START)
+2021-11-24 19:49:42:813 => [                                                 idriver.cpp, 00455] => OpenService failed!  Error = 1060 
+
+2021-11-24 19:49:42:813 => [                                                 idriver.cpp, 00311] => OpenService failed!  Error = 1060 
+
+2021-11-24 19:49:43:188 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:768
+2021-11-24 19:49:43:188 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:705
+2021-11-24 19:49:44:156 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2021-11-24 19:49:44:250 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2021-11-24 19:49:45:437 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2021-11-24 19:49:45:437 => [                                          kvolumemanager.cpp, 00227] => Disk1, USB DISK 2.0 USB, CHS:250,255,63, total sectors: 4029440, bytes per sector = 512
+2021-11-24 19:49:46:250 => [                                          kvolumemanager.cpp, 00248] => Disk1 set alignmentFactor =AlignToMB
+2021-11-24 19:49:46:250 => [                                          kvolumemanager.cpp, 00227] => Disk2, Kingston DataTraveler 3.0 USB, CHS:1884,255,63, total sectors: 30277632, bytes per sector = 512
+2021-11-24 19:49:46:531 => [                                          kvolumemanager.cpp, 00248] => Disk2 set alignmentFactor =AlignToMB
+2021-11-24 19:49:46:594 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2021-11-24 19:49:46:594 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.
+2021-11-24 19:49:46:594 => [                                             dynamicdisk.cpp, 00215] => Disk2 is not a dynamic disk.
+2021-11-24 19:50:14:702 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2021-11-24 19:50:16:030 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2021-11-24 19:50:16:030 => [                                          kvolumemanager.cpp, 00227] => Disk1, USB DISK 2.0 USB, CHS:250,255,63, total sectors: 4029440, bytes per sector = 512
+2021-11-24 19:50:16:843 => [                                          kvolumemanager.cpp, 00248] => Disk1 set alignmentFactor =AlignToMB
+2021-11-24 19:50:16:858 => [                                          kvolumemanager.cpp, 00227] => Disk2, Kingston DataTraveler 3.0 USB, CHS:1884,255,63, total sectors: 30277632, bytes per sector = 512
+2021-11-24 19:50:17:140 => [                                          kvolumemanager.cpp, 00248] => Disk2 set alignmentFactor =AlignToMB
+2021-11-24 19:50:17:249 => [                                             dynamicdisk.cpp, 00268] => Invalid private header in DiskGroup[].
+2021-11-24 19:50:17:249 => [                                             dynamicdisk.cpp, 00268] => Invalid private header in DiskGroup[].
+2021-11-24 19:50:17:249 => [                                             dynamicdisk.cpp, 00268] => Invalid private header in DiskGroup[].
+=====================================================================================
+2021-11-25 12:13:03:937 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2021-11-25 12:13:03:937 => [                                                    main.cpp, 00148] => System is server:No
+2021-11-25 12:13:03:937 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2021-11-25 12:13:03:937 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-25 12:13:04:047 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-25 12:13:04:516 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:768
+2021-11-25 12:13:04:516 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:705
+2021-11-25 12:13:07:094 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2021-11-25 12:13:07:203 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2021-11-25 12:13:08:094 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2021-11-25 12:13:08:094 => [                                          kvolumemanager.cpp, 00227] => Disk1, USB DISK 2.0 USB, CHS:250,255,63, total sectors: 4029440, bytes per sector = 512
+2021-11-25 12:13:08:615 => [                                          kvolumemanager.cpp, 00248] => Disk1 set alignmentFactor =AlignToMB
+2021-11-25 12:13:08:677 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2021-11-25 12:13:08:677 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.
+=====================================================================================
+2021-11-26 13:43:40:277 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2021-11-26 13:43:40:277 => [                                                    main.cpp, 00148] => System is server:No
+2021-11-26 13:43:40:277 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2021-11-26 13:43:40:277 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-26 13:43:40:339 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-11-26 13:43:40:355 => [                                                 idriver.cpp, 00378] => OpenService failed!  Error = 1060 
+
+2021-11-26 13:43:40:355 => [                                                 idriver.cpp, 00700] => Failed to call ManageDriver(DRIVER_FUNC_START)
+2021-11-26 13:43:40:355 => [                                                 idriver.cpp, 00455] => OpenService failed!  Error = 1060 
+
+2021-11-26 13:43:40:355 => [                                                 idriver.cpp, 00311] => OpenService failed!  Error = 1060 
+
+2021-11-26 13:43:40:933 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:768
+2021-11-26 13:43:40:933 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:705
+2021-11-26 13:43:42:292 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2021-11-26 13:43:42:478 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2021-11-26 13:43:43:933 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2021-11-26 13:43:43:933 => [                                          kvolumemanager.cpp, 00227] => Disk1, Kingston DataTraveler 3.0 USB, CHS:1884,255,63, total sectors: 30277632, bytes per sector = 512
+2021-11-26 13:43:44:183 => [                                          kvolumemanager.cpp, 00248] => Disk1 set alignmentFactor =AlignToMB
+2021-11-26 13:43:44:261 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2021-11-26 13:43:44:261 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.
+=====================================================================================
+2021-12-15 20:17:22:111 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2021-12-15 20:17:22:111 => [                                                    main.cpp, 00148] => System is server:No
+2021-12-15 20:17:22:111 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2021-12-15 20:17:22:111 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-12-15 20:17:22:338 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2021-12-15 20:17:22:824 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:768
+2021-12-15 20:17:22:825 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:705
+2021-12-15 20:17:26:188 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2021-12-15 20:17:26:314 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2021-12-15 20:17:27:321 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2021-12-15 20:17:27:429 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+=====================================================================================
+2022-01-13 15:26:35:949 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2022-01-13 15:26:35:949 => [                                                    main.cpp, 00148] => System is server:No
+2022-01-13 15:26:35:949 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2022-01-13 15:26:35:949 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2022-01-13 15:26:36:073 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2022-01-13 15:26:36:244 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:768
+2022-01-13 15:26:36:244 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:705
+2022-01-13 15:26:38:462 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2022-01-13 15:26:38:532 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2022-01-13 15:26:39:514 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2022-01-13 15:26:39:521 => [                                          kvolumemanager.cpp, 00227] => Disk1, SanDisk USB Flash Drive USB, CHS:14961,255,63, total sectors: 240353280, bytes per sector = 512
+2022-01-13 15:26:39:965 => [                                          kvolumemanager.cpp, 00248] => Disk1 set alignmentFactor =AlignToMB
+2022-01-13 15:26:39:969 => [                                          kvolumemanager.cpp, 00227] => Disk2, Kingston DataTraveler 3.0 USB, CHS:1884,255,63, total sectors: 30277632, bytes per sector = 512
+2022-01-13 15:26:40:121 => [                                          kvolumemanager.cpp, 00248] => Disk2 set alignmentFactor =AlignToMB
+2022-01-13 15:26:40:214 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2022-01-13 15:26:40:214 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.
+2022-01-13 15:26:40:214 => [                                             dynamicdisk.cpp, 00215] => Disk2 is not a dynamic disk.
+=====================================================================================
+2022-02-24 12:58:30:570 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2022-02-24 12:58:30:570 => [                                                    main.cpp, 00148] => System is server:No
+2022-02-24 12:58:30:570 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2022-02-24 12:58:30:570 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2022-02-24 12:58:30:648 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2022-02-24 12:58:30:663 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:768
+2022-02-24 12:58:30:663 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:705
+2022-02-24 12:58:31:976 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2022-02-24 12:58:32:038 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2022-02-24 12:58:32:851 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2022-02-24 12:58:33:491 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+=====================================================================================
+2022-03-01 08:54:17:092 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2022-03-01 08:54:17:092 => [                                                    main.cpp, 00148] => System is server:No
+2022-03-01 08:54:17:092 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2022-03-01 08:54:17:092 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2022-03-01 08:54:17:155 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2022-03-01 08:54:17:171 => [                                                 idriver.cpp, 00378] => OpenService failed!  Error = 1060 
+
+2022-03-01 08:54:17:171 => [                                                 idriver.cpp, 00700] => Failed to call ManageDriver(DRIVER_FUNC_START)
+2022-03-01 08:54:17:171 => [                                                 idriver.cpp, 00455] => OpenService failed!  Error = 1060 
+
+2022-03-01 08:54:17:171 => [                                                 idriver.cpp, 00311] => OpenService failed!  Error = 1060 
+
+2022-03-01 08:54:17:619 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1024 SCREEN-HEIGHT:768
+2022-03-01 08:54:17:619 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1024 SCREEN-HEIGHT:715
+2022-03-01 08:54:18:547 => [                                                    main.cpp, 00904] => rcScreen.width=1024, rcScreen.height=768
+2022-03-01 08:54:18:703 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2022-03-01 08:54:19:984 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2022-03-01 08:54:19:984 => [                                          kvolumemanager.cpp, 00227] => Disk1, Kingston DataTraveler 3.0 USB, CHS:1884,255,63, total sectors: 30277632, bytes per sector = 512
+2022-03-01 08:54:20:234 => [                                          kvolumemanager.cpp, 00248] => Disk1 set alignmentFactor =AlignToMB
+2022-03-01 08:54:20:312 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2022-03-01 08:54:20:312 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.
+2022-03-01 08:54:23:553 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2022-03-01 08:54:24:740 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2022-03-01 08:54:24:756 => [                                          kvolumemanager.cpp, 00227] => Disk1, Kingston DataTraveler 3.0 USB, CHS:1884,255,63, total sectors: 30277632, bytes per sector = 512
+2022-03-01 08:54:25:006 => [                                          kvolumemanager.cpp, 00248] => Disk1 set alignmentFactor =AlignToMB
+2022-03-01 08:54:25:084 => [                                             dynamicdisk.cpp, 00268] => Invalid private header in DiskGroup[].
+2022-03-01 08:54:25:099 => [                                             dynamicdisk.cpp, 00268] => Invalid private header in DiskGroup[].
+=====================================================================================
+2022-03-20 14:57:49:566 => [                                                    main.cpp, 00147] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2022-03-20 14:57:49:566 => [                                                    main.cpp, 00148] => System is server:No
+2022-03-20 14:57:49:566 => [                                                    main.cpp, 00149] => Software is 64 bit:Yes
+2022-03-20 14:57:49:566 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2022-03-20 14:57:49:707 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2022-03-20 14:57:50:176 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:768
+2022-03-20 14:57:50:176 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1366 SCREEN-HEIGHT:705
+2022-03-20 14:57:52:864 => [                                                    main.cpp, 00904] => rcScreen.width=1366, rcScreen.height=768
+2022-03-20 14:57:53:098 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2022-03-20 14:57:54:161 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2022-03-20 14:57:54:239 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2022-03-20 14:58:01:103 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST1000LM024 HN-M101MBB SATA, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2022-03-20 14:58:01:993 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2022-03-20 14:58:02:164 => [                                             dynamicdisk.cpp, 00268] => Invalid private header in DiskGroup[].

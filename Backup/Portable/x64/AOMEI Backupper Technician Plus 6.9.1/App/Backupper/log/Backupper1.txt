@@ -1,0 +1,1477 @@
+AOMEI Backupper 6.9.1 log is as follows:
+
+====================== System Information ======================
+Module Path: C:\Users\Gremlin\Downloads\P-691ABPTP\AOMEI Backupper Technician Plus 6.9.1\App\Backupper\Backupper.exe
+Product Name: Windows 10 Enterprise (10.0.9200.2)
+OS Build Name: 19041.264
+Service Package: 
+OS Version: 10.0.9200.264
+BuildLabEx: 19041.1.amd64fre.vb_release.191206-1406
+Total Memory: 8084 MB
+Available Memory: 5815 MB
+System Root: X:\Windows
+Processor Architecture: AMD64
+Processor Number: 4
+Current Time: 2022-3-17 15:42:27
+================================================================
+
+[2022-03-17 15:42:27] GetFileAttributes(tszAomeiBR)!=INVALID_FILE_ATTRIBUTES return code: 0x00000003, .
+[2022-03-17 15:42:27] [0       ]UiRecord.cpp(500): m_pSys->IsWinPE():C:\Users\All Users\AomeiBR\tasks2.2.xml
+[2022-03-17 15:42:27] [0       ]UiRecord.cpp(508): CUiRecord:C:\Users\All Users\AomeiBR\tasks2.2.xml
+[2022-03-17 15:42:28] ::GetFileAttributesA(sCurPath)!=INVALID_FILE_ATTRIBUTES return code: 0x013C100B, .
+[2022-03-17 15:42:28] [3       ]basicdisk.cpp(337): Failed to open disk0
+[2022-03-17 15:42:28] [3       ]basicdisk.cpp(337): Failed to open disk1
+[2022-03-17 15:42:28] [0       ]dyndisk.cpp(213): Failed to RegQueryValueEx on GetSysDgGuid.
+[2022-03-17 15:42:28] [3       ]ldmio.cpp(89): No dynamic disks are found.
+[2022-03-17 15:42:28] 
+
+
+//////////////////////////////Dump Information////////////////////////////
+[2022-03-17 15:42:28] 
+
+Dump Disk:
+[2022-03-17 15:42:28] ================================================================
+[2022-03-17 15:42:28] Disk Index	Total Sector		Geometry			Product Name
+[2022-03-17 15:42:28] ----------	------------		--------			------------
+[2022-03-17 15:42:28] 
+[2022-03-17 15:42:28] 
+[2022-03-17 15:42:28] 
+
+Dump Volume:
+[2022-03-17 15:42:28] ================================================================
+[2022-03-17 15:42:28] ID	Volume	File System	Total Sector		Used Sector		Free Sector		Type		Status				Cluster Size	Volume Label
+[2022-03-17 15:42:28] --	------	-----------	------------		-----------		-----------		----		------				------------	------------
+[2022-03-17 15:42:28] 
+[2022-03-17 15:42:28] 
+[2022-03-17 15:42:28] 
+
+Dump Slice:
+[2022-03-17 15:42:28] ================================================================
+[2022-03-17 15:42:28] ID	ParentID	SequenceID	Offset Sector		Start Sector		Slice Size		Unallocated
+[2022-03-17 15:42:28] --	--------	----------	-------------		------------		----------		-----------
+[2022-03-17 15:42:28] 
+[2022-03-17 15:42:30] [3       ]basicdisk.cpp(337): Failed to open disk0
+[2022-03-17 15:42:30] [3       ]basicdisk.cpp(337): Failed to open disk1
+[2022-03-17 15:42:30] [0       ]dyndisk.cpp(213): Failed to RegQueryValueEx on GetSysDgGuid.
+[2022-03-17 15:42:30] [3       ]ldmio.cpp(89): No dynamic disks are found.
+[2022-03-17 15:42:30] 
+
+
+//////////////////////////////Dump Information////////////////////////////
+[2022-03-17 15:42:30] 
+
+Dump Disk:
+[2022-03-17 15:42:30] ================================================================
+[2022-03-17 15:42:30] Disk Index	Total Sector		Geometry			Product Name
+[2022-03-17 15:42:30] ----------	------------		--------			------------
+[2022-03-17 15:42:30] 
+[2022-03-17 15:42:30] 
+[2022-03-17 15:42:30] 
+
+Dump Volume:
+[2022-03-17 15:42:30] ================================================================
+[2022-03-17 15:42:30] ID	Volume	File System	Total Sector		Used Sector		Free Sector		Type		Status				Cluster Size	Volume Label
+[2022-03-17 15:42:30] --	------	-----------	------------		-----------		-----------		----		------				------------	------------
+[2022-03-17 15:42:30] 
+[2022-03-17 15:42:30] 
+[2022-03-17 15:42:30] 
+
+Dump Slice:
+[2022-03-17 15:42:30] ================================================================
+[2022-03-17 15:42:30] ID	ParentID	SequenceID	Offset Sector		Start Sector		Slice Size		Unallocated
+[2022-03-17 15:42:30] --	--------	----------	-------------		------------		----------		-----------
+[2022-03-17 15:42:30] 
+[2022-03-17 15:42:31] [0       ]cmn.cpp(609): baseVer:6
+[2022-03-17 15:42:31] : ============== SystemVersion ==============
+[2022-03-17 15:42:31] : System version: 6.2
+[2022-03-17 15:42:31] : IsWow64: 1
+[2022-03-17 15:42:33] [0       ]cmn.cpp(609): baseVer:6
+[2022-03-17 15:42:34] [0       ]cmn.cpp(2428): GetNasXmlPath end
+[2022-03-17 15:42:34] [0       ]SelBackupDiskOrPartPage.cpp(243): open oneKey reg fail
+[2022-03-17 15:42:34] : ============== SystemVersion ==============
+[2022-03-17 15:42:34] : System version: 6.2
+[2022-03-17 15:42:34] : IsWow64: 1
+[2022-03-17 15:42:34] [0       ]SelSyncDiskOrPartPage.cpp(171): open oneKey reg fail
+[2022-03-17 15:42:34] : ============== SystemVersion ==============
+[2022-03-17 15:42:34] : System version: 6.2
+[2022-03-17 15:42:34] : IsWow64: 1
+[2022-03-17 15:42:34] [0       ]cmn.cpp(2428): GetNasXmlPath end
+[2022-03-17 15:42:34] [0       ]cmn.cpp(2428): GetNasXmlPath end
+[2022-03-17 15:42:34] : ============== SystemVersion ==============
+[2022-03-17 15:42:34] : System version: 6.2
+[2022-03-17 15:42:34] : IsWow64: 1
+[2022-03-17 15:42:34] : ============== SystemVersion ==============
+[2022-03-17 15:42:34] : System version: 6.2
+[2022-03-17 15:42:34] : IsWow64: 1
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [1       ]vol.cpp(506): Failed to GetPartitionNumber.
+[2022-03-17 15:42:35] [3       ]fatlabel.cpp(200): Failed to get label for FAT32.
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [1       ]vol.cpp(506): Failed to GetPartitionNumber.
+[2022-03-17 15:42:35] [0       ]dyndisk.cpp(213): Failed to RegQueryValueEx on GetSysDgGuid.
+[2022-03-17 15:42:35] [0       ]ldmio.cpp(89): No dynamic disks are found.
+[2022-03-17 15:42:35] 
+
+
+//////////////////////////////Dump Information////////////////////////////
+[2022-03-17 15:42:35] 
+
+Dump Disk:
+[2022-03-17 15:42:35] ================================================================
+[2022-03-17 15:42:35] Disk Index	Total Sector		Geometry			Product Name
+[2022-03-17 15:42:35] ----------	------------		--------			------------
+[2022-03-17 15:42:35] 0		1953525168 (931.51GB)	(121601,255,63)			ST1000LM024 HN-M101M     (Basic Disk,GPT)
+[2022-03-17 15:42:35] 1		120176640 (57.30GB)	(7480,255,63)			SanDiskUltra USB 3.0 (Basic Disk,MBR,Sig: 71ce4bfb)
+[2022-03-17 15:42:35] 
+[2022-03-17 15:42:35] 
+[2022-03-17 15:42:35] 
+
+Dump Volume:
+[2022-03-17 15:42:35] ================================================================
+[2022-03-17 15:42:35] ID	Volume	File System	Total Sector		Used Sector		Free Sector		Type		Status				Cluster Size	Volume Label
+[2022-03-17 15:42:35] --	------	-----------	------------		-----------		-----------		----		------				------------	------------
+[2022-03-17 15:42:35] 
+[2022-03-17 15:42:35] ID	Volume	File System	Start Sector	Total Sector		Used Sector		Free Sector		Type		Status				Cluster Size	Volume Label
+[2022-03-17 15:42:35] --	------	-----------	------------	------------		-----------		-----------		----		------				------------	------------
+[2022-03-17 15:42:35] 0.0	*:	NTFS        	2048      	819199     (400.00MB)	573568     (280.06MB)	245631     (119.94MB)	Primary   	Ok                  		8		WINRE
+[2022-03-17 15:42:35] 0.1	*:	FAT32       	821248    	532480     (260.00MB)	207448     (101.29MB)	325032     (158.71MB)	Primary   	Ok,Sys              		8		
+[2022-03-17 15:42:35] 0.2	*:	Unformatted 	1353728   	262144     (128.00MB)	0          (0KB)	262144     (OKB)	Primary   	Ok                  		0		
+[2022-03-17 15:42:35] 0.3	C:	NTFS        	1615872   	1908184665 (909.89GB)	1575528584 (751.27GB)	332656081  (158.62GB)	Primary   	Ok,Boot             		8		64WinXP 
+[2022-03-17 15:42:35] 0.4	*:	NTFS        	1909800960	1439743    (703.00MB)	1263088    (616.74MB)	176655     (86.26MB)	Primary   	Ok                  		8		
+[2022-03-17 15:42:35] 0.5	*:	NTFS        	1911242752	1746943    (853.00MB)	1139240    (556.27MB)	607703     (296.73MB)	Primary   	Ok                  		8		
+[2022-03-17 15:42:35] 0.6	*:	NTFS        	1912991744	2041855    (997.00MB)	1289416    (629.60MB)	752439     (367.40MB)	Primary   	Ok                  		8		
+[2022-03-17 15:42:35] 0.7	D:	NTFS        	1915033600	38479871   (18.35GB)	34556872   (16.48GB)	3922999    (1.87GB)	Primary   	Ok                  		8		RECOVERY
+[2022-03-17 15:42:35] 1.0	Y:	NTFS        	2048      	120109055  (57.27GB)	71590472   (34.14GB)	48518583   (23.14GB)	Primary   	Ok,Act              		8		Ventoy
+[2022-03-17 15:42:35] 1.1	F:	Unknown     	120111104 	65536      (32.00MB)	56219      (0KB)	9317       (OKB)	Primary   	Ok                  		1		VTOYEFI
+[2022-03-17 15:42:35] 
+[2022-03-17 15:42:35] 
+
+Dump Slice:
+[2022-03-17 15:42:35] ================================================================
+[2022-03-17 15:42:35] ID	ParentID	SequenceID	Offset Sector		Start Sector		Slice Size		Unallocated
+[2022-03-17 15:42:35] --	--------	----------	-------------		------------		----------		-----------
+[2022-03-17 15:42:35] 
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:42:35] [1       ]vol.cpp(506): Failed to GetPartitionNumber.
+[2022-03-17 15:42:37] [6       ]BootQuickCfg.cpp(821): SetLocalSystemDefault Failed.
+[2022-03-17 15:42:38] [6       ]bootset.cpp(1345): Failed to get our boot option.
+[2022-03-17 15:42:38] [6       ]BootQuickCfg.cpp(892): RemoveOurBootOptionInWinPE Failed.
+[2022-03-17 15:42:38] [0       ]Utility.cpp(591): AdjustTokenPrivileges 0
+[2022-03-17 15:42:38] [0       ]Utility.cpp(591): AdjustTokenPrivileges 0
+[2022-03-17 15:42:38] [0       ]Utility.cpp(591): AdjustTokenPrivileges 0
+[2022-03-17 15:42:38] [0       ]Utility.cpp(591): AdjustTokenPrivileges 0
+[2022-03-17 15:42:39] [0       ]cmn.cpp(609): baseVer:6
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [1       ]vol.cpp(506): Failed to GetPartitionNumber.
+[2022-03-17 15:43:42] [3       ]fatlabel.cpp(200): Failed to get label for FAT32.
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [2       ]vol.cpp(119): Failed to get disk signature
+[2022-03-17 15:43:42] [1       ]vol.cpp(506): Failed to GetPartitionNumber.
+[2022-03-17 15:43:42] [0       ]dyndisk.cpp(213): Failed to RegQueryValueEx on GetSysDgGuid.
+[2022-03-17 15:43:42] [0       ]ldmio.cpp(89): No dynamic disks are found.
+[2022-03-17 15:43:42] 
+
+
+//////////////////////////////Dump Information////////////////////////////
+[2022-03-17 15:43:42] 
+
+Dump Disk:
+[2022-03-17 15:43:42] ================================================================
+[2022-03-17 15:43:42] Disk Index	Total Sector		Geometry			Product Name
+[2022-03-17 15:43:42] ----------	------------		--------			------------
+[2022-03-17 15:43:42] 0		1953525168 (931.51GB)	(121601,255,63)			ST1000LM024 HN-M101M     (Basic Disk,GPT)
+[2022-03-17 15:43:42] 1		120176640 (57.30GB)	(7480,255,63)			SanDiskUltra USB 3.0 (Basic Disk,MBR,Sig: 71ce4bfb)
+[2022-03-17 15:43:42] 
+[2022-03-17 15:43:42] 
+[2022-03-17 15:43:42] 
+
+Dump Volume:
+[2022-03-17 15:43:42] ================================================================
+[2022-03-17 15:43:42] ID	Volume	File System	Total Sector		Used Sector		Free Sector		Type		Status				Cluster Size	Volume Label
+[2022-03-17 15:43:42] --	------	-----------	------------		-----------		-----------		----		------				------------	------------
+[2022-03-17 15:43:42] 
+[2022-03-17 15:43:42] ID	Volume	File System	Start Sector	Total Sector		Used Sector		Free Sector		Type		Status				Cluster Size	Volume Label
+[2022-03-17 15:43:42] --	------	-----------	------------	------------		-----------		-----------		----		------				------------	------------
+[2022-03-17 15:43:42] 0.0	*:	NTFS        	2048      	819199     (400.00MB)	573568     (280.06MB)	245631     (119.94MB)	Primary   	Ok                  		8		WINRE
+[2022-03-17 15:43:42] 0.1	*:	FAT32       	821248    	532480     (260.00MB)	207448     (101.29MB)	325032     (158.71MB)	Primary   	Ok,Sys              		8		
+[2022-03-17 15:43:42] 0.2	*:	Unformatted 	1353728   	262144     (128.00MB)	0          (0KB)	262144     (OKB)	Primary   	Ok                  		0		
+[2022-03-17 15:43:42] 0.3	C:	NTFS        	1615872   	1908184665 (909.89GB)	1575528776 (751.27GB)	332655889  (158.62GB)	Primary   	Ok,Boot             		8		64WinXP 
+[2022-03-17 15:43:42] 0.4	*:	NTFS        	1909800960	1439743    (703.00MB)	1263088    (616.74MB)	176655     (86.26MB)	Primary   	Ok                  		8		
+[2022-03-17 15:43:42] 0.5	*:	NTFS        	1911242752	1746943    (853.00MB)	1139240    (556.27MB)	607703     (296.73MB)	Primary   	Ok                  		8		
+[2022-03-17 15:43:42] 0.6	*:	NTFS        	1912991744	2041855    (997.00MB)	1289416    (629.60MB)	752439     (367.40MB)	Primary   	Ok                  		8		
+[2022-03-17 15:43:42] 0.7	D:	NTFS        	1915033600	38479871   (18.35GB)	34556872   (16.48GB)	3922999    (1.87GB)	Primary   	Ok                  		8		RECOVERY
+[2022-03-17 15:43:42] 1.0	Y:	NTFS        	2048      	120109055  (57.27GB)	71590472   (34.14GB)	48518583   (23.14GB)	Primary   	Ok,Act              		8		Ventoy
+[2022-03-17 15:43:42] 1.1	F:	Unknown     	120111104 	65536      (32.00MB)	56219      (0KB)	9317       (OKB)	Primary   	Ok                  		1		VTOYEFI
+[2022-03-17 15:43:42] 
+[2022-03-17 15:43:42] 
+
+Dump Slice:
+[2022-03-17 15:43:42] ================================================================
+[2022-03-17 15:43:42] ID	ParentID	SequenceID	Offset Sector		Start Sector		Slice Size		Unallocated
+[2022-03-17 15:43:42] --	--------	----------	-------------		------------		----------		-----------
+[2022-03-17 15:43:42] 
+[2022-03-17 15:43:42] [0       ]ABUiRpcServer.cpp(33): fail to listen rpc

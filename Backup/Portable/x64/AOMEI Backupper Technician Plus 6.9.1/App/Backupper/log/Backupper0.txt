@@ -1,0 +1,97 @@
+AOMEI Backupper 6.9.1 log is as follows:
+
+====================== System Information ======================
+Module Path: C:\Users\Gremlin\Downloads\P-691ABPTP\AOMEI Backupper Technician Plus 6.9.1\App\Backupper\Backupper.exe
+Product Name: Windows 10 Home (10.0.9200.2)
+OS Build Name: 19044.1586
+Service Package: 
+OS Version: 10.0.9200.1586
+BuildLabEx: 19041.1.amd64fre.vb_release.191206-1406
+Total Memory: 8084 MB
+Available Memory: 4249 MB
+System Root: C:\WINDOWS
+Processor Architecture: AMD64
+Processor Number: 4
+Current Time: 2022-3-17 15:26:11
+================================================================
+
+[2022-03-17 15:26:11] : ============== SystemVersion ==============
+[2022-03-17 15:26:11] : System version: 6.2
+[2022-03-17 15:26:11] : IsWow64: 1
+[2022-03-17 15:26:12] [1008    ]UiRecord.cpp(508): CUiRecord:C:\ProgramData\AomeiBR\tasks2.2.xml
+[2022-03-17 15:26:12] ::GetFileAttributesA(sCurPath)!=INVALID_FILE_ATTRIBUTES return code: 0x013C100B, .
+[2022-03-17 15:26:12] : ============== SystemVersion ==============
+[2022-03-17 15:26:12] : System version: 6.2
+[2022-03-17 15:26:12] : IsWow64: 1
+[2022-03-17 15:26:12] Version==1 return code: 0x00000002, .
+[2022-03-17 15:26:13] [3       ]fatlabel.cpp(200): Failed to get label for FAT32.
+[2022-03-17 15:26:13] [2       ]dyndisk.cpp(213): Failed to RegQueryValueEx on GetSysDgGuid.
+[2022-03-17 15:26:14] [0       ]ldmio.cpp(89): No dynamic disks are found.
+[2022-03-17 15:26:14] 
+
+
+//////////////////////////////Dump Information////////////////////////////
+[2022-03-17 15:26:14] 
+
+Dump Disk:
+[2022-03-17 15:26:14] ================================================================
+[2022-03-17 15:26:14] Disk Index	Total Sector		Geometry			Product Name
+[2022-03-17 15:26:14] ----------	------------		--------			------------
+[2022-03-17 15:26:14] 0		1953525168 (931.51GB)	(121601,255,63)			ST1000LM024 HN-M101MBB (Basic Disk,GPT)
+[2022-03-17 15:26:14] 
+[2022-03-17 15:26:14] 
+[2022-03-17 15:26:14] 
+
+Dump Volume:
+[2022-03-17 15:26:14] ================================================================
+[2022-03-17 15:26:14] ID	Volume	File System	Total Sector		Used Sector		Free Sector		Type		Status				Cluster Size	Volume Label
+[2022-03-17 15:26:14] --	------	-----------	------------		-----------		-----------		----		------				------------	------------
+[2022-03-17 15:26:14] 
+[2022-03-17 15:26:14] ID	Volume	File System	Start Sector	Total Sector		Used Sector		Free Sector		Type		Status				Cluster Size	Volume Label
+[2022-03-17 15:26:14] --	------	-----------	------------	------------		-----------		-----------		----		------				------------	------------
+[2022-03-17 15:26:14] 0.0	*:	NTFS        	2048      	819199     (400.00MB)	573568     (280.06MB)	245631     (119.94MB)	Primary   	Ok                  		8		WINRE
+[2022-03-17 15:26:14] 0.1	*:	FAT32       	821248    	532480     (260.00MB)	207448     (101.29MB)	325032     (158.71MB)	Primary   	Ok,Sys              		8		
+[2022-03-17 15:26:14] 0.2	*:	Unformatted 	1353728   	262144     (128.00MB)	0          (0KB)	262144     (OKB)	Primary   	Ok                  		0		
+[2022-03-17 15:26:14] 0.3	C:	NTFS        	1615872   	1908184665 (909.89GB)	1574138640 (750.61GB)	334046025  (159.29GB)	Primary   	Ok,Boot             		8		64WinXP 
+[2022-03-17 15:26:14] 0.4	*:	NTFS        	1909800960	1439743    (703.00MB)	1263088    (616.74MB)	176655     (86.26MB)	Primary   	Ok                  		8		
+[2022-03-17 15:26:14] 0.5	*:	NTFS        	1911242752	1746943    (853.00MB)	1139240    (556.27MB)	607703     (296.73MB)	Primary   	Ok                  		8		
+[2022-03-17 15:26:14] 0.6	*:	NTFS        	1912991744	2041855    (997.00MB)	1289416    (629.60MB)	752439     (367.40MB)	Primary   	Ok                  		8		
+[2022-03-17 15:26:14] 0.7	D:	NTFS        	1915033600	38479871   (18.35GB)	34556872   (16.48GB)	3922999    (1.87GB)	Primary   	Ok                  		8		RECOVERY
+[2022-03-17 15:26:14] 
+[2022-03-17 15:26:14] 
+
+Dump Slice:
+[2022-03-17 15:26:14] ================================================================
+[2022-03-17 15:26:14] ID	ParentID	SequenceID	Offset Sector		Start Sector		Slice Size		Unallocated
+[2022-03-17 15:26:14] --	--------	----------	-------------		------------		----------		-----------
+[2022-03-17 15:26:14] 
+[2022-03-17 15:26:21] [0       ]cmn.cpp(609): baseVer:6
+[2022-03-17 15:26:21] : ============== SystemVersion ==============
+[2022-03-17 15:26:21] : System version: 6.2
+[2022-03-17 15:26:21] : IsWow64: 1
+[2022-03-17 15:26:21] [0       ]cmn.cpp(609): baseVer:6
+[2022-03-17 15:26:21] [1008    ]cmn.cpp(2428): GetNasXmlPath end
+[2022-03-17 15:26:22] [0       ]SelBackupDiskOrPartPage.cpp(243): open oneKey reg fail
+[2022-03-17 15:26:22] : ============== SystemVersion ==============
+[2022-03-17 15:26:22] : System version: 6.2
+[2022-03-17 15:26:22] : IsWow64: 1
+[2022-03-17 15:26:22] [0       ]SelSyncDiskOrPartPage.cpp(171): open oneKey reg fail
+[2022-03-17 15:26:22] : ============== SystemVersion ==============
+[2022-03-17 15:26:22] : System version: 6.2
+[2022-03-17 15:26:22] : IsWow64: 1
+[2022-03-17 15:26:23] [1008    ]cmn.cpp(2428): GetNasXmlPath end
+[2022-03-17 15:26:23] [1008    ]cmn.cpp(2428): GetNasXmlPath end
+[2022-03-17 15:26:23] : ============== SystemVersion ==============
+[2022-03-17 15:26:23] : System version: 6.2
+[2022-03-17 15:26:23] : IsWow64: 1
+[2022-03-17 15:26:23] : ============== SystemVersion ==============
+[2022-03-17 15:26:23] : System version: 6.2
+[2022-03-17 15:26:23] : IsWow64: 1
+[2022-03-17 15:26:24] : ============== SystemVersion ==============
+[2022-03-17 15:26:24] : System version: 6.2
+[2022-03-17 15:26:24] : IsWow64: 1
+[2022-03-17 15:26:29] [0       ]Utility.cpp(591): AdjustTokenPrivileges 0
+[2022-03-17 15:26:29] [0       ]Utility.cpp(591): AdjustTokenPrivileges 0
+[2022-03-17 15:26:29] [0       ]Utility.cpp(591): AdjustTokenPrivileges 0
+[2022-03-17 15:26:29] [0       ]Utility.cpp(591): AdjustTokenPrivileges 0
+[2022-03-17 15:26:30] [0       ]cmn.cpp(609): baseVer:6

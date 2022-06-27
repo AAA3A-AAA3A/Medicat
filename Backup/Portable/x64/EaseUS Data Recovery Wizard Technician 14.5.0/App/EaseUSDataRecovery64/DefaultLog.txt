@@ -1,0 +1,38 @@
+----------------------------------------------------------------------------------------------------------
+
+Disk    TotalSectors       Cylinders    Heads    Sectors/Track     DIskInfo
+0        1953525168      121601         255                 63   ST1000LM  024 HN-M101M   ATA Bus
+1         120176640        7480         255                 63   SanDisk  Ultra USB 3.0  USB Device
+----------------------------------------------------------------------------------------------------------
+
+-----------------------------begin collect basic volume-----------------------------------
+DriverLetter   FileSystem  StartSector     TotalSectors     ParentDisk: Disk      VolumeLabel
+
+-----------------------------end collect basic volume-----------------------------------
+
+-----------------------------begin collect dynamic volume-----------------------------------
+DriverLetter   FileSystem   DynamicVolumeType   TotalSectors       VolumeLabel      ParentDiskInfo
+
+-----------------------------end collect dynamic volume-------------------------------------
+
+([WINRE] | [*] | [NTFS] | [0] M | [0] M | [0]);([] | [*] | [FAT32] | [0] M | [0] M | [0]);([] | [*] | [UNKNOWN] | [0] M | [0] M | [0]);([64WinXP ] | [C] | [NTFS] | [785952] M | [931730] M | [0]);([] | [*] | [NTFS] | [0] M | [0] M | [0]);([] | [*] | [NTFS] | [0] M | [0] M | [0]);([] | [*] | [NTFS] | [0] M | [0] M | [0]);([RECOVERY] | [D] | [NTFS] | [16924] M | [18788] M | [0]);([Ventoy] | [Y] | [NTFS] | [36103] M | [58646] M | [1]);([VTOYEFI] | [F] | [FAT32] | [27] M | [31] M | [1]);
+
+----------------------------------------------------------------------------------------------------------
+
+Disk    TotalSectors       Cylinders    Heads    Sectors/Track     DIskInfo
+0        1953525168      121601         255                 63   ST1000LM  024 HN-M101M   ATA Bus
+1         120176640        7480         255                 63   SanDisk  Ultra USB 3.0  USB Device
+----------------------------------------------------------------------------------------------------------
+
+-----------------------------begin collect basic volume-----------------------------------
+DriverLetter   FileSystem  StartSector     TotalSectors     ParentDisk: Disk      VolumeLabel
+
+-----------------------------end collect basic volume-----------------------------------
+
+-----------------------------begin collect dynamic volume-----------------------------------
+DriverLetter   FileSystem   DynamicVolumeType   TotalSectors       VolumeLabel      ParentDiskInfo
+
+-----------------------------end collect dynamic volume-------------------------------------
+
+([WINRE] | [*] | [NTFS] | [0] M | [0] M | [0]);([] | [*] | [FAT32] | [0] M | [0] M | [0]);([] | [*] | [UNKNOWN] | [0] M | [0] M | [0]);([64WinXP ] | [C] | [NTFS] | [785952] M | [931730] M | [0]);([] | [*] | [NTFS] | [0] M | [0] M | [0]);([] | [*] | [NTFS] | [0] M | [0] M | [0]);([] | [*] | [NTFS] | [0] M | [0] M | [0]);([RECOVERY] | [D] | [NTFS] | [16924] M | [18788] M | [0]);([Ventoy] | [Y] | [NTFS] | [36103] M | [58646] M | [1]);([VTOYEFI] | [F] | [FAT32] | [27] M | [31] M | [1]);
+

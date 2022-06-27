@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Reboot Mode</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="header">Reboot Mode</div>
+	<div class="headimgfill"></div>
+<div class="text">
+	<p>When AOMEI Partition Assistant resizes/moves partitions, in order to protect the data and keep the data integrity, it needs to lock partitions to prevent other applications to visit the target partitions during the operation. In some situations, partitions cannot be locked due to some system services, antivirus, firewall or other applications which were running on these partitions, AOMEI Partition Assistant needs to reboot computer into PreOS or WindowsPE(WinPE) mode to perform operations.</p>
+	
+	<p><strong>WindowsPE mode:</strong></p>
+	<p>
+	  When AOMEI Partition Assistant needs to reboot computer into WindowsPE(WinPE) mode to perform operations. it will create WinPE bootable iso based on system's recovery environment, and then reboot into WinPE environments. After operations are completed, it will reboot into Windows by default.
+    </p>
+
+    <p><strong>ProOS  Mode:</strong></p>
+	<p>
+	  ProOS mode doesn't need to create ISO, so it will faster into PreOS mode to perform operations. For system partitions, we suggest that you select WinPE mode to resize partitions.
+    </p>
+    <p><strong>For example</strong>,</p>
+    <p>1. Select C: drive to shrink.</p>
+    <p>2. Click "Apply" to perform operation.</p>
+    <p>3. When click "Proceed", it will pop up "Reboot required" window with two modes:</p>
+    <p>1) Check "Enter into Windows PE mode to perform operations" option and click "Yes", it will first create WinPE iso and then reboot into PE environment to perform operations.</p> 
+    <p>2) Uncheck "Enter into Windows PE mode to perform operations" option and click "Yes", it will immediately reboot into PreOS mode to perform operations.</p>
+</div>
+
+<div style="background-color:#CCDDEE; border: 1px solid #999999; padding:10px;">Tips: <br>
+  <ul>
+      <li>
+      When program reboot into WinPE environment and detect system environment changes, it will quit WinPE environment and then reboot into PreOS mode to continue operations. 
+      </li>
+      <li>
+      If AOMEI Partition Assistant can't detect system's recovery Environment due to some reasons, it will only reboot into PreOS mode.   
+      </li>
+   </ul>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,863 @@
+ <xml RootName = "All types" Selected = "2" iconIndex = "-1"> 
+   <FileCategory ShowComment="file.jpeg" Description="Graphic" Label="common image files or digital camera photos, such as JPG, etc." iconIndex = "0">
+  <Selected>2</Selected> 
+ <FileType Description="Canon Raw graphics file(.crw.cr2)">
+  <Extention>.crw</Extention> 
+  <Extention>.cr2</Extention> 
+  <Selected>2</Selected> 
+  </FileType>
+ <FileType Description="JPEG Digital Camera file(.jpg.jpeg)">
+  <Extention>.jpg</Extention> 
+  <Extention>.jpeg</Extention> 
+  <Selected>2</Selected> 
+  </FileType>
+ <FileType Description="Olympus RAW file(.orf)">
+  <Extention>.orf</Extention> 
+  <Selected>2</Selected> 
+  </FileType>
+   <FileType Description="Minolta,Knoica Minolta RAW file(.mrw)">
+  <Extention>.mrw</Extention>
+  <Selected>2</Selected> 
+  </FileType>
+ <FileType Description="TIFF Graphics file(.tif.tiff.epx.nef.arw)">
+	<Extention>.tif</Extention> 
+	<Extention>.tiff</Extention> 
+	<Extention>.epx</Extention> 
+	<Extention>.nef</Extention> 
+	<Extention>.nrw</Extention>
+	<Extention>.arw</Extention> 
+	<Extention>.cr2</Extention> 
+	<Extention>.sr2</Extention> 
+	<Extention>.raw</Extention> 
+	<Extention>.rw2</Extention> 
+	<Extention>.dng</Extention> 
+	<Extention>.raf</Extention> 
+	<Extention>.arw</Extention> 
+	<Extention>.crw</Extention>
+	<Extention>.dng</Extention>
+	<Extention>.dcr</Extention>
+	<Extention>.kdc</Extention>
+	<Extention>.erf</Extention>
+	<Extention>.3fr</Extention>
+	<Extention>.mef</Extention>
+	<Extention>.pef</Extention>
+	<Extention>.srw</Extention>
+	<Extention>.orf</Extention>
+	<Extention>.mrw</Extention>
+	<Extention>.mdc</Extention>
+	<Extention>.ptx</Extention>
+	<Extention>.x3f</Extention>
+	<Extention>.mos</Extention>
+  <Selected>2</Selected> 
+ </FileType> 
+  <FileType Description="3d Studio Max(.max)">
+    <Extention>.max</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Adobe Indesign file(.indd)">
+    <Extention>.indd</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Adobe Photoshop file(.psd)">
+    <Extention>.psd</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="AutoCAD Drawing file(.dwg)">
+    <Extention>.dwg</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="AutoCad DX File(.dxf)">
+    <Extention>.dxf</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="AutoCad DX File(.hpgl.hp.hpg.plt)">
+    <Extention>.hpgl</Extention>
+    <Extention>.hp</Extention>
+    <Extention>.hpg</Extention>
+    <Extention>.plt</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="AutoSketch(.skf)">
+    <Extention>.skf</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Bentley Microstation v7 Drawing(.dgn)">
+    <Extention>.dgn</Extention>
+    <Selected>2</Selected>
+  </FileType> 
+  <FileType Description="Bitmap file(.bmp)">
+    <Extention>.bmp</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="COREL Draw file(.cdr)">
+    <Extention>.cdr</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="DesignCAD file(.dcd)">
+    <Extention>.dcd</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="DRM Content Format file(.dcf)">
+    <Extention>.dcf</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Encapsulated Postscript file(.eps)">
+    <Extention>.eps</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Enhanced Metafile file(.emf)">
+    <Extention>.emf</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="FormZ Document file(.fmz.fzb)">
+    <Extention>.fmz</Extention>
+    <Extention>.fzb</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Freehand 10(.fh10.fh11)">
+    <Extention>.fh10</Extention>
+    <Extention>.fh11</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Freehand 7 to 9(.fh9.fh7.fh8)">
+    <Extention>.fh9</Extention>
+    <Extention>.fh7</Extention>
+    <Extention>.fh8</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Fuji Camera Raw(.raf)">
+    <Extention>.raf</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="GIF graphics file(.gif)">
+    <Extention>.gif</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="GIS ShapeFiles(.shp)">
+    <Extention>.shp</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="GUE Map file(.gue.gmp)">
+    <Extention>.gue</Extention>
+    <Extention>.gmp</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="ICO File(.ico)">
+    <Extention>.ico</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="JPEG2000(.jp2)">
+    <Extention>.jp2</Extention>
+    <Selected>2</Selected>
+  </FileType> 
+  <FileType Description="Lightwave object(.lwo)">
+    <Extention>.lwo</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Lightwave object(.lws)">
+    <Extention>.lws</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="MapSoure 1 file(.gdb)">
+    <Extention>.gdb</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Maya 3d file(.mb)">
+    <Extention>.mb</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Microsoft Photodraw(.mix)">
+    <Extention>.mix</Extention>
+    <Selected>2</Selected>
+  </FileType>
+   <FileType Description="Paintbrush file(.pcx.scr)">
+    <Extention>.pcx</Extention>
+    <Extention>.scr</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="PaintShop pro(.psp)">
+    <Extention>.psp</Extention>
+    <Selected>2</Selected>
+  </FileType> 
+  <FileType Description="PNG Graphics file(.png)">
+    <Extention>.png</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Portable Graphics Map(.ppm.pgm.pbm)">
+    <Extention>.ppm</Extention>
+    <Extention>.pgm</Extention>
+    <Extention>.pbm</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="PrintMaster(.hcr.biz)">
+    <Extention>.hcr</Extention>
+    <Extention>.biz</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="QuarkXPress file(.qxp.qxd.qxb.qxl.qpt)">
+    <Extention>.qxp</Extention>
+    <Extention>.qxd</Extention>
+    <Extention>.qxb</Extention>
+    <Extention>.qxl</Extention>
+    <Extention>.qpt</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="QuockCAD(.cad)">
+    <Extention>.cad</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Sigma X3F Raw(.x3f)">
+    <Extention>.x3f</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="SmartDraw file(.sdr.sdt)">
+    <Extention>.sdr</Extention>
+    <Extention>.sdt</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="TurboCAD for Windows(.tcw)">
+    <Extention>.tcw</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Windows Metafile(.wmf)">
+    <Extention>.wmf</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="XARA Graphic file(.xar)">
+    <Extention>.xar</Extention>
+    <Selected>2</Selected>
+  </FileType>
+  <FileType Description="Graphic New Add file(.dib.jpe.jfif.hdr.tga.exif.fpx.svg.pod.ufo.cgm.pict.pic)">
+       <Extention>.dib</Extention>
+       <Extention>.jpe</Extention>
+       <Extention>.jfif</Extention>
+       <Extention>.hdr</Extention>
+       <Extention>.tga</Extention>
+       <Extention>.exif</Extention>
+       <Extention>.fpx</Extention>
+       <Extention>.svg</Extention>
+       <Extention>.pod</Extention>
+       <Extention>.ufo</Extention>
+       <Extention>.cgm</Extention>
+       <Extention>.pict</Extention>
+       <Extention>.pic</Extention>
+       <Extention>.cmx</Extention>
+       <Extention>.cur</Extention>
+       <Extention>.ani</Extention>
+       <Extention>.clk</Extention>
+       <Selected>2</Selected>
+     </FileType>
+</FileCategory>
+   <FileCategory ShowComment="file.pmd" Description="Document" Label="common document files, such as Word, Excel, PDF files, etc." iconIndex = "1">
+     <FileType Description="Adobe PageMaker(.pmd.p65)">
+       <Extention>.pmd</Extention>
+       <Extention>.p65</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Adobe Premoer Project(.ppj)">
+       <Extention>.ppj</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Avery DesignPro(.zdp)">
+       <Extention>.zdp</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Casio Disk Title(.ctw)">
+       <Extention>.ctw</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="CoolPage(.cpg)">
+       <Extention>.cpg</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Corel Presentation File(.shw)">
+       <Extention>.shw</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Crystal Reports(.rpt)">
+       <Extention>.rpt</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Diablo2 Save(.d2s)">
+       <Extention>.d2s</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Electronic Publication(.epub)">
+       <Extention>.epub</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Etax file(.efx)">
+       <Extention>.efx</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Family TreeMaker(.ftw)">
+       <Extention>.ftw</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="FamilySearch file(.paf)">
+       <Extention>.paf</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Final Draft(.fdr.fdt)">
+       <Extention>.fdr</Extention>
+       <Extention>.fdt</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Final Fantasy 7(.ff7)">
+       <Extention>.ff7</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Fudemane(.fzd)">
+       <Extention>.fzd</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Ichitaro Document(.jtd)">
+       <Extention>.jtd</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Label Mighty(.jlb)">
+       <Extention>.jlb</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Lotus 123(.wk3.wk1.wk2.wk4.wks.fm3.wb1.123)">
+       <Extention>.wk3</Extention>
+       <Extention>.wk1</Extention>
+       <Extention>.wk2</Extention>
+       <Extention>.wk4</Extention>
+       <Extention>.wks</Extention>
+       <Extention>.fm3</Extention>
+       <Extention>.wb1</Extention>
+       <Extention>.123</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Lotus WordPro file(.lwp)">
+       <Extention>.lwp</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Mapsource 2 file(.mps)">
+       <Extention>.mps</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft Excel Worksheet(.xls.xla.xlt)">
+       <Extention>.xls</Extention>
+       <Extention>.xla</Extention>
+       <Extention>.xlt</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft Excel Worksheet  XLSX(.xlsx)">
+       <Extention>.xlsx</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft OneNote file(.one)">
+       <Extention>.one</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft PowerPoint Presentation(.ppt)">
+       <Extention>.ppt</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft PowerPoint file(.pptx)">
+       <Extention>.pptx</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft Project(.mpp)">
+       <Extention>.mpp</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft Publisher Document(.pub.puz)">
+       <Extention>.pub</Extention>
+       <Extention>.puz</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft Visio Drawing(.vsd.vss.vst)">
+       <Extention>.vsd</Extention>
+       <Extention>.vss</Extention>
+       <Extention>.vst</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft Word Document file(.doc.dot.asd)">
+       <Extention>.doc</Extention>
+       <Extention>.dot</Extention>
+       <Extention>.asd</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft Word Document file(.docx)">
+       <Extention>.docx</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft Write/WordPad(.wri)">
+       <Extention>.wri</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="MS Works4 Document(.wps)">
+       <Extention>.wps</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="NASCAR Racing 2003(.sim)">
+       <Extention>.sim</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="OLE Document(eg.MS Office)(.)">
+       <Extention>.</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Open Office Document(.odt)">
+       <Extention>.odt</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Open Office Spreadsheet(.ods)">
+       <Extention>.ods</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="PDF document(.pdf.ai)">
+       <Extention>.pdf</Extention>
+       <Extention>.ai</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="QuattroPrp 7 File(.qpw)">
+       <Extention>.qpw</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Rich Text Document(.dsn.std)">
+       <Extention>.dsn</Extention>
+       <Extention>.std</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="VI data(.vi)">
+       <Extention>.vi</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="WordPerfect 6 to 10(.wpd.wcm.wpt)">
+       <Extention>.wpd</Extention>
+       <Extention>.wcm</Extention>
+       <Extention>.wpt</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="WordPerfect Documents and Graphics v8(.wpg)">
+       <Extention>.wpg</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="XML Documents(.xml.xsl.xms.nib.opf.ncx)">
+       <Extention>.xml</Extention>
+       <Extention>.xsl</Extention>
+       <Extention>.xms</Extention>
+       <Extention>.nib</Extention>
+       <Extention>.opf</Extention>
+       <Extention>.ncx</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="7ZIP(.7Z.7zip)">
+       <Extention>.7Z</Extention>
+       <Extention>.7zip</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Cabinet compression file(.cab)">
+       <Extention>.cab</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="GZIP compression file(.gz.gzip)">
+       <Extention>.gz</Extention>
+       <Extention>.gzip</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="ISO 9660  CDROM File System(.iso.iso9660)">
+       <Extention>.iso</Extention>
+       <Extention>.iso9660</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="LZH compression file(.lzh)">
+       <Extention>.lzh</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Miliki Super Compression(.qcf)">
+       <Extention>.qcf</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="MS Backup File(.bkf)">
+       <Extention>.bkf</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="RAR compression file(.rar)">
+       <Extention>.rar</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Restrospect File(.rfb.rdb)">
+       <Extention>.rfb</Extention>
+       <Extention>.rdb</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="TAR archive file(.tar)">
+       <Extention>.tar</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Zip compression file(.zip.jar.afz)">
+       <Extention>.zip</Extention>
+       <Extention>.jar</Extention>
+       <Extention>.afz</Extention>
+	   <Extention>.dmg</Extention>
+       <Selected>2</Selected>
+     </FileType>	 
+	 <FileType Description="Sit file(.sit.sitx)">
+       <Extention>.sit</Extention>
+       <Extention>.sitx</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Access Database(.accdb)">
+       <Extention>.accdb</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Access Database file(.mdb)">
+       <Extention>.mdb</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Access Project(.adp)">
+       <Extention>.adp</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft Money(.mny)">
+       <Extention>.mny</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Text(Shift JIS)Document(.jis)">
+       <Extention>.jis</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Text(UTF16)Documents(.txt)">
+       <Extention>.txt</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft Word New Add(.docm.dotx.dotm.xps.mht.mhtml.rtf.wtf)">
+       <Extention>.docm</Extention>
+       <Extention>.dotx</Extention>
+       <Extention>.dotm</Extention>
+       <Extention>.xps</Extention>
+       <Extention>.mht</Extention>
+       <Extention>.mhtml</Extention>
+       <Extention>.rtf</Extention>
+       <Extention>.wtf</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft Excel New Add(.xlsm.xlsb.xltx.xltm.csv.prn.dif.slk.xlam)">
+       <Extention>.xlsm</Extention>
+       <Extention>.xlsb</Extention>
+       <Extention>.xltx</Extention>
+       <Extention>.xltm</Extention>
+       <Extention>.csv</Extention>
+       <Extention>.prn</Extention>
+       <Extention>.dif</Extention>
+       <Extention>.slk</Extention>
+       <Extention>.xlam</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Microsoft PowerPoint New Add(.pptm.potx.potm.pot.thmx.ppsx.ppsm.pps.ppam.ppa.wmf.odp)">
+       <Extention>.pptm</Extention>
+       <Extention>.potx</Extention>
+       <Extention>.potm</Extention>
+       <Extention>.pot</Extention>
+       <Extention>.thmx</Extention>
+       <Extention>.ppsx</Extention>
+       <Extention>.ppsm</Extention>
+       <Extention>.pps</Extention>
+       <Extention>.ppam</Extention>
+       <Extention>.ppa</Extention>
+       <Extention>.odp</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Document New Add(.htm.html.chm.lrc)">
+       <Extention>.htm</Extention>
+       <Extention>.html</Extention>
+       <Extention>.chm</Extention>
+       <Extention>.lrc</Extention>
+       <Extention>.mof</Extention>
+       <Extention>.3ds</Extention>
+       <Selected>2</Selected>
+     </FileType>
+	 <FileType Description="Document New Add(.key.numbers.pages)">
+       <Extention>.pages</Extention>
+       <Extention>.key</Extention>
+       <Extention>.numbers</Extention>
+       <Extention>.epub</Extention>
+		<Extention>.fcpevent</Extention>
+		<Extention>.muse</Extention>
+     </FileType>
+   </FileCategory>
+   <FileCategory ShowComment="file.eml" Description="Email" Label="common emails from Outlook or Outlook Express, such as pst, dbx, etc." iconIndex = "2">
+     <Selected>2</Selected>
+     <FileType Description="Exchange Server Database(.edb)">
+       <Extention>.edb</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Generic Email(.eml.mbx.bkl.bks.bms)">
+       <Extention>.eml</Extention>
+       <Extention>.mbx</Extention>
+       <Extention>.bkl</Extention>
+       <Extention>.bks</Extention>
+       <Extention>.bms</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Lotus Notes(.nsf)">
+       <Extention>.nsf</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Outlook Email file(.pst.pab)">
+       <Extention>.pst</Extention>
+       <Extention>.pab</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Outlook Express Email file(.dbx)">
+       <Extention>.dbx</Extention>
+       <Selected>2</Selected>
+     </FileType>
+   </FileCategory>
+   <FileCategory ShowComment="file.wav" Description="Audio" Label="common audio files, such as MP3, WMA, etc." iconIndex = "3">
+     <Selected>2</Selected>
+     <FileType Description="iTunes audio file(.m4a.m4b)">
+       <Extention>.m4a</Extention>
+       <Extention>.m4b</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="MP3 Music file(.mp3.mp.mp1.mp2)">
+       <Extention>.mp3</Extention>
+       <Extention>.mp</Extention>
+       <Extention>.mp1</Extention>
+       <Extention>.mp2</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Musical Instrument Digtal Interface file(.mid.midi)">
+       <Extention>.mid</Extention>
+       <Extention>.midi</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="WAVE Multime file(.wav)">
+       <Extention>.wav</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Adaptive MultiRate Audip(.amr)">
+       <Extention>.amr</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="ASF,WMA,Multimedia file(.wma)">
+       <Extention>.wma</Extention>
+       <Selected>1</Selected>
+     </FileType>
+     <FileType Description="Audio Interchange file format(.aif.aiff)">
+       <Extention>.aif</Extention>
+       <Extention>.aiff</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="CakeWalk Pro(.cwp)">
+       <Extention>.cwp</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Digital Speech File(.dss)">
+       <Extention>.dss</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Digital Voice File(.dvf)">
+       <Extention>.dvf</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Fruity Loops file(.flp)">
+       <Extention>.flp</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Jet Vioce File(.sc4)">
+       <Extention>.sc4</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Kaydara FBX Binary(.fbx)">
+       <Extention>.fbx</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Logic Audio(.lso)">
+       <Extention>.lso</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="RealAudio file(.ra.ram)">
+       <Extention>.ra</Extention>
+       <Extention>.ram</Extention>
+     </FileType>
+     <FileType Description="Reason(.rns)">
+       <Extention>.rns</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Sibeilus Music file(.sib)">
+       <Extention>.sib</Extention>
+     </FileType>
+     <FileType Description="Audio New Add file1(.AVI.MOV.DAT.cda.RMX.VQF.VOC.AU.mod)">
+       <Extention>.cda</Extention>
+       <Extention>.RMX</Extention>
+       <Extention>.VQF</Extention>
+       <Extention>.VOC</Extention>
+       <Extention>.AU</Extention>
+       <Extention>.mod</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Audio New Add file2(.S3M.XM.MTM.FAR.KAR.IT.OGG.acc.ac3.ape)">
+       <Extention>.S3M</Extention>
+       <Extention>.XM</Extention>
+       <Extention>.MTM</Extention>
+       <Extention>.FAR</Extention>
+       <Extention>.KAR</Extention>
+       <Extention>.IT</Extention>
+       <Extention>.OGG</Extention>
+       <Extention>.acc</Extention>
+       <Extention>.ac3</Extention>
+       <Extention>.ape</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Audio New Add file3(.dts.flac.m1a.m2a.mka.mpa.tta.tak.kpl.smpl)">
+       <Extention>.dts</Extention>
+       <Extention>.flac</Extention>
+       <Extention>.m1a</Extention>
+       <Extention>.m2a</Extention>
+       <Extention>.mka</Extention>
+       <Extention>.mpa</Extention>
+       <Extention>.tta</Extention>
+       <Extention>.tak</Extention>
+       <Extention>.kpl</Extention>
+       <Extention>.smpl</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Audio New Add file4(.aa.a52.aifc.snd.cue.dtswav.rmi.stm.umx.mac.mp3pro.mpc.mp+.aac)">
+       <Extention>.aa</Extention>
+       <Extention>.a52</Extention>
+       <Extention>.aifc</Extention>
+       <Extention>.snd</Extention>
+       <Extention>.cue</Extention>
+       <Extention>.dtswav</Extention>
+       <Extention>.rmi</Extention>
+       <Extention>.stm</Extention>
+       <Extention>.umx</Extention>
+       <Extention>.mac</Extention>
+       <Extention>.mp3pro</Extention>
+       <Extention>.mpc</Extention>
+       <Extention>.mp+</Extention>
+       <Extention>.aac</Extention>
+		<Extention>.m4p</Extention>
+     </FileType>
+   </FileCategory>
+   <FileCategory ShowComment="file.WMA" Description="Video" Label="common video files, such as digital camera recordings." iconIndex = "4">
+     <Selected>2</Selected>
+     <FileType Description="ASF,WMV,Multimedia file(.wmv.asf.asx)">
+       <Extention>.wmv</Extention>
+       <Extention>.asf</Extention>
+       <Extention>.asx</Extention>
+       <Selected>2</Selected>
+     </FileType>
+	   <FileType Description="ShockWave Flash(.swf)">
+		   <Extention>.swf</Extention>
+	   </FileType>
+     <FileType Description="AVCHD Multimedia file(.mts.m2ts.hdtv)">
+       <Extention>.mts</Extention>
+       <Extention>.m2ts</Extention>
+       <Extention>.hdtv</Extention>
+		<Extention>.ogv</Extention>
+     </FileType>
+     <FileType Description="AVI Multimedia file(.avi)">
+       <Extention>.avi</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="MOV Multimedia file(Quicktime)(.mov)">
+       <Extention>.mov</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="MPEG Mulitimedia file(.mpg.mpeg.m1v.vro)">
+       <Extention>.mpg</Extention>
+       <Extention>.mpeg</Extention>
+       <Extention>.m1v</Extention>
+       <Extention>.vro</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="3GPP Multimedia file(Quicktime)(.3gp.3g2.3gpp.3gp2.mp4)">
+       <Extention>.3gp</Extention>
+       <Extention>.3g2</Extention>
+       <Extention>.3gpp</Extention>
+       <Extention>.3gp2</Extention>
+       <Extention>.mp4</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Flash(.fla)">
+       <Extention>.fla</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Ogg Vorbis/Media(.oog.ogm.oga.ogx)">
+       <Extention>.oog</Extention>
+       <Extention>.ogm</Extention>
+       <Extention>.oga</Extention>       
+       <Extention>.ogx</Extention>
+     </FileType>
+       <FileType Description="Video New Add file1(.vod.rmvb.FLV.DAT.MXF.WTV.SWI.WM.WMP.rpm)">
+       <Extention>.vod</Extention>
+	   <Extention>.rm</Extention>
+       <Extention>.rmvb</Extention>
+       <Extention>.FLV</Extention>
+       <Extention>.DAT</Extention>
+       <Extention>.MXF</Extention>
+       <Extention>.WTV</Extention>
+       <Extention>.SWI</Extention>
+       <Extention>.WM</Extention>
+       <Extention>.WMP</Extention>
+       <Extention>.rpm</Extention>
+	   <Extention>.mkv</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Video New Add file2(.rt.rp.smi.smil.m2p.m2t.m2v.mp2v.mpe.mpv2)">
+       <Extention>.rt</Extention>
+       <Extention>.rp</Extention>
+       <Extention>.smi</Extention>
+       <Extention>.smil</Extention>
+       <Extention>.m2p</Extention>
+       <Extention>.m2t</Extention>
+       <Extention>.m2v</Extention>
+       <Extention>.mp2v</Extention>
+       <Extention>.mpe</Extention>
+       <Extention>.mpv2</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Video New Add file3(.pss.pva.tp.tpr.ts.m4v.mpeg4.qt)">
+       <Extention>.pss</Extention>
+       <Extention>.pva</Extention>
+       <Extention>.tp</Extention>
+       <Extention>.tpr</Extention>
+       <Extention>.ts</Extention>
+       <Extention>.m4v</Extention>
+       <Extention>.mpeg4</Extention>
+       <Extention>.qt</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Video New Add file4(.f4v.vob.amv.bik.csf.divx.evo.ivm.mkv)">
+       <Extention>.f4v</Extention>
+       <Extention>.vob</Extention>
+       <Extention>.amv</Extention>
+       <Extention>.bik</Extention>
+       <Extention>.csf</Extention>
+       <Extention>.divx</Extention>
+       <Extention>.evo</Extention>
+       <Extention>.ivm</Extention>
+       <Extention>.mkv</Extention>
+       <Selected>2</Selected>
+     </FileType>
+     <FileType Description="Video New Add file5(pmg.scm.tod.vp6.webm.xlmv.m3u.pls.qpl   )">
+       <Extention>.pmg</Extention>
+       <Extention>.scm</Extention>
+       <Extention>.tod</Extention>
+       <Extention>.vp6</Extention>
+       <Extention>.webm</Extention>
+       <Extention>.xlmv</Extention>
+       <Extention>.m3u</Extention>
+       <Extention>.pls</Extention>
+       <Extention>.qpl</Extention>
+       <Selected>2</Selected>
+     </FileType>
+   </FileCategory>
+   <FileCategory ShowComment="file.dll" Description="Other" Label="other files such as archives." iconIndex = "5" IsMutex = "1">
+     <Selected>2</Selected>  
+     <FileType Description="EXE/DLL file(.exe.sys.dll)">
+       <Extention>.exe</Extention>
+       <Extention>.sys</Extention>
+		<Extention>.lib</Extention>
+       <Extention>.dll</Extention>       
+     </FileType>
+   </FileCategory>
+  </xml>

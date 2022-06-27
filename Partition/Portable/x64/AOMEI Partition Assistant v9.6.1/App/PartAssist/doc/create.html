@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Create Partition</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="header">Create Partition</div>
+	<div class="headimgfill"></div>
+	<div class="text">
+	<b>To Create Partition</b><br/>
+	<ul style="list-style:decimal;">
+		<li>
+			There are three ways to create partition:
+			<ul style="list-style:disc;">
+			
+				<li>The quickest way: select the segment of unallocated space and then directly press <strong>Enter</strong> key -> directly enters a proper value as the new partition size -> press <strong>Enter</strong>. You can also rapidly repeat clicking Enter key to create several partitions quickly and commit the changes by pressing <strong>Ctrl + Enter</strong>.</li>
+				<li>Select the segment of unallocated space which you would like to create a partition on by clicking the Unallocated Space in the main window. The <strong>Create Partition</strong> button will become available on the sidebar and in the context menu of the right click.				</li>
+				<li>If there's no unallocated space you could also create partition. Select the partition which has a lot of free space and then right click the partition -> Create Partition or in the left panel select <strong>Create Partition</strong>, the software will take some free space from the selected partition to create a new partition.				</li>
+			</ul>
+		
+		<br/></li>
+		<li>In the Create Partition dialog, enter a proper value as new partition size, assign a drive letter and select a file system to the will create partition. Meanwhile, you could also drag and move the graphical Partition Bar to change the partition size or location on the disk.<br/><br/></li>
+		<li>For advanced settings. In the Create Partition dialog, by clicking the <strong>Advanced</strong> button at the left bottom, you could specify partition label, partition type (Primary/Logical) and adjust the partition location by setting <strong>unallocated space before/after</strong>. What more advantage is that if you are using Solid State Drive (SSD), selecting &quot;SSD partition alignment&quot; is quite necessary. Because this feature could improve the performance of SSD.<br/>
+	    <br/></li>
+		<li>By clicking OK, you'll add the pending operation of new partition creation, and the new partition structure will be graphically represented in the Partition Assistant main window.<br/><br/></li>
+	</ul>
+
+	<br/>
+	<p>
+	<div style="background-color:#CCDDEE; border: 1px solid #999999; padding:10px;">
+		<b>Note</b><br/>
+		<ul>
+			<li>As a rule, Primary is selected if a partition is to install an operating system. If a partition is meant for data storage, Logical should be selected. You could also use PA to change the partition flag between primary and logical.</li>
+			<li>To select a file system, we recommend you select NTFS to format when your partition is created on a fixed disk device, because FAT32 supported the max file is 4GB, so a greater than 4GB file need to be divided multiple small files to store on FAT32.</li>
+			<li>Could support to create EXT format partitions under Windows, but Windows is not unable to recognize EXT format partitions.</li>
+		</ul>
+		</div>
+	</p>
+	</div>
+</body>
+</html>

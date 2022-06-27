@@ -1,0 +1,974 @@
+DiskGenius Release Note:
+
+[ Ver 5.4.3.1328 ]
+
+1. Add functions of backing up an entire disk to image file and restoring the disk from image file.
+2. When saving test report for the "Verify or Repair Bad Sectors" function, you can choose whether to save information for normal sectors.
+3. Support QEMU virtual disk format (.qcow file).
+4. Support dynamic disks that are created on Storage Spaces.
+5. Support dynamic disks that are composed of disks with different sector sizes.
+6. Support FAT16 partition created by ESXi system.
+7. Support to read vmdk files that are in stream-optimized format.
+8. Support to display attributes of encrypted files under FAT32 file system.
+9. The Clone Disk function and System Migration function optimize the support of BitLocker partition.
+10. The Clone Disk function and System Migration function improve the selection and management of target disk partitions.
+11. Improve the cluster allocation policy of NTFS partition to prevent excessive fragments in $MFT.
+12. Enhance the judgment of "BitLocker To Go" encrypted partition.
+13. Press the Enter key on the current directory control above the file list, and the application immediately switches to display the target directory.
+14. When the File Recovery function copies files, the time of recovered folders keeps unchanged.
+15. The "View S.M.A.R.T. Information" window adds the display of the percentage of disk remaining life.
+16. "Encrypted File Cannot Preview" is displayed when previewing encrypted files.
+17. When the ESP partition is found by the "Partition Recovery" function, the application uses the ESP-specific partition type GUID.
+18. When writing data to NTFS partition, it always allocates space from the beginning of the partition.
+19. Adjust locations for some menu items.
+20. Optimize file recovery function for NTFS partition.
+21. Optimize the way to get hard drive model and serial number, and the results are more accurate.
+22. Fixed an issue that recognized partitions were not listed when restoring files on RAM disks.
+23. Fixed an issue that in some cases file attributes were displayed incorrectly.
+24. Fixed an issue that registration was required when writing files to partitions with drive letters.
+25. Fixed an issue that exceptions occurred when recovering TIFF and heif files.
+26. Fixed an issue for Partition Recovery function that in rare cases the beginning of partition was not found correctly.
+27. Fixed an issue that partitions were displayed repeatedly after cloning disk by sector.
+28. Fixed an issue that cloning partition by file could not be executed after the NTFS partition was full.
+29. Fixed a bug that occurred when deleting files from NTFS partition in some cases.
+30. Fixed an issue of displaying progress for Clone Disk function and System Migration function.
+31. Fixed an issue that the VMDK created with Chinese name could not be opened in VMware.
+
+[ Ver 5.4.2.1239 ]
+
+1. Support to migrate Windows to VirtualBox.
+2. When the software detects that a disk has bad sectors during startup, it will pause loading the disk first, and then prompt the user to manually refresh after it is started.
+3. A warning mark will be shown on disk icon after the software reads the disk and encounters bad sectors.
+4. The software will ask whether to save bad sector record if bad sectors are found on a disk while closing the software. After saving the record, the software will not read them repeatedly next time you run the software in case the disk freezes computer.
+5. Optimize the file copy function and fix known issues.
+6. Optimize the execution speed of erasing the free space in EXT4 partitions.
+7. Optimize the file recovery result for NTFS partitions.
+8. Add the support for file types of Office Visio file (.VSDX), Fujifilm RAW image file (.RAF) and Konica Minolta RAW image file (.MRW).
+9. Improve the fault tolerance when saving GUID partition table under special circumstances.
+10. Support to copy selected files of all partitions in one time when you select files of multiple "Recognized" partitions after the software finishes scanning.
+11. The "View Secure Boot Certificate" function is added to the "Set UEFI Boot Entries" dialog box.
+12. When cloning LVM disks and dynamic disks, only "Copy all sectors" disk clone mode is available.
+13. Special characters are allowed to be used when setting volume name.
+14. The menu item "Deleted or Formatted File Recovery" is changed to" Recover Lost Files".
+15. Fixed an issue of parsing EXT4 file system.
+16. Fixed an issue that "Recovered Types" might contain duplicate files after recovering files.
+17. Fixed an issue that in some case the partition graph might display incorrectly.
+18. Fixed an issue that the "Partition Recovery" function was unable to recover EXT4 partitions that did not contain files.
+19. Fixed an issue that the Clone Disk function and System Migration function could not correctly limit the maximum capacity of partition.
+20. Fixed an issue that a new partition could not be created via pressing the Enter key.
+21. Fixed an issue on Bad Track Verification dialog box that the interface did not display correctly when checking accurate sector number.
+22. Fixed some details in the function of resizing partitions.
+23. Fixed an issue that the newly formatted FAT32 partition could not be restored after it was backed up by files.
+24. Fixed an issue that file copy process got interrupted after press the ESC key on the file copy dialog box.
+25. Fixed an issue that system boot might fail after searching for lost partitions and saving partition table on GUID disk.
+26. Fixed an issue that the image was not displayed normally when previewing some heif photos.
+
+[ Ver 5.4.1.1178 ]
+
+1. The function System Migration and Virtualize Current System Into VMware Virtual Machine can be performed in WinPE.
+2. The function "Adjust Data Area Positioning" is added to partitions recognized by File Recovery function.
+3. Added the support of "Parallels Desktop" virtual disk format.
+4. Optimize file recovery result for NTFS partitions.
+5. After copying files, the properties of new files are set to be consistent with original files(archive, read-only, system, hidden, etc.).
+6. The "System Volume Information" folder won't be excluded when the program backs up a NTFS partition by files and the partition enables Data Deduplication.
+7. The limit that the maximum number of clusters cannot exceed 2^30 is removed when formatting exFAT partition.
+8. The New Partition and Quick Partition function set the default aligned sector as 256 when the disk's sector size is 4096 bytes.
+9. The default capacity changes to 256GB when creating a virtual disk.
+10. Fixed an issue that drive letters were not assigned correctly after resizing partition.
+11. Fixed an issue that sometimes BSOD or partition missing issue might occur when resizing partition. 
+12. Fixed an issue that in some rare cases resizing partition might stop responding.
+13. Fixed an issue for Quick Partition function that in some cases partitions could not be created correctly.
+14. Fixed an issue that sometimes files of EXT4 partition could not be parsed correctly.
+15. Fixed an issue that files of exFAT partition formatted by MacOS could not be parsed correctly.
+16. Fixed an issue that data could not be written to hidden partitions.
+17. Fixed an issue that some CR3 files could not be previewed.
+18. Fixed an issue that the program might get corrupted during converting virtual disk format.
+19. Fixed an issue that in some cases the Unlock BitLocker dialog box could not pop up.
+20. Fixed an issue for sector editor that mouse clicking might damage selected area.
+21. Fixed an issue that file data might not be correct when writing encrypted files to NTFS partition.
+22. Fixed an issue for sector editor that in some cases content could not be entered.
+23. Fixed an issue for File Recovery function that the program might stop responding if clicking the main interface while the program was organizing directory structure.
+24. Fixed some issues related to interface display.
+
+[ Ver 5.4.0.1124 ]
+
+1. Support to parse Windows Storage Pools and Storage Spaces and support to perform read-only operations to them.
+2. The system migration function supports to keep existing partitions of target disk when there is enough unallocated space on target disk.
+3. The partition resizing function supports to adjust the beginning location of system partition on a MBR disk.
+4. Improve the fault tolerance capability of extracting files from partition backup image file (.pmf).
+5. Optimize the file recovery function for FAT32 partitions.
+6. Optimize the file recovery function for NTFS partitions.
+7. Fixed an issue that sometimes the file list might be cleared when extracting files from partition backup image file (.pmf).
+8. Fixed an issue for partition backup function that image file data was incorrect when target partition was running out of space.
+9. Fixed an issue that existing DBR could not be cleared as prompted when saving partition table.
+10. Fixed an issue that drive letter might be disappeared after resizing partition.
+11. Fixed an issue that in some cases dynamic volumes could not be displayed.
+12. Fixed an issue that in some cases files of EXT4 partition could not be displayed correctly.
+13. Fixed an issue that sometimes the program crashed.
+
+[ Ver 5.3.0.1066 ]
+
+1. Support high-resolution displays (DPI adaptation). The interface display is no longer blurred when the software runs on 4K screens and laptops.
+2. Support to virtualize current Windows operating system into VMware virtual machine.
+3. Disk cloning function supports to clone large disk to small disk and allows to change the size of each partition on target disk.
+4. Start to use an independent preview process and improve the stability of the main program.
+5. The number of CPU threads can be specified for compression mode in the advanced settings of the partition backup function.
+6. The search for known file types in file recovery function adds support for CR3 file format.
+7. The function of creating vmdk virtual disk supports to set target disk as SATA and NVMe.
+8. When formatting a FAT32 partition, it allows the total number of clusters to exceed the limitation Windows sets to FAT32.
+9. The DBR of Windows 10 is used when formatting FAT12/16/32 partitions.
+10. When backing up system partition by files, the "DiskGenius WinPE" directory is excluded by default.
+11. After drive letters are assigned, the currently selected partition will not be switched automatically, preventing users from selecting the incorrect partition when the user operates too fast.
+12. It is allowed to set the software to prevent system from going to sleep when performing time-consuming functions.
+13. Improve video preview function and support newer formats.
+14. Optimize the file recovery effect of FAT32 partition.
+15. Optimize the result of recovering deleted large files from NTFS partition.
+16. Fixed some issues for system migration function to improve the stability.  
+17. Fixed an issue that the function of backing up exFAT partition by files did not support vary large files.
+18. Fixed an issue of incorrectly reading dynamic volumes and LVM volumes.
+19. Fixed an issue that exceptions occurred to partition backup function when inputting a file name without extension.
+20. Fixed an issue that there was free space when quick partition function created only one partition.
+21. Fixed an issue that system did not restart when executing certain function that required restart.
+22. Fixed an issue that sometimes the extend partition function could not be opened correctly.
+23. Fixed an issue that the font of sector editing function was not sightly after booting to WinPE.
+24. Fixed an issue that in some cases the disk cloning and partition cloning function might stop responding.
+
+[ Ver 5.2.1.941 ]
+
+1. Improve the Copy Sectors dialog box and enhance its ability to handle bad sectors, facilitating users to image hard drives with bad sectors.
+2. Copy details is displayed automatically after finishing copying sectors.
+3. Improve the partition backup function, increasing the backup speed when original drive and target files are not on the same disk.
+4. A control showing current path is added to the top of Files window, supporting to jump to the path enter by users, Desktop and Documents.
+5. After copying files, the modified and created date of target folders is consistent with original ones.
+6. Support to open virtual disks in network mapping paths by way of dragging mouse.
+7. Optimize the speed of organizing directory structures for File Recovery function.
+8. Optimize the speed of loading the previous scanning progress for File Recovery function.
+9. Optimize the scanning results of recovering files from FAT32 partitions.
+10. Optimize the scanning results of recovering files from NTFS partitions.
+11. Optimize the speed for functions like backup, restore and clone partitions.
+12. Enhance the File Recovery function for exFAT partitions.
+13. Enhance the support of individual special cases in the GUID partition table.
+14. Enhance the function of extracting files from partition images, improving the support of damaged image files.
+15. Reduce the number of "Partition(Recognized)" in the scanning result of File Recovery.
+16. "Search for Known File Types" in File Recovery function adds support for prt, heif(.heic) photos, 3dm, zpr, jdp, vs3d and ptb file types.
+17. File preview supports to open heif(.heic) photos.
+18. Optimize the speed of opening File Copying Report dialog box and Detailed Info dialog box of "Verify or Repair Bad Sectors" function.
+19. Improve the dialog box of "Set UEFI BIOS boot entries".
+20. The function Verify Or Repair Bad Sectors automatically saves progress, and it can continue checking or repairing bad sectors after interruption.
+21. The System Migration function can lock the size of a specified partition so that it remains unchanged after migration.
+22. System migration function supports to migrate OS to USB disk and make it bootable.
+23. Fixed an issue that system migration function failed when encountering some special partitions.
+24. Fixed an issue that in some cases modifying sector data for virtual disks failed.
+25. Fixed an issue that the software stopped responding during startup due to reading disk S.M.A.R.T. information.
+26. Fixed an issue for file copy function that stopped copying files when encountering some errors.
+27. Fixed an issue that the "Unlock" option was still enabled after the Bitlocker partition had been unlocked successfully.
+28. Fixed an issue that file data of ole2, zip and rmvb file types under Recovered Types might be incorrect.
+29. Fixed an issue that in some cases users could copy files to the original partition when recovering files dynamic volumes.
+30. Fixed an issue that in some cases it failed to save partition table in Windows 7.
+31. Fixed an issue that it couldn't write files to partition or rename files after deleting the drive letter.
+32. Fixed an issue that in EXT4 partition file names were case sensitive.
+
+[ Ver 5.2.0.884 ]
+
+1. Support to migrate current system to a new hard disk.
+2. Support unlock BitLocker drives.
+3. Support to set UEFI boot entries.
+4. Partition backup uses multithreading technology to improve speed.
+5. The default compression method for partition backup changes to Normal from Quick.
+6. Incremental backup supports to change compression method.
+7. The vmdk virtual disk created by the software can be up to 8TB.
+8. The Batch Format USB Disk function supports ext4 file system.
+9. Improve the accuracy of recovering files by type.
+10. Enhance the function to judge hard disk's read-only state.
+11. Network disks mapped by OneDrive won't be displayed.
+12. Fixed an issue that hard disk didn't display on some computers.
+13. Fixed an issue that program interface didn't display fully when Windows 10 in the multi-display mode.
+14. Fixed an issue on the function Convert Virtual Disk Format that loaded virtual disk couldn't be selected.
+15. Fixed an issue that partition directory tree displayed partitions repeatedly after restoring from an image file which was backed up by structure or sectors.
+16. Fixed an issue that in some system the partition information area didn't show partition location correctly.
+17. Fixed an issue that NTFS partition didn't show files after restoring from an image backed up by sectors.
+18. Fixed an issue that error occurred when the DOS edition restoring partition from image file.
+19. Fixed an issue that error might occur when reading or writing disk in Windows XP.
+20. Fixed an issue that the process of backing up FAT32/exFAT partition couldn't be interrupted.
+
+[ Ver 5.1.2.766 ]
+
+1. Support modifying GUID partition parameters.
+2. Support changing MBR signature and disk GUID.
+3. Partition list adds Attribute tab to show partition status (hidden, active, read-only).
+4. When backing up system partition by files, directories like "Desktop" "Music" and "Pictures" can be excluded.
+5. Enhance operations and controls for file copy, supporting Skip, Pause and ways to handle preset errors, and supporting shutting down computer after file copy completes.
+6. Improve the displayed content for file copy details.
+7. Check if destination partition space is sufficient prior to copying files and give prompt if there is not enough free space.
+8. Optimize user experience of file preview function.
+9. Disk partition map shows "Basic" "Dynamic" and partition table type for current disk.
+10. In the partition and folder tree area, the read-only partition displays a lock icon.
+11. FAT32 file system is used by default when creating an ESP partition.
+12. Enhance file recovery function for NTFS partitions.
+13. Enhance recovery function for video format file of hard disk recorders.
+14. Enhance the function of getting and showing disk SMART information.
+15. The partition information pane shows device path in the form of HarddiskVolume.
+16. A warning is prompted when saving partition table after modifying dynamic disk partitions.
+17. Operations like format, hide partition, erase free space, restore partition, etc. are forbidden on dynamic partitions.
+18. Prompt users to update software when partition backup image created by a higher version is accessed by a low version.
+19. Fixed a byte order display issue for EXT4 partition UUID.
+20. Fixed an issue that certain Office documents couldn't be previewed.
+21. Fixed an issue that in the rare case functions like backing up partition table couldn't be used.
+22. Fixed an issue that in some situations partition map of dynamic disks displayed incorrectly.
+23. Fixed an issue that cluster size was incorrect after formatting exFAT partition according to the default cluster size.
+24. Fixed an issue that partition map didn't update smoothly after changing the size of program interface.
+25. Fixed an issue that in rare cases partition error occurred to Quick Partition function.
+26. Fixed an issue for Quick Partition function that happened during saving and loading default settings.
+27. Fixed an issue that write disk error occurred when resizing other types of partitions on a disk that contains Linux partitions.
+28. Fixed an issue that partition might be lost after saving partition table for a disk that contains Linux partitions.
+29. Fixed an issue in some cases files under Recovered Types were not classified by extensions.
+30. Fixed an issue that the program might stop responding when recovering files from NTFS partition.
+31. Fixed an issue that in some cases lost BitLocker partitions couldn't be recovered.
+32. Fixed an issue of displaying drive letter for dynamic volumes.
+33. Fixed an issue that in some cases MBR wasn't restored after restoring system partition from image file.
+34. Fixed an issue that EFS encrypted file data was incorrect after restoring NTFS partition backup.
+35. Fixed an issue that Goto directories was not accurate after recovering files from exFAT partitions.
+36. Fixed an issue in the function of FAT32 file recovery.
+37. Fixed an issue that the restored FAT32 partition might not be open if it was backed up by sectors or structure.
+
+[ Ver 5.1.1.696 ]
+
+1. Optimize the function to restore NTFS partition from image and improve restoring speed.
+2. Optimize the speed of cloning NTFS partition.
+3. Optimize file recovery function for NTFS partition.
+4. Optimize file recovery function for FAT32 partition.
+5. During creating new partition, it allows to preset formatting parameters like Cluster Size and Volume Label.
+6. Create New Partition and Quick Partition dialog boxes automatically judge sector number required for partition alignment, and do not show sector number that does not meet alignment requirement.
+7. Improve stability of cloning partition or disk by hot migration.
+8. As to OEM partition on GPT disk, partition name on Disk Partition Structure area shows "OEM".
+9. When a disk is cloned by file, the application automatically changes to by sector when encountering encrypted partition which is not decrypted.
+10. Default settings of Quick Partition function save configurations like partition size, file system format, volume label, etc.
+11. Add a function to optimize disk by way of TRIM technology.
+12. The status bar shows recovery success rate reference value for current partition after File Recovery finishes scanning.
+13. Optimize video file preview feature and prevent exceptions.
+14. Fixed an issue that in rare cases it appeared on operations of writing files to NTFS partition.
+15. Fixed an issue that in rare cases application froze when deleting folder from NTFS partition.
+16. Fixed an issue that in rare cases application crashed during backing up NTFS partition by file.
+17. Fixed an issue that application launched with low speed in WinPE.
+18. Fixed an issue that volume name was not correctly set for FAT32 partition.
+19. Fixed an issue that exception occurred when loading VHD with fixed format.
+20. Fixed an issue that it couldn't align partition to sector number which was less than 2048.
+21. Fixed an issue that in some cases exception occurred during searching for hex or string in sectors.
+22. Fixed an issue that sometimes it couldn't find out partitions when searching from customized cylinder range.
+23. Fixed an issue that the incremental backup of EXT4 partition generated an excessively large image file.
+24. Fixed an issue that partition number was not restored after loading default settings of quick partition.
+25. Fixed an issue that files could not be filtered by size after searching for lost data.
+
+[ Ver 5.1.0.653 ]
+
+1. Backup partition, clone disk and clone partition can be performed by way of hot backup or hot migration when current system is active.
+2. Support to clone disk or partition by way of booting to DOS or WinPE environment.
+3. Allow users to select file system type to be recovered when recovering files.
+4. Disk's Offline and Read-only status can be displayed in the form of text and icon in Windows 7 and higher systems.
+5. Support to change disk's Offline and Read-only status when running in Windows7 and higher systems.
+6. Display volume GUID path.
+7. Support to display FAT and root directory as a file for FAT32 file system.
+8. Recovering file by type supports RAR5 file.
+9. Optimize the feature of viewing hard disk SMART information.
+10. Optimize file recovery function for NTFS partition.
+11. Optimize the function to assign drive letter.
+12. Optimize executing speed for writing operation to NTFS partition.
+13. Optimize speed of writing compressed files to NTFS partition.
+14. Optimize bad sector function which can specify capacity range, sector range and cylinder range to be checked.
+15. Speed up the process of creating WinPE environment.
+16. Optimize the support of EXT4 file system.
+17.Unformatted partition won't be cloned by sectors when cloning disk is set to clone by files or structure.
+18. When creating new partition, the Create New Partition window sets input focus on "Size of Partition" control for the convenience of quickly entering size.
+19. The application regards the partition where system page file and desktop are located as system partition and does not try locking it when executing functions such as clone partition, image partition, write data, etc.
+20. Disk cloning always clones disk signature (or disk GUID) as it is without asking users.
+21. Fixed an issue that error occurred to assigning drive letter after formatting EXT4 partition in Windows.
+22. Fixed an issue that free disk space couldn't be allocated to EXT4 partition.
+23. Fixed an issue that virtual disk format conversion might prompt target disk was not big enough and failed to complete conversion.
+24. Fixed an issue that sometimes application might freeze when copying files during previewing video file.
+25. Fixed an issue that sometimes the DOS version crashed when restoring partition from image file.
+26. Fixed an issue for File Recovery function that sometimes programs crashed during organizing files.
+
+[ Ver 5.0.1.609 ]
+
+1. Optimize file recovery feature for EXT4 partition.
+2. Optimize file recovery function for NTFS partition.
+3. Optimize lost FAT32 partition recovery.
+4. Improve response speed to damaged disk in some cases.
+5. Fixed a bug that exceptions might occur when partition recovery function ignored a partition.
+6. Fixed an issue that files were not completely listed when recovering files from FAT partition.
+7. Fixed a bug that progress bar couldn't be stopped when registering application without connecting to the Internet.
+8. Fixed an issue that in some situations MBR created by Quick Partition was not correct.
+9. Fixed a bug that in rare cases the unformatted partition was not displayed after being resized.
+10. Fixed an issue that operating system cloned from FAT16/FAT32 system partition might not be able to boot.
+
+[ Ver 5.0.0.589 ]
+
+1. Full file recovery support for EXT4 partition.
+2. It boots to PE system by default when operation such as backup partition, restore partition and resize partition involves system partition and cannot lock partition.
+3. The application prompts to boot to WinPE system when you try to convert dynamic disk where operating system is installed to basic disk.
+4. A default file name is set automatically when saving file for bad sector scanning record, partition table, virtual disk format converting, sector data, data recovery progress, etc.
+5. Add checkboxes to files and folders after loading partition data intelligently to facilitate operation.
+6. Disk which is larger than 4GB is allowed to be converted to FDD mode.
+7. Improve file copy speed after file recovery.
+8. Try not to affect system booting after converting dynamic disk to basic disk.
+9. Optimize NTFS file recovery result.
+10. Improve file preview for Linux text file.
+11. More partition types are supported when creating GUID partitions.
+12. Simplified Chinese is used by default in Singapore Chinese system.
+13. Automatically skip files when file copy runs into read error. (bad sectors excluded)
+14. Cloning disk or converting virtual disk types will be executed via copying sectors when it comes across damaged or unsupported partition.
+15. Buffered data is filled by "UNREADABLESECTOR" when the application reads bad sectors.
+16. Destination partition will be shrunk automatically before restoring partition which is backed up by sector or data layout if destination partition is larger than source partition.
+17. Fixed an issue that write disk error occurred when converting FDD disk to other types.
+18. Fixed an issue that in some cases unexpected problem occurred during data recovery.
+19. Fixed an issue that occurred to file recovery progress saving and loading when recovering data didn't select recovering deleted files.
+20. Fixed an issue that in some situations NTFS file record was not accurately located after file recovery.
+21. Fixed an issue that NTFS partition was not backed up or restored successfully when there were too many file hard links.
+22. Fixed an issue in partition resizing that exception occurred before rebooting system.
+23. Fixed an issue that the program stopped working when bad sector scanning details sort data by Error.
+24. Fixed an issue that FAT partition's Free Clusters and Used Clusters were not correctly displayed.
+25. Fixed an issue that sometimes the partition image's last time point couldn't be deleted.
+26. Fixed an issue that lost EXT4 partition that is larger than 2TB couldn't be found.
+27. Fixed an error that occurred to partition size after loading EXT4 FDD disk which is larger than 2TB.
+28. Fixed an issue that large NTFS partition data contains errors after restoring partition which was backed up by data storage structure.
+
+[ Ver 4.9.6.564 ]
+
+1. Fixed an issue that the program couldn't back up or restore the second partition on USB flash drive in Windows 7 or Windows 8.
+2. Fixed an issue that large ESP partition couldn't be created.
+3. Fixed an issue that unexpected problem occurred when double clicking folders of file list.
+4. Fixed an issue that subdirectory on left pane was displayed repeatedly after clicking '..' in file list.
+5. Fixed an issue in backing up EXT4 partition which consists of unconventional sized sectors. 
+
+[ Ver 4.9.6.559 ]  Renamed this program to DiskGenius.
+
+1. Change working mode for File Recovery feature, which allows users to select "Recover Deleted Files" and "Complete Recovery" singly or simultaneously, avoiding repeated scanning and improving efficiency.
+2. File preview adds support for PDF file.
+3. Add support for recovering deleted files from EXT4 partition.
+4. Optimize bad sector checking function and improve detecting speed.
+5. Optimize scanning speed of File Recovery feature.
+6. Optimize execution speed of scanning lost partitions.
+7. Program icon on Taskbar displays progress for operation being executed.
+8. Support loading virtual disk via dragging mouse.
+9. Support copying data to partition in the software via dragging files from Windows Explorer.
+10. Support copying text of disk and partition information via context menu.
+11. The word "Damaged" will show next to partition name if the partition is damaged.
+12. Improve compatibility to errors on NTFS partition.
+13. Improve file recovery accuracy for NTFS partition.
+14. Improve the speed of filling sectors with random data when erasing free space.
+15. Improve the speed of filling sectors with random data when deleting files permanently.
+16. The error message "There is not active partition" won't be prompted when saving partition table.
+17. Quick formatting or creating partition does not assign drive letter for ESP/MSR partition.
+18. ESP/MSR partition is not created by default when creating new partition on GPT disk.
+19. File Recovery allows previewing file content during scanning.
+20. File Recovery feature adds a green recycle bin mark for file path which contains deleted data.
+21. The Partition Information window still displays information of original partition during file recovery.
+22. S.M.A.R.T. information shows external hard drive's actual disk model and serial number instead of HDD enclosure's model and serial number. 
+23. It's not allowed to contain directory separator when renaming file or creating folder.
+24. Backslash "\" can be used as file name character in EXT4 file system.
+25. Improve compatibility to errors on EXT4 partition.
+26. Improve stability to backup & restore EXT4 partition.
+27. Improve stability to read and write files in EXT4 partition.
+28. Improve stability to resize EXT4 partition.
+29. It's allowed to search for lost partition by costuming cylinder range before registering software.
+30. As to partition which is recovering lost files or found via partition recovery, operations that may damage data are prohibited, for example, clone partition, restore partition, erase free space, erase sectors, etc.
+31. During the process of searching for lost partitions, menu items like "Rebuild Master Boot Record" and "Backup Partition Table" are disabled.
+32. The menu item "Save Scan Progress" is disabled when searching for lost files.
+33. It is not allowed to set volume name or change volume serial number on encrypted BitLocker partition.
+34. Fixed an issue that in some cases drive letter couldn't be assigned correctly.
+35. Fixed an issue that drive letter was not reassigned after restoring partition table.
+36. Fixed an issue that in some cases writing data error occurred to Restore Partition Table function.
+37. Fixed an issue that no error message was prompted when failed to create ESP/MSR partition.
+38. Fixed an issue that preview image blinked when clicking file under File tab.
+39. Fixed an issue on progressing bar when retrieving data from image file.
+40. Fixed an issue that Goto NTFS File Record was not accurate after file recovery.
+41. Fixed an issue sometimes "Invalid handle" error occurred when recovering files from whole disk.
+42. Fixed an issue that folders found after recovering deleted files may not have checkboxes.
+43. Fixed an issue that when WinPE was running out of memory NTFS partition couldn't be restored from image file which was backed up by file.
+44. Fixed an issue that in some cases GUID partition table couldn't be loaded successfully.
+45. Fixed an issue that in some WinPE versions error occurred when saving GUID partition table.
+46. Fixed an issue that sometimes write sector error occurred when saving partition table.
+47. Fixed a bug that sometimes file recovery feature couldn't copy 4GB-sized file.
+48. Fixed an issue that in some cases it couldn't write data to partition which didn't have a drive letter.
+49. Fixed an issue that error occurred when writing data to NTFS partition which enables "Compress this drive to save disk space" in Properties.
+50. Fixed an issue that error occurred when extracting files from EXT4 partition image file.
+51. Fixed an issue that error occurred when read or write virtual disk which is split into multiple files and has snapshots.
+
+[ Ver 4.9.5 ]
+
+1. Support NTFS partition whose cluster is larger than 128 sectors.
+2. Add write support for EXT4 file system.
+3. Backup / restore EXT4 partition.
+4. Support cloning EXT4 partition.
+5. Support resizing EXT4 partition.
+6. Support recovering lost EXT4 partition.
+7. Add menu item to boot to PartitionGuru WinPE version.
+8. Support creating WinPE bootable disk.
+9. Menu items like "Shut down" "Restart" "Run" and "Adjust screen resolution" are abled when you run PartitionGuru WinPE version.
+10. Quick Partition feature can save current settings to Options.ini file as default partitioning scheme, so that it can be used automatically in future operations.
+11. Quick Partition feature changes the default size of ESP partition to 300MB.
+12. Quick Partition supports modifying the size of ESP partition.
+13. Quick Partition can reserve specified number of sectors between partitions for GUID disk, so that the disk can be converted to MBR when necessary.
+14. "Create ESP/MSR partition" is added to menu so that you can create ESP/MSR partition separately.
+15. Improve operations on creating new partition and creating ESP/MSR partition on GPT disk.
+16. Support resizing partition of single PV on LVM without data loss.
+17. Support LVM partition which takes logical partition as PV.
+18. Optimize data module feature.
+19. Optimize File Recovery feature for exFAT partition.
+20. Optimize recovery of NEF files.
+21. Windows DBR is employed when formatting FAT32 partition on USB flash drive.
+22. A progress bar is added when deleting files.
+23. "Create DOS System" is disabled when formatting EXT4 partition.
+24. Support displaying Adapter type for Nvme disk.
+25. Optimize the speed of loading file list.
+26. When a virtual disk is closed, the Sector Editor of its partitions will be closed at the same time.
+27. The program displays detailed information for EXT4 partition such as node size, block numbers of reserved block group descriptor.
+28. When loading vmdk virtual disk, if a flat or fragmented subfile is selected, the program loads the main file automatically.
+29. Optimize Erase Free Space by improving the speed of filling with random data.
+30. Fixed an issue that the file list wasn't updated after formatting USB flash drive.
+31. Fixed an issue that shortcut keys were incorrect for features "Backup Partition Table" and "Restore Partition Table".
+32. Fixed an issue that the file copy process could be stopped by pressing Enter key.
+33. Fixed an issue that the justify of Size list changed from right-justify to left-justify after clicking Size title in Files panel.
+34. Fixed an issue that the selected file number wasn't updated after selecting files by dragging mouse.
+35. Fixed an issue that the selected folder number was incorrect.
+36. Fixed an issue that sometimes the program corrupted when recovering files from FAT32 partition.
+37. Fixed an issue that CPU utilization was too high when the program ran under WinPE.
+38. Fixed an issue that error might occur when writing purely zero data to virtual disk.
+39. Fixed an issue that NTFS partition couldn't be restored when the partition image contains errors.
+40. Fixed an issue that partition table probably couldn't be saved after converting MBR to GUID.
+41. Fixed an issue that the directory structure might not be reorganized after stopping scanning process.
+42. Fixed an issue that error might occur when copying file after scanning.
+43. Fixed an issue that the program might prompt target partition didn't contain enough space when too much NTFS partition disks were connected.
+44. Fixed an issue that sometimes the clipboard didn't work properly.
+45. Fixed an issue that dynamic disk wasn't analyzed as dynamic volumes when it was the last disk on computer.
+
+[ Ver 4.9.3 ]
+
+1. Support formatting partition to EXT2/3/4 file system.
+2. Display 64-bit NTFS volume ID.
+3. Add a feature to change volume serial number.
+4. Improve file preview for text files and judge character encoding automatically.
+5. Hex editor improves support for EXT4 file system.
+6. Improve application stability while it is recovering files.
+7. Improve the support for mp4 files in file recovery feature.
+8. Fix a display error that happened when partition on FDD disk exceeded capacity.
+9. Fix an issue that sometimes files couldn't be selected after clicking "Files" tab.
+
+[ Ver 4.9.2 ]
+
+1. Display and read files in EXT4 partition.
+2. Hex editor supports Go To Sector operations related to EXT4 file system.
+3. Hex editor supports Data Template related to EXT4 file system.
+4. Support FDD disk or image which is formatted to EXT4.
+5. Add support displaying data allocation table for EXT4 partition.
+6. Mouse cursor in data allocation table can be moved by Up and Down keys, and the cursor cannot be moved out of the table.
+7. When operating GUID partition for MAC, it won't clear master boot record if not needed.
+8. Optimize the way of showing file cluster list.
+9. Fixed an issue that it couldn't backup and restore partition table which contains EXT2/3/4 partition.
+10. Fixed an issue that it didn't correctly display icon for folders in EXT3 partition.
+11. Fixed an issue that in some cases it couldn't extend partition.
+12. Fixed an issue that hex editor couldn't enter capitalized hex characters (A-F).
+
+[ Ver 4.9.1 ]
+
+1. Add "Apply" button to "Construct Virtual RAID" window so that program can show result in time after changing parameters.
+2. Improve speed to read files from virtual RAID.
+3. The main interface is able to show configuration information of virtual RAID.
+4. Fixed an issue in 32-bit application that it couldn't create logical partition on extended partition.
+5. Fixed an issue that application couldn't copy files to network computer.
+6. Fixed an issue that in some cases application crashed when deleting files directly.
+7. Fixed an issue that in some cases application couldn't restore FAT32 partition from image file and failed to load FAT32 image file to extract data.
+8. Fixed an issue for file recovery that in some situations application didn't update scanning result immediately after loading scanning progress.
+
+[ Ver 4.9.0 ]
+
+1. Support exFAT file system, including read & write files, backup/restore/clone exFAT partition, recover lost partition, file recovery, quick partition, batch format multiple USB flash drives, etc.
+2. Add support for viewing hard drive S.M.A.R.T information
+3. Sector editor adds menu item to show cluster list occupied by root directory.
+4. Sector editor adds C Source, GREP Hex and Pascal Source to function copying block to clipboard.
+5. File cluster list window displays file size, cluster and fragment number.
+6. Display disk properties such as removable, read-only, SSD, etc.
+7. Improve stability for reading or writing FAT32 partition.
+8. Enhance file recovery for FAT32 partition and improve success rate.
+9. Improve speed to load partition data allocation graph.
+10. Optimize the support of super-capacity NTFS partition.
+11. Improve compatibility for damaged GUID partition table.
+12. When it formats partition, cluster size can't be less than physical sector size.
+13. It does not assign drive letter when formatting hidden partition by default. If you want to assign drive letter, you need to unhide the partition first.
+14. When searching for lost partitions, it won't prompt "this is a logical partition" if the ending location is beyond 2TB range.
+15. Create new partition adds support TB unit.
+16. It prevents GUID partition conflicts when it restores or clones partitions on GPT disk.
+17. Support files without file names in NTFS file system.
+18. Bad sector verifying function allows users to sort data by clicking titles on Sector Details window.
+19. Batch formatting multiple USB flash drive feature supports USB HUB.
+20. Resolves an issue that it failed to copy files from root directory of a partition to specified partition.
+21. Fixed an issue that sector editor couldn't go to specified sector of file system through context menu.
+22. Fixed an issue that some partitions were not aligned as required after hard drive was quick partitioned.
+23. Resolves an issue that file recovery window flickered when recovering deleted files from FAT32 partition.
+24. Resolves an issue that it couldn't execute operations to dirty partition such as write file, delete file, resize partition, clone partition, etc.
+25. Resolves an issue that partition data allocation graph didn't display normally when partition size was very small.
+26. Fixes an issue that files couldn't be previewed when recovering deleted files from FAT32 partition.
+27. Fixes an issue that application crashed when creating new partition on an empty hard drive which is larger than 2TB.
+28. Fixes an issue that application crashed after creating new partition on GPT disk and saving partition table without formatting newly created partition.
+29. Resolves an issue that application didn't update disk information after setting volume name for removable NTFS disk.
+30. Fixes an issue that it couldn't preview file or display files under subdirectory in EXT3 file system partition.
+31. Resolves an issue that sector editor couldn't go to file record of specified file after intelligent loading NTFS partition
+
+[ Ver 4.8.0 ]
+
+I New features
+
+1. Batch formatting of USB flash drives, which can automatically format newly inserted USB flash drives in batch based on specific requirements.
+2. The program is able to safely eject removable disks.
+3. Erase empty space on a partition to prevent lost data from being recovered.
+4. Extend partition without losing data, including extending system partition.
+
+II Improvements on sector editor
+
+1. The item under Copy Block is changed to "Original Data (Ctrl_C)" from "Text (Ctrl_C)"
+2. In sector editor window, moving cursor (or press keys such as arrow keys, PageUp) after selecting a block doesn't wipe selected area.
+3. It becomes able to save changes made to sector data by pressing Ctrl_S. Fixes a bug that exception occurred when users saved sector data.
+4. The "Go to the specified NTFS file record" dialog box remembers file record number entered last time. The dialog box changes title according to partition type being edited.
+5. The "Copy Sectors" dialog box prompts not to write data when target partition or disk is recovering files.
+6. The "Copy Sectors" dialog box doesn't restrict file type of source file or target file when selecting data.
+7. The "Copy Sectors" dialog box shows "Complete" button when sector copy is done, and reports errors if there is any.
+8. The "Copy Sectors" dialog box allows users to select disk or partition by double clicking.
+9. Click a file or folder in the sector editor area and the editor goes to the starting data of selected file or folder immediately.
+10. When a virtual disk is closed, sector editor window of the virtual disk and partition will be closed automatically.
+11. When partitions get deleted, their sector editor window closes automatically.
+12. When hard drive gets reloaded or closed, its partition sector editor window closes automatically.
+13. It allows to copy and paste 192MB (which was 32MB) data via clipboard at most.
+14. The tool bar adds "Copy Sectors" button.
+15. The "Go To Sector" dialog box adds range options to choose partition or disk.
+16. The "Go To Offset" dialog box adds options that can jump relative to beginning or end position of partition or disk.
+17. Improves context menu in file list and edit area, placing items in a more reasonable and understandable way.
+18. Corrects an issue that sometimes ".." under subdirectory displayed out of order and didn't respond to double clicking.
+19. Solves a problem that some menu items of context menu didn't work in file list area of sector editor window opened separately.
+20. Fixes an issue that it couldn't select multiple files in the sector editor area.
+
+III Other changes and bug fixes
+
+1. Improves file copy speed.
+2. File copy supports extremely long file path (32767 characters).
+3. The "Copy File" dialog box enables the "Open Folder" button after files are copied only when target partition has a drive letter.
+4. The "File Copying Report" dialog box can be resized by mouse button.
+5. Improves stability for NTFS partition backup & restore.
+6. Enhances fault-tolerance processing ability for partition clone, backup and restore.
+7. Improves compatibility for partition backup feature. (Check partition table errors before executing the operation, and it's able to backup partition even when partition is not normally closed.)
+8. It prompts whether change Windows boot configuration data when backing up system partition (which is used to restore system to other computers).
+9. Optimizes speed of checking NTFS partition errors before resizing partition.
+10. Improves partition resizing feature and speeds up the process.
+11. The "Resize Partition" window closes after clicking "OK" button directly without making any changes; and no operation will be performed.
+12. "A" or "B" are allowed to be drive letter and can be assigned to partitions.
+13. Improves response time when disk is connected or disconnected.
+14. Users can choose to continue operations such as write data, delete files, rename, resize partition, etc. even when partition is not normally closed.
+15. The file system is FAT32 by default if the partition is created on a removable disk whose capacity is less than 128GB.
+16. Data recovery feature doesn't filter partition when it finds out too few partitions, in order to avoid missing desired partition.
+17. File preview feature is not prompted when it extracts data from PMF file.
+18. Fixes a bug that program corrupted occasionally when recovering files by type.
+19. Improves file recovery feature which was unable to display file number exactly after loading recovery progress.
+20. Fixes a bug that program, in rare cases, froze while searching for lost data.
+21. Fixes a bug that the program corrupted after loading recovery progress repeatedly when recovering deleted files from FAT partition.
+22. Fixes a bug that some recovered files were repeated after loading recovery progress when recovering deleted files from FAT partition.
+23. Corrects a mistake that the program failed to display progress correctly when recovering deleted files from NTFS partition.
+24. Solves a problem that sometimes the partition table conversion couldn't work normally.
+25. Fixes a bug that sometimes NTFS run out of disk space when being written files.
+26. Fixes a bug that file directory on the left panel displayed incorrectly when PMF file was loaded.
+27. Fixes a bug caused by ad bar.
+28. Adds "Allocate Free Space To" item to context menu triggered on free disk space of extended partition.
+29. Solves a problem that messages couldn't be fully displayed on message box when the message was too long.
+30. Fixes a bug that sometimes it couldn't boot to DOS version when there are two hard drives on the computer.
+
+[ Ver 4.7.2 ]
+
+1. Fault tolerance in this program works on GUID partition table, which supports loading problematic GUID partition table.
+2. Adds the feature of reporting and correcting errors for GUID partition table.
+3. "Recovered Types" section in the recovery result is classified to facilitate file lookup.
+4. Optimizes file recovery result for "Recovered Types", filtering out files that are obviously abnormal. 
+5. Improves File Recovery feature and program stability, supporting certain seriously damaged cases.
+6. Supports extracting files from backup image of damaged partition.
+7. Improves speed of copying files.
+8. Disables features like Rebuild MBR, Clear Reserved Sectors, Resize partitions, etc. while the program is recovering files.
+9. It doesn't permit the backup file of partition table to be stored on the partition which is recovering data.
+10. Newly created Virtual image file is not allowed to be saved in the partition that is recovering data.
+11. Rectifies an issue that shortcut key didn't work.
+12. Corrects a problem for the feature of modifying file name that it failed to change case of file name 
+13. Fixes a bug so that folders whose name begins with "." can be cloned while the program clones FAT partitions.
+14. Fix a bug that program exited unusually when recovering lost files.
+15. Fixes an issue that sometimes some lost files couldn't be found when recovering NTFS partition.
+16. Rectifies an issue that in some cases the program couldn't display percentage correctly after reloading file recovery progress.
+17. Fixes an issue that it was unable to recover files on dynamic volumes.
+18. Fixes an issue that dynamic volume didn't show drive letter.
+19. Fixes a bug so that it becomes able to load scanning progress of recovering entire hard drive.
+20. Corrects a problem that language change wouldn't work after restarting program.
+21. Rectifies an error that Disk Partition Diagram didn't show correct information when recovering files on extended partition.
+22. Rectifies a display error on Disk Partition Diagram when parameter of extended partition overflows.
+23. Corrects an problem that new partition couldn't be created when it resized partition on GPT disk and there were more than 4 partitions.
+
+[ Ver 4.7.1 ]
+
+1. Adds "Pause" button for "Recover Files" dialogue box. When file scanning pauses, users can copy files immediately and save scanning progress.
+2. Recovers the progress bar for the dialogue box "Bad Track Verification" and adds a list for detailed info.
+3. Enhances the function "Explore Partition Image File" and improves the adaptability of damaged image file.
+4. Improves the program's stability.
+
+[ Ver 4.7.0 ]
+
+1. Changes the way of showing Disk Partition Structure.
+2. Updates the appearance for the interface of bad sector verification 
+3. Optimizes file recovery function, filtering invalid partitions and speeding up arranging files.
+4. Displays files it found out during the course of scanning files.
+5. It is able to save scanning progress when the program recovers deleted files.
+6. The default recovery mode is modified from Recover Deleted Files to Complete Recovery.
+7. Increases file scanning speed of recovering deleted files from NTFS partitions.
+8. Recovered Typed doesn't display files that overlaps with files from normal directory structure.
+9. Reminds users who want to discard current file scanning result.
+10. Adds support of FAT16 partition which is formatted by IBMDOS.
+11. It doesn't show excluded files while loading image file of incremental backup.
+12. Picks up responding speed of switching hard drives.
+13. Input focus is set to editing era after sector goto.
+14. Rectifies an issue that sometimes the program failed to start in WinPE.
+15. Fix an issue that program corrupted after partition resizing is interrupted by force.
+16. Addresses a problem that program requires registering when extracting PMF file.
+17. Fixes a bug that it couldn't return to parent directory after double clicking ".." on the dialog box "Select Image File".
+18. Fixes a bug that program corrupted when previewing certain pictures.
+19. Fixes a bug that sometimes it couldn't extract all files from PMF file.
+20. Fixes a bug that the in some cases it corrupted when restoring partition from image file.
+21. Redresses an issue that the statistics of selected files were not accurate when recovering files.
+22. Fixes a bug that it failed to show the exact folder number on the right-bottom interface.
+23. Fixes a bug that the Partition and Folder Tree area didn't match the actual situation when operating system is not installed on hard disk 0.
+
+[ Ver 4.6.5 ]
+
+1. Improves the stability.
+2. The folder "Recovered Types (Recognized)" always shows after files are filtered by Modify Time.
+3. The currently-clicked file can be checked and copied automatically when users copy files via context menu and no file is selected. 
+4. Adds support of EXT3 FDD disk.
+5. Partition size of FDD disk shows in line with records in DBR.
+6. Partition C is selected by default after program is launched.
+7. There is no need to restart the program after Offline Register, and it can be registered after the file Options.ini is copied to its directory.
+8. Addresses a bug that program couldn't start when some USB flash drive was connected.
+9. Rectifies the bug that files deleted by the function "Delete Files Permanently" weren't filled when those files and program were in the same partition.
+10. Fixes a bug that when partitioning GPT drive with the function "Quick Partition", the first partition on the MBR partition table converted by PartitionGuru wasn't 4K sector aligned.
+11. Fixes an issue that Erase Sectors worked slowly in DOS.
+12. Rectifies a bug that Logical Volume of LVM partition wasn't shown.
+13. Addresses an issue that couldn't load GPT partition table in some cases.
+14. Fixes a bug in DOS version that the function "Create New Partition" couldn't create required ESP, MSR partitions on GPT disk.
+15. Fixes a bug that vmdk file got damaged after files were written to vmdk disk which was divided by 2GB.
+16. Fixes a bug that it couldn't open vmdk disk which was larger than 500 GB and splited by 2GB.
+17. Fixes a bug in the function "Sectors Copy".
+
+[ Ver 4.6.2 ]
+
+1. It employs MBR of NT6 when rebuilding master boot record with the purpose of enhancing compatibility.
+2. It added the function that recovers files from the entire disk.
+3. It offers the option that forces to backup system when Win8 is shut down quickly or partition isn't unloaded normally.
+4. MBR partition table style can be selected when quick partitioning the disk larger than 2TB.
+5. It rectified the BUG that partitions may get lost after using the function "Quick Partition" to a new hard drive (hard drive without MBR) and system restart.
+6. It rectified the BUG that error occurs when the program resizes FAT16 partition.
+
+[ Ver 4.6.0 ]
+
+1. Improve partition backup and restore speed for backup mode "All Files".
+2. Endian shown on the interpreter area changes when you click "Current Endian".
+3. It's not allowed to select MBR partition table style when you perform the function quick partition to hard drives that larger than 2TB.
+4. It adds support of Intel iFFS partition for GPT drive.
+5. It adds the function that checks 4K sector alignment for partitions.
+6. It adds an item that shows cluster occupied by files to sector edit function.
+7. It adds the function "Go To Sectors" of  file system sectors.
+8. It rectified the bug that program crashed when restoring partition from pmf file that backed up by previous version. 
+9. It rectified the bug that program crashed when encountering special folders named by "..".
+10. It rectified the bug that prompt information was shown incompletely when the program found an extended partition.
+11. It rectified the bug that sometimes it failed to rename files.
+12. It rectified the bug for sector edit function about dynamic disk and LVM volume.
+13. It fixed the problem that when using the function Split Partition or Create New Partition, the newly created partition still shows as free space on the dialogue box "Resize Partition".
+14. It rectified the bug that it failed to perform write or format operation when the program carried out Quick Partition to the hard disk whose partitions were all deleted and partition table was unsaved.
+15. It rectified the bug that when recovering files the program couldn't pop up the context menu after right clicking deleted folders on the Partition and Folder Tree area.
+16. It rectified the bug that some partition became Unformatted after saving partition table using the function converting partition table style to GUID.
+17. It rectified the bug for sector edit function that the Current Endian became Big-Endian automatically after switching language.
+18. It rectified the bug that after switching language, edit area didn't update and synchronize with data in the Interpreter area which changed after language switch.
+19. It rectified the bug that dynamic volumes disappeared from the program interface after USB flash drive was inserted or unplugged.
+20. It rectified the bug that the function "Delete Files Permanently" of Pro version couldn't delete directory entry.
+21. It rectified the bug that the program might crash when it wrote files to NTFS partition.
+22. It rectified the bug that the program may run into endless loop when recovering files by type.
+23. All functions of PartitionGuru Pro DOS version can be used for free and register is no longer required. 
+
+[ Ver 4.5.0 ]
+
+1. The Windows version is able to specify timeout period when it verifies bad sectors; if hard drive is disconnected, the program will stop verifying and prompt message.
+2. Optimized read and write to hard drives that have bad sectors and increased scanning speed for data recovery.
+3. The free version added the function of partition table style conversion that allows users to convert partition table style between MBR and GUID.
+4. It is allowed to select partition table style (MBR or GUID) on the message box when the program performs quick partition.
+5. The program shows the menu of copying files when users right click folders of file directory tree on the left interface.
+6. When the program restores Windows system partition for GPT disk, GUID is restored as well, making sure system start normally.
+7. When restoring partition table, GPT or MBR, the program restores GUID or MBR signature respectively.
+8. It is forbidden to restore partition from backup file which is unfinished or damaged.
+9. The menu item "Show System Files" and its functions were changed to "Show NTFS Metafiles" and program doesn't show NTFS metafiles by default. 
+10. Fixed the bug that 64 bit version crashed when backing up partition to image file.
+11. Fixed the bug that program couldn't normally load PMF file backed up by older version for NTFS partition.
+12. Fixed the bug that error happened if click "Stop" during the process of partition backup.
+13. Fixed the bug that functions clone virtual disk and convert virtual disk format were not available.
+14. Fixed the bug that program might crash when it recovered files by file type if TIFF file came up.
+15. Rectified the problem that program didn't show the name "Bitlocker Encrypted" for partition with drive letter which is encrypted by Bitlocker.
+16. Fixed the bug that it often failed to make bootable USB disk and the bootable USB disk couldn't work.
+17. Fixed the bug that program crashed when USB flash disk was inserted or disconnected in the process of copying files.
+18. Rectified the problem that in the process of loading PMF image file, program could be interrupted by disk update information when storage device such as USB flash disk was inserted or disconnected.
+
+[ Ver 4.4.0 ]
+
+1. Added sector edit function.
+2. Enhanced the speed of partition backup with the backup mode "all files".
+3. Added the function of allocating free space to an appointed partition.
+4. Added the function of converting virtual disk format.
+5. The newly created partition is aligned to integral multiples of sectors by default using KB as unit.
+6. Users are allowed to specify the beginning sector and sector count on the dialog box "create new partition".
+7. Either hidden partition or image files in virtual disk's partition can be loaded directly.
+8. The mark ".." was added to return to parent directory in file browse area.
+9. When resizing partition, the partition encrypted by BitLocker can't be moved or resized.
+10. When adding disk or partition to virtual RAID, the program allows to add partitions by double clicking one after another without closing the "select source partition" dialog box.
+11. It is not allowed to select the target folder on the disk being recovered when using the function recover files by type.
+12. The function "recover files by type" increases the support of sldprt file type produced by SolidWorks.
+13. The physical sector size of hard disk can be detected and showed on the interface.
+14. The bad track verification only adopts the mode read verification, on longer using the mode standard verification.
+15. When repairing bad tracks, the program will not show the report sector read error.
+16. The defaulted size of first partition is properly enlarged in quick partition function with the purpose of meeting the needs of installing Windows 7/8.
+17. No dialog box will be popped up when updating is available, which is changed as scrolling message on the title bar.
+18. Improved the support of differential VHD disks.
+19. Rectified the problem that sometimes disk can't be seen when it had bad sectors and it was recognized as "uninitialized" in disk management.
+20. Fixed the bug that the program stopped searching lost partitions when meeting bad sectors.
+21. Fixed the problem that sometimes the disk serial number couldn't be acquired accurately when several disks were connected through USB.
+22. Fixed the bug that the program crashed when copying big files to hidden partition.
+23. Fixed the bug that the progress bar showed wrongly when verifying bad track for disk with a capacity larger than 2TB.
+24. Fixed the bug that the virtual disk wasn't set as current disk after it was loaded.
+25. Fixed the bug that large BMP files couldn't be previewed.
+26. Fixed the bug that sometimes computer couldn't reboot to the program's DOS version.
+27. Rectified the problem that the file recovery function still copied files that had been filtered.
+
+[ Ver 4.3.0 ] 
+
+1. New: The Pro version added the function "Intelligent Load NTFS Partition", ignoring folder's index when loading partition, which is similar to the way Winhex does;
+2. New: Added the function setting sector size in the dialog box "Set Disk Geometry", which can be used to recover data when the sector size recorded by file system is not consistent with actual sector size;
+3. New: Added Japanese language support;
+4. Enhanced: When previewing files, the Pro version supports more video and audio file types;
+5. Enhanced: Supported loading Hyper-V VHDX virtual disk in a read-only way;
+6. Enhanced: More file types were added when the program searches for known file types: 3g2, m4v, mmf, X3F, M4R, AIF, MKV, MTS, WRF, WMF, VFB, VNT, IPA, PXL, GP5, VEG, DRW, QQ chatting records (.DB), etc;
+7. Fixed: It's available to input remarks in Chinese when the program backs up partition in its DOS version;
+8. Fixed: Rectified the BUG that the PartitionGuru 32bit version couldn't load PMF image of FAT partition;
+9. Fixed: Rectified the mistake that the backup mode All Files was adopted while the backup mode Data Sectors Only was supposed to be;
+10. Fixed: Removed the BUG that partitions couldn't be shown immediately after the scanning when the program was recovering files from FDD virtual disk.
+11. Fixed: Removed the BUG that the program stopped response when it loaded FAT partitions if the FAT table got damaged;
+12. Fixed: Rectified the problem that sometimes NTFS partitions couldn't be searched out;
+13. Fixed: Removed the BUG that error occurred when the program was parsing PMF files which were not backed up by file;
+14. Fixed: Removed the BUG that in the advanced settings of Backup Partition To Image File other folders might be excluded when adding folders that needs excluding;
+15. Fixed: Removed the BUG that in some occasions when partition table was saved the CHS parameter became incorrect;
+16. Fixed: Rectified the problem that the Pro version couldn't resize GPT partitions.
+17. Fixed: Removed the BUG that in some circumstances when recovering files the program corrupted.
+
+[ Ver 4.2.0 ] 
+
+1. New: When backing up partitions by file, you can choose not to back up certain files or folders;
+2. New: When backing up partitions by file, it supports incremental backup as well as backing up a couple of points-in-time; also it can restore the partition to any point-in-time backed up before;
+3. New: It backs up MBR when backing up system partition to the image file; when restoring data, if MBR has changed it'll ask user whether recover MBR;
+4. New: It added the function of previewing video files;
+5. Enhanced: It strengthened the function of recovering files of NTFS partitions;
+6. Fixed: It rectified the problem that sometimes it couldn't load and display FAT32 files fully, which could make it unavailable that resizing the FAT32 partitions;
+7. Fixed: It fixed the BUG that when it restored partition table of hard disk larger than 2TB, after loading the partition table, some partitions were shown as "unformatted" and the partition table still had mistakes even after the restoring.
+8. Fixed: It fixed the BUG that not all the data was copied when it was copying file larger than 4GB to virtual disks (or hidden partitions);
+9. Fixed: It rectifies the problem that NTFS partitions of hard disk larger than 2 TB were still shown as "unformatted" in Windows even if it was indeed formatted;
+10. Fixed: It rectified the problem that after it found out partitions of GPT disk it couldn't save the partition table if there were less than 34 free sectors on the rear and front part of the disk.
+11. Fixed: It fixed the problem that it would crash when resizing partitions of removable disk;
+12. Fixed: It fixed the problem that it might crash when it made bootable USB flash disk in Window7;
+13. Fixed: It fixed the BUG that it might crash if you close it with the previewing window opened;
+14. Fixed: It fixed the problem that it might be deadlocked when verifying bad sectors;
+15. Fixed: It fixed the BUG that when creating logical partitions under its DOS version, the check box "Logical Partition" was not checked on the dialog box "Create New Partition";
+16. Fixed: It fixed the BUG that under its DOS version the function of resizing partition without data loss couldn't be started by shortcut keys Ctrl_F11.
+
+[ Ver 4.0.1 ] 
+
+1. New: Added the function of resizing partitions without data loss (including expend partition, shrink partition, split partition and so on). 
+2. New: If you execute the order creating a new partition on the selected partition, the program will automatically call the function of resizing partition without data loss in order to split a new partition from the current partition.
+3. Enhanced: Accelerated the speed of searching for lost partitions. 
+4. Enhanced: When back up or restore system partition, if the DOS version can be started, the program will enter DOS and finish operations automatically. 
+5. Enhanced: When searching for lost partitions, if you ignore the searched out partition, opened previewed window will be closed to avoid something abnormal. 
+6. Fixed: Fixed the problem that it couldn't recover files on LVM logical volume. 
+7. Fixed: Fixed the problem that sometimes the size of a cluster would exceed 128 sectors when it formatted FAT partition. 
+8. Fixed: Fixed the problem that in Win2003 blank MBR disk changed into GPT would turn into MBR again after partition table was saved. 
+9. Fixed: Fixed the problem that after recovering deleted files it didn't filter the display of normal files 
+10. Fixed: Fixed the BUG that when recovering NTFS zip files it couldn't go on copying other files after file copying appeared errors. 
+11. Fixed: Fixed the problem that cloning, backup or recovering partition could be abnormally interrupted. 
+12. Fixed: Fixed the BUG that target disk just had one MBR protected partition left after cloning disk by sectors. 
+13. Fixed: Fixed the problem that in some conditions it couldn't load all of the files of FAT32 partition. 
+14. Fixed: Fixed the problems that when recovering deleted files from FAT32 partition, files large than one cluster can't be copied. 
+15. Fixed: Fixed the problems that it couldn't enter DOS when several disks exist. 
+
+[ Ver 3.8.0 ]
+
+<* Professional version only>
+1. New: Supports dynamic disks and dynamic volumes, can read or write files and recover data from dynamic volumes.* 
+2. New: Supports converting dynamic disks contained simple volumes only to basic disk.*
+3. New: Add "Extra Search for Known File Types" option when using "Recover Deleted Files" recovery mode, to recover files according to specified types from free clusters.*
+4. New: Optimized bad sectors processing, improving the program's speed obviously when there are lots of bad sectors in disk.* 
+5. New: Show error message in pop-up window when it fails to read or write sectors.* 
+6. New: Save the bad sectors records automatically when the program is closed. Load the bad sectors records automatically when the program is openned.* 
+7. New: Add "Reset Bad Sector Records" menu item for clearing bad sectors records from memory, in order to try reading bad sectors again when encountered next time.* 
+8. New: when performing partition clone, disk clone, backup partition or partition recovery, if it encounters sector read or write error, it'll ignore the error and continue the operation automatically, and meanwhile the error information will be shown on the message window.* 
+9. New: When performing some long time operations, user can select shutdown, standby or hibernate when the operations are completed.* 
+10. New: Supports drag and drop operations when add virtual disk files to folder tree. Multiple virtual disk files can be selected from the file selecting window.* 
+11. New: Optimized the interface of disk and partition selecting window. 
+12. New: Supports searching for lost BitLocker partitions.* 
+13. Enhanced: Optimized the program's opening and running speed. 
+14. Enhanced: While recovering files, if the program can not automatically save the recovery progress when the program is installed on the partition that is recovering files, the program will prompt the user to save the scan progress to other partition. 
+15. Enhanced: The "System Volume Information" folder will not be created while formatting NTFS partition. 
+16. Enhanced: Forbid to execute the "Quick Partition" operation on the disk where the operating system is installed. 
+17. Enhanced: Add editable sectors number item on RAID contructing dialog.* 
+18. Enhanced: The main interface will switch to "file and folder shown" status when you double click the partition in the partition list. 
+19. Fixed: Fix the problem that a redundant drive letter appeared when an empty card reader is inserted. 
+20. Fixed: Fix the problem that a redundant driver letter appeared when a USB flash disk is inserted. 
+21. Fixed: Fix the bug that the program crashed while recovering deleted files in FAT partition. 
+22. Fixed: Fix the problem that the DOS version program can not enter graphic interface while some special video card is installed in the computer. 
+23. Fixed: Fix the bug in "Verify and Repair Bad Tracks" function. 
+24. Fixed: Fix the problem that the driver letter can not be deleted in some special case. 
+25. Fixed: Fix the problem that the program's freeze while recovering files by file types.* 
+26. Fixed: Fix the bug that the interface will be wrongly displayed while clicking the parititon after recovering files. 
+27. Fixed: Fix the bug that the program crashed while recovering files again under "file recovery" status. 
+28. Fixed: Fix the bug that the scan area become the whole disk while recovering files by file types on free space.* 
+29. Fixed: Fix the problem that the scan procedure will be interrupted by the refresh message of the disk partitions while recovering files with the menu "Tools" - "Recover Files by Types".* 
+30. Fixed: Fix the bug that the "Select all", "Unselect all" and "Reverse Select" buttons in "Select File Types to Recover" window are invalid while the file types tree are not fully expended.* 
+31. Fixed: Fix the bug that the program crashed while previewing images on some special cases.* 
+32. Fixed: Fix the bug that error occurs while the program loading unmatched scan process file. 
+
+[ Ver 3.7.0 ]
+
+1. New: Support more file types when recovering files by known type.
+2. New: Can preview files in a large window.
+3. New: Support preview office documents including WORD, EXCEL and PowerPoint files.
+4. Enhanced: After recovering files, the number and capacity of selected files will be displayed on the status bar.
+5. Enhanced: Change the accelerator key F9 and F10 for back up and restore partition table to F2 and F3.
+6. Fixed: A bug of lost partition recovery.
+7. Fixed: A bug of formatting NTFS partition under Windows 7.
+8. Fixed: Program may run into endless loop when recovering files by type. 
+
+[ Ver 3.6.0 ]
+
+1. New: Recovery lost files from unallocated disk space.
+2. New: Extra search for known file types when recovering files.
+3. New: Recovery files by known type and output immediately(can scan free clusters only).
+4. New: Construct virtual RAID for data recovery(RAID recovery).
+5. Enhanced: Add a Open Folder button to the File Copy dialog box. Click it will open the target folder.
+6. Enhanced: Can save file recovery progress to a file for later continue.
+7. Enhanced: When repairing bad tracks, try to keep the sector data unchanged to decrease data lose.
+8. Enhanced: Prevent changing the drive letter of the system partition.
+9. Fixed: Refresh partitions after erasing the sectors of a partition or a disk.
+10. Fixed: The Arranging Files operation may take very long time when recovering lost files.
+11. Fixed: Can not recover lost files from BitLocker partition.
+12. Fixed: When backing up a NTFS partition to separate image files, the image files may become unusable.
+13. Fixed: The file size may become 0 byte when extract it from a partition image file.
+
+[ Ver 3.5.0 ]
+
+1. New: Erase sectors of a disk or a partition, can specify sector range and fill type.
+2. New:Permanently delete files. After this operation the files will not be undeleted by any software.
+3. New: Support reading files from Samsung RFS File system partition.
+4. New: Add a file filter panel for File Recovery function. you can filter files by name, attributes, size and time.
+5. Enhanced: Enhanced: When recovering files, speed up file organizing at the final stage.
+6. Enhanced: Support creating folder with special file name when copying files.
+7. Enhanced: Support creating folder with special file name when copying files.
+8. Fixed: Can not cancel the formatting process of the quick partition function.
+9. Fixed: Program may crash when quit the program.
+10. Fixed: Can not correctly display the USB-FDD disk sometimes.
+11. Fixed: On the quick partition dialogue, when clicking the Default Size button, the partition type was reset unexpectedly.
+12. Fixed: Bad track repairing may failed sometimes.
+13. Fixed: When files were written to a partition, after the partition was refreshed, the files may disappeared sometimes.
+14. Fixed: The drive letter of unformatted partition do not displayed sometimes.
+15. Fixed: When recover files from FAT32 partition, not all files can be recovered.
+
+[ Ver 3.4.5 ]
+
+1. New: Support recovering large and very fragmented files.
+2. New: Question resolved: In some cases the data of the recovered files may not correct.
+3. New: Support searching the partitions by cylinders. Only the partitions aligned to cylinders could be found.
+4. New: Display the starting sector number of unknown type partitions and free space on partition information panel.
+5. New: Do not write the Local AppWizard-Generated Applications registry key.
+6. Fixed: The verify bad tracks on removable disks it always report errors.
+7. Fixed: Can not assign drive letter after quick partition on Windows 2003 PE system.
+8. Fixed: Can not correctly delete the second logical partition after the first one was already deleted.
+9. Fixed: After recovering deleted files and reloading the partition, the deleted folders still displayed on the directory tree.
+10. Fixed: In some cases some files of FAT file system can not displayed.
+11. Fixed: Program may crashed on some anomalous partition table.
+12. Fixed: n some cases an unwanted drive letter may displayed when a USB disk was inserted.
+13. Fixed: After writing some files into NTFS partition under DOS system, the files could not be found by Windows system.
+14. Fixed: Can not find logical partitions from the free space sometimes.
+15. Fixed: After recovering files on NTFS partition, some files could not be displayed in some cases.
+16. Fixed: After recovering files on NTFS partition, the Lost Files folder did not displayed.
+17. Fixed: When copying files to NTFS compressed partition the files was not compressed.
+18. Fixed: When setting the volume name of NTFS partition, if the new name is shorter than the old one, the volume will be not correct.
+
+[ Ver 3.4.3 ]
+
+1. New: Use Windows XP's MBR when rebuilding master boot record.
+2. Fixed: All SAVING FILES menu items are disabled when recovering files on Version 3.4.2.
+3. Fixed: When copying files to an abnormally dismounted partition, the file copying dialog not be closed.
+4. Fixed: Can not assign drive letter after quick partition on Windows PE system.
+5. Fixed: When booting from the partition which restored from a partition image file on Windows PE system, the operating system may crash and display a blue screen.
+6. Fixed: When exploring partition image (.pmf file), some files may not be displayed.
+7. Fixed: Can not activate DOS version when register.
+
+[ Ver 3.4.2 ]
+
+1. New: When recovering files, save searching progress automatically per 2 minutes. 
+2. New: Display types information of virtual disks on Disk Information panel.
+3. New: When activate a partition, if the partition is hidden, cancel the hidden flag automatically.
+4. New: When hiding a system partition, do not try to lock it.
+5. New: Add a "Read-Verification" option on Bad Track Verification dialog. When this option was selected, the verification result will depend on the reading operation.
+6. New: Enhance keyboard operation. TAB key to switch input focus. Ctrl_Left and Ctrl_Right key to switch current partition or space.
+7. New: Add an "Ignore the partitions without files" checkbox on Search Lost Partitions dialog. When this option was selected, the partitions found without files will be ignored automatically.
+8. Fixed: Can not open the FAT32 partition when the root directory has a same filename with volume label.
+9. Fixed: Can not set volume label for FAT32 partition when there is a same filename.
+10. Fixed: Program crashed when formatting a very small FAT32 partition. 
+
+[ Ver 3.4.0 ]
+
+New:
+1. Support Virtual PC disk files(".vhd" file).
+2. Support VirtualBox disk files(".vdi" file).
+3. Support directly load and extract files from NTFS partition image backed up by files.
+4. Support the disks with non-512 bytes sector size.
+5. Support BitLocker encrypted partitions.
+6. Display cluster allocation diagram of each partition.
+7. Support renaming files and folders.
+
+Enhanced:
+1. New search mode for the function of searching for lost partitions, simplify search settings. Never use the automatic and advanced mode again.
+2. When copying files, it won't permit saving files to newly found partitions.
+3. While recovering lost files from a partition, PartitionGuru can automatically recover files from origin FAT32 and NTFS file systems at the same time.
+4. The function of recovering lost files can automatically save recovery progress. When it searches again, the recovery progress can be loaded and continue.
+5. On the file browsing list control, the deleted file and the files without parent are distinguished by special icons.
+6. When a partition is destroyed, PartitionGuru can try its best to list the file for recovering.
+7. When creating a new partition, the input focus is automatically set to the size control on the "create new partition" dialogue.
+8. After creating a new partition, the next free space will be automatically selected. When creating the second partition, the partition type will be automatically set to "extended". If there are already three primary partitions, when creating the fourth partition, the partition type will be automatically set to "extended" too.
+9. Add alignment options to the "Create new partition" dialogue. It can be used for aligning the partition position and size to the integral multiple of the specified sector numbers.
+10. Add alignment options to the "Create ESP and MSR partition" dialogue.
+11. Add alignment options to the "Quick partition" dialogue. All partitions can be aligned to the integral multiple of the specified sector numbers.
+12. On the function of "Make USB Bootable Disk", the "Create DOS system" option on the formatting dialogue can be selected or not. While making FDD disk, the FAT32 file system type can not be selected because FreeDOS does not support it.
+13. When formatting NTFS partition, set the default cluster size and the position of the metafiles like $MFT to same as the Windows formatting program.
+14. The function of formatting NTFS partition does not support the cluster size larger than 64KB.
+15. Change the interface style to XP mode.
+16. Rearrange the sequence of the toolbar buttons.
+
+Fixed:
+1. Fixed: After searching for lost partitions on GPT disk, the GUID of the existing partition was changed.
+2. Fixed: While recovering lost files, the "$Extend" folder will be copied even it is not selected.
+3. Fixed: When recovering deleted files, the program may be crashed when the "Show normal files" option is selected.
+4. Fixed: After restoring a NTFS partition from an image file, CHKDSK may report errors on the partition.
+5. Fixed: On the function of "clone disk", the program may be crashed after a disk is selected.
+6. Fixed: The "Create new partition" dialogue for creating a GUID partition, when the partition type is changed, the partition type GUID does not automatically change.
+7. Fixed: While PartitionGuru is running, the removable disk can not be dismounted even if it is not opened.
+8. Fixed: Sometimes the partition table backup can not be restored because of the program crash.
+9. Fixed: Can not load the FAT/FAT32 partition with single File Allocation Table(FAT).
+10. Fixed: Can not change the volume name of a hidden partition under Windows 7 system.
+11. Fixed: On the function of "Quick Partition", when set the last partition as primary, a little free space on the tail of the disk may be not allocated.
+12. Fixed: After a Quick Partition under Windows 7 system, some unwanted drive letters may be generated.
+13. Fixed: When open some memory cards the program may be crashed. 
+
+Website: https://www.diskgenius.com/
+

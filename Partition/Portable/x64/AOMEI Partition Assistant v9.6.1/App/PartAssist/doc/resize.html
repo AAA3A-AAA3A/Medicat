@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Resize/Move Partition</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="header">Resize/Move Partition</div>
+	<div class="headimgfill"></div>
+	<div class="text">
+	Along with data increased and application installed, when you write data to the partition again, you may find there is no more disk space to hold your new data. Partition Assistant allows you expand the partition of the low disk space safely, and also you can shrink volume and move volume.<br/><br/>
+	<b>To Resize/Move Partition</b><br/>
+	<ul style="list-style:decimal;">
+		<li>Select the partition that you want to resize in main window, and click the <b>Resize or Move Partition</b> option in shortcut menu to invoke the Resize and Move Partition dialog.<br/><br/></li>
+		<li>
+			In the dialog, you can adjust the size and location of the partition by the following ways:
+			<ul style="list-style:disc;">
+				<li>Directly enter a proper size into the Input Box field to adjust the partition.</li>
+				<li>Move the mouse pointer to the graphical Partition Bar, and then drag the corresponding partition rectangle until you get the proper size in the Partition size field when the mouse pointer changes to a double-headed arrow or square-headed arrow.</li>
+			</ul>
+			<br/>
+			In addition, if you are using Solid State Drive, we suggest you click <strong>Advanced</strong> button, and then select "partition alignment for SSD". This feature could speed up SSD's read and write speeds, improve the performance of SSD. Note here the partition will be aligned, only when you moving partition. If you just extend/shrink partition, but not move the partition, the partition would still not be aligned. Also, if you tick at the option, the program will preserve partition alignment when an aligned partition is resized or moved.
+			<br/>
+			<br/>
+		</li>
+		<li>
+			By clicking OK a partition resizing or moving operation will be added to pending operations list, and the new partition structure will be graphically represented in the Partition Assistant main window.
+		</li>
+	</ul>
+	
+	<br/><br/>
+	<p>
+	<div style="background-color:#CCDDEE; border: 1px solid #999999; padding:10px;">
+		<b>Note</b><br/>
+		<ul>
+			<li>Partition Assistant has a wizard, which can automatically perform more complex partition extending with restarting computer no required. Simple partition resizing lets you increase partition size only if there is free (unallocated) space after a partition. You can invoke the wizard by clicking <b>Wizard</b> -> <b>Extend Partition Wizard</b> in menu bar.</li>
+			<li>Take special care when moving an operating system partition and its boot code location. The OS might stop booting. For example, Windows NT 4.0 and earlier versions limit boot code location to the first 2016 MB.</li>
+			<li>After moving or resizing the partition with restore point, you may lose the restore point created by Windows System Restore before.</li>
+			<li>In order to protect your system or boot partition, you could not move system/boot partition directly; if you need to move system/boot partition (for example if the system/boot partition is at the end of the hard disk) you must tick "I need to move this partition", and then you could move it.</li>
+		</ul>
+	</div>
+	</p>
+	</div>
+</body>
+</html>

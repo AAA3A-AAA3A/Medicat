@@ -1,0 +1,141 @@
+[07042021-00:15:16][1002]Read disk GEOMETRY, s64TotalSectors = 1953520065
+[07042021-00:15:16][1015]Read disk GEOMETRY EX, s64Totalbytes = 1000204886016
+[07042021-00:15:16][1037]Read disk LENGTH_INFO, s64Totalbytes = 1000204886016
+[07042021-00:15:16][340]  Physical sector size is 512 bytes.
+
+[07042021-00:15:16][342]  The number of bytes in a cache line of the device = 0 
+
+[07042021-00:15:16][1002]Read disk GEOMETRY, s64TotalSectors = 250067790
+[07042021-00:15:16][1015]Read disk GEOMETRY EX, s64Totalbytes = 128035676160
+[07042021-00:15:16][1037]Read disk LENGTH_INFO, s64Totalbytes = 128035676160
+[07042021-00:15:16][337]  Emulated sector size is 512 bytes.
+
+[07042021-00:15:16][338]  Physical sector size is 4096 bytes.
+
+[07042021-00:15:16][342]  The number of bytes in a cache line of the device = 0 
+
+[07042021-00:15:16][1002]Read disk GEOMETRY, s64TotalSectors = 500103450
+[07042021-00:15:16][1015]Read disk GEOMETRY EX, s64Totalbytes = 256060514304
+[07042021-00:15:16][1037]Read disk LENGTH_INFO, s64Totalbytes = 256060514304
+[07042021-00:15:16][332]Error 31 encountered while querying disk alignment.
+
+[07042021-00:15:16][43] Partition Table Entry Type ee
+[07042021-00:15:16][46] Partition Table Entry Type 83
+[07042021-00:15:16][46] Partition Table Entry Type 7
+[07042021-00:15:16][758]pszVolumeMountPoint = \\?\Volume{58c63c57-13e4-43e2-90ae-a9ec8f1bed8f}\, start sector = 567296
+[07042021-00:15:16][758]pszVolumeMountPoint = \\?\Volume{3387e874-0000-0000-0000-100000000000}\, start sector = 2048
+[07042021-00:15:16][758]pszVolumeMountPoint = \\?\Volume{3387e874-0000-0000-0060-659c3b000000}\, start sector = 500052656
+[07042021-00:15:16][758]pszVolumeMountPoint = \\?\Volume{5109f723-34a2-4391-a698-78e59aa288f8}\, start sector = 2048
+[07042021-00:15:28][1002]Read disk GEOMETRY, s64TotalSectors = 1953520065
+[07042021-00:15:28][1015]Read disk GEOMETRY EX, s64Totalbytes = 1000204886016
+[07042021-00:15:28][1037]Read disk LENGTH_INFO, s64Totalbytes = 1000204886016
+[07042021-00:15:28][340]  Physical sector size is 512 bytes.
+
+[07042021-00:15:28][342]  The number of bytes in a cache line of the device = 0 
+
+[07042021-00:15:28][1002]Read disk GEOMETRY, s64TotalSectors = 250067790
+[07042021-00:15:28][1015]Read disk GEOMETRY EX, s64Totalbytes = 128035676160
+[07042021-00:15:28][1037]Read disk LENGTH_INFO, s64Totalbytes = 128035676160
+[07042021-00:15:28][337]  Emulated sector size is 512 bytes.
+
+[07042021-00:15:28][338]  Physical sector size is 4096 bytes.
+
+[07042021-00:15:28][342]  The number of bytes in a cache line of the device = 0 
+
+[07042021-00:15:28][1002]Read disk GEOMETRY, s64TotalSectors = 500103450
+[07042021-00:15:28][1015]Read disk GEOMETRY EX, s64Totalbytes = 256060514304
+[07042021-00:15:28][1037]Read disk LENGTH_INFO, s64Totalbytes = 256060514304
+[07042021-00:15:28][332]Error 31 encountered while querying disk alignment.
+
+[07042021-00:15:28][43] Partition Table Entry Type ee
+[07042021-00:15:28][46] Partition Table Entry Type 83
+[07042021-00:15:28][46] Partition Table Entry Type 7
+[07042021-00:15:28][758]pszVolumeMountPoint = \\?\Volume{58c63c57-13e4-43e2-90ae-a9ec8f1bed8f}\, start sector = 567296
+[07042021-00:15:28][758]pszVolumeMountPoint = \\?\Volume{3387e874-0000-0000-0000-100000000000}\, start sector = 2048
+[07042021-00:15:28][758]pszVolumeMountPoint = \\?\Volume{3387e874-0000-0000-0060-659c3b000000}\, start sector = 500052656
+[07042021-00:15:28][758]pszVolumeMountPoint = \\?\Volume{5109f723-34a2-4391-a698-78e59aa288f8}\, start sector = 2048
+[09252021-15:20:46][1002]Read disk GEOMETRY, s64TotalSectors = 500103450
+[09252021-15:20:46][1015]Read disk GEOMETRY EX, s64Totalbytes = 256060514304
+[09252021-15:20:46][1037]Read disk LENGTH_INFO, s64Totalbytes = 256060514304
+[09252021-15:20:46][337]  Emulated sector size is 512 bytes.
+
+[09252021-15:20:46][338]  Physical sector size is 4096 bytes.
+
+[09252021-15:20:46][342]  The number of bytes in a cache line of the device = 0 
+
+[09252021-15:20:46][1002]Read disk GEOMETRY, s64TotalSectors = 250067790
+[09252021-15:20:46][1015]Read disk GEOMETRY EX, s64Totalbytes = 128035676160
+[09252021-15:20:46][1037]Read disk LENGTH_INFO, s64Totalbytes = 128035676160
+[09252021-15:20:46][337]  Emulated sector size is 512 bytes.
+
+[09252021-15:20:46][338]  Physical sector size is 4096 bytes.
+
+[09252021-15:20:46][342]  The number of bytes in a cache line of the device = 0 
+
+[09252021-15:20:46][43] Partition Table Entry Type ee
+[09252021-15:20:46][46] Partition Table Entry Type 7
+[09252021-15:20:46][758]pszVolumeMountPoint = \\?\Volume{10221060-d87c-4f67-b3a0-0c0af0efa4aa}\, start sector = 239616
+[09252021-15:20:46][758]pszVolumeMountPoint = \\?\Volume{1f41614a-4c14-4453-af51-f20662ba91bc}\, start sector = 498020352
+[09252021-15:20:46][758]pszVolumeMountPoint = \\?\Volume{9f425381-0000-0000-0000-100000000000}\, start sector = 2048
+[09252021-15:20:46][758]pszVolumeMountPoint = \\?\Volume{9f425381-0000-0000-0060-85cd1d000000}\, start sector = 250004144
+[09252021-15:20:46][758]pszVolumeMountPoint = \\?\Volume{27ac33c9-523d-493e-b1a7-410533a961b9}\, start sector = 2048
+[09252021-15:20:46][941]Failed to get Windows product type
+[02072022-10:29:18][1002]Read disk GEOMETRY, s64TotalSectors = 1953520065
+[02072022-10:29:18][1015]Read disk GEOMETRY EX, s64Totalbytes = 1000204886016
+[02072022-10:29:18][1037]Read disk LENGTH_INFO, s64Totalbytes = 1000204886016
+[02072022-10:29:18][337]  Emulated sector size is 512 bytes.
+
+[02072022-10:29:18][338]  Physical sector size is 4096 bytes.
+
+[02072022-10:29:18][342]  The number of bytes in a cache line of the device = 0 
+
+[02072022-10:29:18][1002]Read disk GEOMETRY, s64TotalSectors = 4016250
+[02072022-10:29:18][1015]Read disk GEOMETRY EX, s64Totalbytes = 2063073280
+[02072022-10:29:18][1037]Read disk LENGTH_INFO, s64Totalbytes = 2063073280
+[02072022-10:29:18][332]Error 1 encountered while querying disk alignment.
+
+[02072022-10:29:18][43] Partition Table Entry Type ee
+[02072022-10:29:18][43] Partition Table Entry Type ee
+[02072022-10:29:19][758]pszVolumeMountPoint = \\?\Volume{89ed6e82-8022-4013-be39-e2c59b89d647}\, start sector = 2048
+[02072022-10:29:19][758]pszVolumeMountPoint = \\?\Volume{85f5132c-bee6-471b-b251-d1d95cbd0aac}\, start sector = 1615872
+[02072022-10:29:19][758]pszVolumeMountPoint = \\?\Volume{bac6b1f9-3daa-4b4d-b6aa-d92e3ff549ba}\, start sector = 1909800960
+[02072022-10:29:19][758]pszVolumeMountPoint = \\?\Volume{48efa73e-98a3-45f7-b055-023db23ad5f0}\, start sector = 1911242752
+[02072022-10:29:19][758]pszVolumeMountPoint = \\?\Volume{dbe8d5f9-baab-4567-9506-aa5ed1a86ccc}\, start sector = 1912991744
+[02072022-10:29:19][758]pszVolumeMountPoint = \\?\Volume{967648f4-11df-40fe-82ea-36e55e63b054}\, start sector = 1915033600
+[02072022-10:29:19][758]pszVolumeMountPoint = \\?\Volume{0000005b-76a0-7b5b-051a-d801b6000000}\, start sector = 2048
+[02072022-10:29:19][758]pszVolumeMountPoint = \\?\Volume{bcc4b3a9-f147-411e-8f5a-7f2e94441317}\, start sector = 821248
+[02072022-10:29:19][941]Failed to get Windows product type
+[02072022-16:42:20][1002]Read disk GEOMETRY, s64TotalSectors = 1953520065
+[02072022-16:42:20][1015]Read disk GEOMETRY EX, s64Totalbytes = 1000204886016
+[02072022-16:42:20][1037]Read disk LENGTH_INFO, s64Totalbytes = 1000204886016
+[02072022-16:42:20][337]  Emulated sector size is 512 bytes.
+
+[02072022-16:42:20][338]  Physical sector size is 4096 bytes.
+
+[02072022-16:42:20][342]  The number of bytes in a cache line of the device = 0 
+
+[02072022-16:42:20][1002]Read disk GEOMETRY, s64TotalSectors = 4016250
+[02072022-16:42:20][1015]Read disk GEOMETRY EX, s64Totalbytes = 2063073280
+[02072022-16:42:20][1037]Read disk LENGTH_INFO, s64Totalbytes = 2063073280
+[02072022-16:42:20][332]Error 1 encountered while querying disk alignment.
+
+[02072022-16:42:20][1002]Read disk GEOMETRY, s64TotalSectors = 120166200
+[02072022-16:42:20][1015]Read disk GEOMETRY EX, s64Totalbytes = 61530439680
+[02072022-16:42:20][1037]Read disk LENGTH_INFO, s64Totalbytes = 61530439680
+[02072022-16:42:20][340]  Physical sector size is 512 bytes.
+
+[02072022-16:42:20][342]  The number of bytes in a cache line of the device = 0 
+
+[02072022-16:42:20][43] Partition Table Entry Type ee
+[02072022-16:42:20][43] Partition Table Entry Type ee
+[02072022-16:42:20][46] Partition Table Entry Type 7
+[02072022-16:42:21][758]pszVolumeMountPoint = \\?\Volume{89ed6e82-8022-4013-be39-e2c59b89d647}\, start sector = 2048
+[02072022-16:42:21][758]pszVolumeMountPoint = \\?\Volume{85f5132c-bee6-471b-b251-d1d95cbd0aac}\, start sector = 1615872
+[02072022-16:42:21][758]pszVolumeMountPoint = \\?\Volume{bac6b1f9-3daa-4b4d-b6aa-d92e3ff549ba}\, start sector = 1909800960
+[02072022-16:42:21][758]pszVolumeMountPoint = \\?\Volume{48efa73e-98a3-45f7-b055-023db23ad5f0}\, start sector = 1911242752
+[02072022-16:42:21][758]pszVolumeMountPoint = \\?\Volume{dbe8d5f9-baab-4567-9506-aa5ed1a86ccc}\, start sector = 1912991744
+[02072022-16:42:21][758]pszVolumeMountPoint = \\?\Volume{967648f4-11df-40fe-82ea-36e55e63b054}\, start sector = 1915033600
+[02072022-16:42:21][758]pszVolumeMountPoint = \\?\Volume{0b4e42b4-884d-11ec-8c8e-806e6f6e6963}\, start sector = 2048
+[02072022-16:42:21][758]pszVolumeMountPoint = \\?\Volume{0b4e42b5-884d-11ec-8c8e-806e6f6e6963}\, start sector = 2048
+[02072022-16:42:21][758]pszVolumeMountPoint = \\?\Volume{0b4e42b6-884d-11ec-8c8e-806e6f6e6963}\, start sector = 120111104
+[02072022-16:42:21][758]pszVolumeMountPoint = \\?\Volume{bcc4b3a9-f147-411e-8f5a-7f2e94441317}\, start sector = 821248
